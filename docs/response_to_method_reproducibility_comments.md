@@ -1,5 +1,18 @@
 # Draft responses: bibliometric methods, figures, and open science
 
+## Reviewer 3, Comment 1
+
+> **Response:** We agree that the original search design cannot demonstrate that
+> fusion has become dominant across the broader LULC field, because both
+> `fusion/ensemble` and `deep learning` were mandatory components of the
+> search query. We have therefore removed statements suggesting field-wide
+> methodological replacement, dominance, or prevalence. The revised Abstract,
+> Results, and Conclusion now interpret the observed increase only as growing
+> publication activity and research attention within the predefined intersection
+> of deep learning, multi-source fusion, and LULC classification. We explicitly
+> state that the analysed corpus does not estimate the share of fusion research in
+> the broader LULC literature.
+
 ## Reviewer 1, Comment 2 / Reviewer 3, Comment 3
 
 > **Response:** Thank you for requesting a more rigorous and reproducible account
