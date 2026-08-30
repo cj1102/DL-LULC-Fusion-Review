@@ -53,7 +53,9 @@ more persuasive explanation:
 1. identifying the exact 261 Web of Science accession numbers used in the final
    bibliometric corpus;
 2. reconciling the reported 283 initial records, the surviving 266-record export,
-   the reported 261 final records, and the 255-title working sheet;
+   the reported 261 final records, and the 255-title working sheet, including
+   institution-ranking differences between the retained CSV and the existing
+   Figure 5/related prose;
 3. recovering or recreating the unavailable VOSviewer project files and GUI
    settings if exact layout reproduction is required; and
 4. regenerating the remaining raster line-art figures from verified source data
