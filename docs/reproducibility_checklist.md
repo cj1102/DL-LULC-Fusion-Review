@@ -15,8 +15,8 @@
 - [x] Record confirmed, output-inferred, and unavailable VOSviewer settings for
       each retained network without inventing missing GUI values
 - [ ] Export saved network/map/project files where possible
-- [x] Resolve the 162 versus 163 fusion-level denominator; revised value is
-      131/163 (80.4%)
+- [x] Resolve the 162 versus 163 discrepancy and withdraw the percentage as a
+      corpus-level finding because the archived subset is not representative
 - [x] Provide a 163-record coding supplement with identifiers, retained model,
       dataset and fusion-method notes, original labels, standardised levels, and
       operational basis codes

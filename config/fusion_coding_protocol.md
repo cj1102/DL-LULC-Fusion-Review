@@ -43,10 +43,9 @@ For each record, store the quoted or paraphrased methodological evidence and its
 location. Prefer two independent coders for ambiguous cases and record the final
 adjudication. Report category counts and the denominator before percentages.
 
-The revised manuscript reports 131 feature-level-only studies among 163 records
-with archived paper-level assignments (80.4%). The other 98 records in the
-261-record bibliometric corpus do not have complete auditable assignments in the
-retained working materials and are excluded from this denominator. The reported
-percentage therefore describes the archived coded subset only. A complete
-record-level supplement would be required before estimating the distribution for
-all 261 records.
+The retained working materials contain 163 records with archived paper-level
+assignments, including 131 feature-level-only records. The other 98 records in the
+261-record bibliometric corpus do not have complete auditable assignments. Because
+the archived subset was not generated through a prospective or representative
+sampling design, its category counts are reported only for supplementary auditing
+and are not used to estimate the distribution for all 261 records.

@@ -40,12 +40,23 @@
 > under the archived vocabulary rules. Keyword occurrence, TLS, and co-citation
 > are not treated as evidence of technical performance or replacement.
 >
-> Finally, the previously reported 80.9% value has been corrected to 131/163
-> (80.4%). A record-level supplementary workbook now documents all 163 retained
-> assignments using UT, DOI, title, publication year, retained model, dataset and
+> Finally, we withdrew the previously reported 80.9% value as a corpus-level
+> finding. The 163 retained assignments were not produced through a prospective
+> or representative sampling design. Their category counts are now reported only
+> as a descriptive audit of the archived working materials and have been removed
+> from the Abstract and Conclusion. A record-level supplementary workbook
+> documents the retained UT, DOI, title, publication year, model, dataset and
 > fusion-method notes, original labels, standardised categories, and operational
-> basis codes. The manuscript states that this percentage describes the archived
-> coded subset and is not an exhaustive estimate for all 261 records.
+> basis codes without retrospectively assigning the other 98 records.
+
+> During preparation of the public materials, we also found that the surviving
+> WoS snapshot is not demonstrably identical to the frozen 261-record file used
+> for the reported analysis. We therefore do not claim UT-level reconstruction
+> from that snapshot. The repository reports the 283, 266, 261, and 255 counts as
+> a documented archival discrepancy and keeps the surviving files separate. An
+> exact record-level reconstruction would require a new frozen retrieval and
+> exclusion crosswalk. We have disclosed this limitation rather than selecting
+> records retrospectively to force the counts to agree.
 
 ## Reviewer 1, Comment 8
 
@@ -59,6 +70,23 @@
 > 1677, 838, and 727 ppi raster content at their native page sizes, respectively,
 > while the full-period keyword map is predominantly vector. The original
 > topology, occurrence counts, TLS, and clustering were unchanged.
+
+The original VOSviewer map/network project files and GUI layout settings were not
+retained, so enlarging every internal node label would require recalculating the
+layout. We have not claimed to have done so. Instead, the revision uses the
+highest-resolution retained exports, enlarges their placement in the manuscript,
+and explains the software's selective label display in the captions. This closes
+the resolution and placement aspects of the comment, but exact re-export with a
+larger internal font remains unavailable from the archived materials.
+
+## Reviewer 1, Comment 9
+
+> **Response:** We edited the manuscript for British English, terminology,
+> article use, number agreement, punctuation, abbreviations, units, figure and
+> table references, and consistent hyphenation. We also replaced categorical
+> wording such as “dominant”, “replacement”, and “superior” where it was not
+> supported by the review design. The revision has been checked systematically;
+> however, we do not describe this as independent professional language editing.
 
 ## Reviewer 1, Comment 10
 

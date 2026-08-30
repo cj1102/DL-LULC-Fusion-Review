@@ -44,15 +44,14 @@ unique titles. The `Type of fusion` column is populated for 163 rows:
 | feature + decision variants | 6 |
 | Blank | 92 |
 
-The revised manuscript uses all 163 populated fusion-level rows as the technical
-coding denominator. It therefore reports 131 feature-level-only studies out of
-163 coded studies (80.4%), rather than the previous 80.9%. The complete
-261-record corpus remains in the bibliometric analyses, whereas the other 98
-records are not included in the fusion-level distribution because the original
-working materials do not retain a complete auditable assignment for them. The
-supplied workbook still contains only 255 titles, so the 131/163 result is now
-described as a distribution within the archived coded subset rather than an
-exhaustive estimate for all 261 records.
+The revised manuscript documents all 163 populated fusion-level rows as an audit
+of the archived working materials. The previous 80.9% value has been withdrawn as
+a corpus-level finding because these rows were not generated through a
+prospective or representative sampling design. The complete 261-record corpus
+remains in the bibliometric analyses, whereas the other 98 records do not have a
+complete auditable fusion-level assignment. The category counts remain available
+in the supplement for transparency but are not used to estimate fusion-level
+prevalence in all 261 records.
 
 A title-level reconciliation against the supplied 266-record WoS snapshot
 identified seven English records from 2006--2025 that are present in that snapshot

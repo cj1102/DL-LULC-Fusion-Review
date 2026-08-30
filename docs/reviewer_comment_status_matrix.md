@@ -1,0 +1,63 @@
+# Reviewer-comment status matrix
+
+This matrix records what has been changed, what is only partially closed, and
+what cannot be recovered from the retained historical materials. “Complete”
+means that the requested scientific or editorial change is present in the
+revised manuscript. “Partial” means that the manuscript now reports the
+available evidence and limitation, but an exact historical reconstruction is not
+possible without rerunning or repeating part of the review.
+
+## Referee 1
+
+| Comment | Status | Revision and location | Remaining limitation or response rationale |
+|---|---|---|---|
+| 1. Add recent 2024--2026 studies | Complete | Introduction; *Learning Strategies Beyond Architecture Design*; *Remote Sensing Foundation Models and Multimodal Pre-training*; *Challenges*. The revision discusses crowdsourced geographic information, lightweight models, wetland classification, UAV localisation, SAR applications, physical--data-driven retrieval, and polarisation imaging. | The 2026 papers are identified as narrative updates after the 2006--2025 search window and are not included in bibliometric counts. Adjacent detection/localisation papers are presented as transferable directions, not direct LULC-classification evidence. |
+| 2. Expand bibliometric methods and add a flow diagram | Partial | *Data Collection* and *Research Framework and Methodology* now report WoSCC Advanced Search, Topic (`TS`), default subscription index coverage, full Boolean query, period, language, document types, export format, screening counts, duplicate rule, keyword thesauri, VOSviewer 1.6.20, retained threshold evidence, and unavailable settings. The workflow figure reports 283 to 281 to 261. | The exact retrieval day, a demonstrably frozen 261-record UT file, the full VOSviewer GUI configuration, layout seed, and saved map/network projects were not retained. These values are labelled unavailable rather than reconstructed or invented. The repository discloses the surviving 266-record snapshot separately. Exact record-level reconstruction therefore remains open and would require a new frozen retrieval/crosswalk. |
+| 3. Replace descriptive architecture summary with critical analysis | Complete | CNN, Transformer, attention, Mamba, data-, feature-, and decision-level sections now compare inductive bias, data needs, computation, alignment, missing modalities, calibration, evaluation leakage, and appropriate use conditions. | Conclusions remain conditional because the reviewed studies use heterogeneous datasets and protocols. |
+| 4. Expand foundation models | Complete | Dedicated *Remote Sensing Foundation Models and Multimodal Pre-training* subsection discusses SatMAE, RemoteCLIP, foundation-model adaptation, multimodal fine-tuning, transfer, geographic bias, compute, and pretraining/evaluation leakage. | The section does not rank models across incomparable benchmarks. |
+| 5. Add fusion-level comparison | Complete | Table *Conditional design patterns and minimum evaluation evidence for multimodal LULC fusion levels* compares integration requirements, representative complexity, scalability, failure modes, evaluation evidence, and suitable conditions, with supporting citations. | Cross-paper accuracy and runtime values were not pooled because datasets, resolutions, hardware, training budgets, and splits differ; presenting them as directly comparable would be misleading. |
+| 6. Strengthen conclusion and recommendations | Complete | Conclusion recommends geographically and temporally disjoint evaluation, uncertainty-aware learning, domain adaptation/generalisation, continual learning, explainable interaction, standardised missing-modality tests, foundation-model auditing, and transparent comparisons. | Recommendations are framed as research priorities, not performance predictions. |
+| 7. Use terminology consistently | Complete | The manuscript uses *LULC classification* consistently and explicitly distinguishes multi-source fusion, multimodal learning, foundation models, vision--language models, and remote sensing foundation models. | Bibliographic titles are preserved verbatim. |
+| 8. Improve figure readability and resolution | Partial | Temporal keyword networks are shown as enlarged panels; the overall keyword and co-citation maps use near-full text width; captions explain selective label display; the retained keyword/co-citation exports have been audited for native resolution. | Original VOSviewer project files and internal font/layout settings were not retained, so every internal label cannot be enlarged without recalculating the networks. The original topology and quantitative values were preserved. Several non-network line-art figures remain raster and should ideally be regenerated as vector or at least 600 ppi before final submission. |
+| 9. English editing | Substantially complete | British spelling, grammar, number agreement, punctuation, abbreviations, units, captions, and conditional scientific wording were reviewed throughout the LaTeX source. | This was a systematic author-side edit, not certification by an independent professional language-editing service. |
+| 10. Reproducibility and open science | Complete | A dedicated section links to the public repository and discusses benchmarks, code/configuration, spatial and temporal hold-outs, seeds, preprocessing, compute, per-class/calibration metrics, and missing-modality tests. | Licensed complete WoS full records are not publicly redistributed; query instructions, identifiers in permitted derived tables, thesauri, settings records, audit notes, and validation code are provided instead. |
+
+## Referee 2
+
+| Comment | Status | Revision and location | Remaining limitation or response rationale |
+|---|---|---|---|
+| Temper claims about Mamba | Complete | Mamba is described as promising but insufficiently validated; theoretical sequence-scaling properties are separated from empirical evidence in 2D, multimodal, cross-region, and long-term LULC settings. | No accuracy--efficiency breakthrough is claimed. |
+| Add real-world data, imbalance, temporal mismatch, and domain-shift challenges | Complete | Dedicated data- and algorithm-level challenge subsections discuss source quality, registration, asynchronous acquisition, class imbalance, taxonomy inconsistency, benchmark representativeness, domain shift, uncertainty, efficiency, and deployment. | The review recommends evaluation protocols rather than inferring operational robustness from small benchmarks. |
+| Cover learning strategies beyond architectures | Complete | Dedicated subsection covers self-supervised and semi-supervised learning, domain adaptation/generalisation, class-aware learning, uncertainty calibration, missing/corrupted modalities, and compute-aware comparison. | — |
+| Unify LULC terminology | Complete | LULCC, LUCC simulation, mapping, and classification are no longer treated as interchangeable in the authors' prose. | Verbatim titles in references are not rewritten. |
+| Add Table 1 caption | Complete | Table 1 is captioned *Literature search strategy and Boolean query*. | — |
+| Restore/correct Figure 2 | Complete | The yearly output figure is present and explicitly covers 2015--2025, with zero-count 2006--2014 years explained in the text and caption. | — |
+| Add benchmark-table caption | Complete | The benchmark table is captioned *Technical specifications of representative multimodal benchmark datasets used in LULC classification*. | — |
+| Correct Simonyan citation | Complete | The text uses “Simonyan and Zisserman”; the bibliography lists both authors consistently. | — |
+
+## Referee 3
+
+| Comment | Status | Revision and location | Remaining limitation or response rationale |
+|---|---|---|---|
+| 1. Search design cannot prove field-wide replacement or dominance | Complete | Abstract, Introduction, Results, keyword analysis, and Conclusion restrict inference to the predefined intersection of deep learning, fusion, and LULC classification. They explicitly state that the corpus cannot estimate whether fusion is mainstream in the broader field. | A no-fusion LULC comparison corpus was not constructed; the corresponding field-wide claim was withdrawn rather than defended. |
+| 2. Classification, change detection, and simulation are distinct | Complete | Scope and terminology are standardised to LULC classification; multi-source fusion and multimodal learning are separately defined. | Adjacent tasks are cited only when their potential transfer is explicitly qualified. |
+| 3. Missing fields, screening, cleaning, parameters, and 80.9% coding basis | Partial | WoSCC interface/field/default coverage, query, filters, export, screening, duplicate rule, keyword cleaning, affiliation-name check, VOSviewer version and retained threshold evidence are now reported. A record-level 163-assignment supplement and coding protocol are provided. The 80.9/80.4 percentage has been withdrawn as a corpus-level finding and removed from the Abstract and Conclusion because the subset was not representative. | The exact frozen 261-record UT corpus and several original VOSviewer GUI/project settings cannot be recovered from retained files. The 98 records without archived auditable assignments were not retrospectively coded. The category counts for 163 records are supplementary audit evidence only. A fully closed reproducibility claim would require a new frozen retrieval, exclusion log, UT crosswalk, and, if desired, a prospectively coded 261-record table. |
+| 4. Keywords/citations do not prove superiority or replacement | Complete | Keyword occurrence, TLS, co-citation, TLCS, and TGCS are described as frequency/connectivity/citation indicators affected by corpus size, publication age, database coverage, and highly cited records. Performance, replacement, and national/institutional “strength” claims were removed. | — |
+| 5. EuroSAT is not a multimodal fusion benchmark | Complete | EuroSAT was removed from the multimodal benchmark table, MUUFL Gulfport was added, and Berlin/Augsburg modalities, dimensions, and resolutions were revised with source citations. | Dataset specifications should still be checked once more against the cited primary releases before submission. |
+
+## Items that cannot be closed by wording alone
+
+Four archival issues require new source recovery or a partial rerun rather than a
+more persuasive explanation:
+
+1. identifying the exact 261 Web of Science accession numbers used in the final
+   bibliometric corpus;
+2. reconciling the reported 283 initial records, the surviving 266-record export,
+   the reported 261 final records, and the 255-title working sheet;
+3. recovering or recreating the unavailable VOSviewer project files and GUI
+   settings if exact layout reproduction is required; and
+4. regenerating the remaining raster line-art figures from verified source data
+   if strict 600-ppi/vector compliance is required.
+
+These are reported as limitations. They should not be described as solved unless
+the missing files are located or the relevant analyses are rerun.
