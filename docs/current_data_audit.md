@@ -44,14 +44,21 @@ unique titles. The `Type of fusion` column is populated for 163 rows:
 | feature + decision variants | 6 |
 | Blank | 92 |
 
-The revised manuscript documents all 163 populated fusion-level rows as an audit
-of the archived working materials. The previous 80.9% value has been withdrawn as
-a corpus-level finding because these rows were not generated through a
-prospective or representative sampling design. The complete 261-record corpus
-remains in the bibliometric analyses, whereas the other 98 records do not have a
-complete auditable fusion-level assignment. The category counts remain available
-in the supplement for transparency but are not used to estimate fusion-level
-prevalence in all 261 records.
+The authors confirm that the 163 populated fusion-level rows resulted from a
+second-stage content screen of the bibliometric corpus: records entered the
+fusion-level analysis only when the abstract, keywords, dataset information, and
+model description supported reliable assignment of an explicit integration
+stage. The previous 80.9% value has been withdrawn as a corpus-level finding. The
+complete 261-record corpus remains in the bibliometric analyses, while 98 records
+were reported as not satisfying the fusion-level eligibility criterion. The
+category counts remain available in the supplement for transparency but are not
+presented as a fusion-level distribution for all 261 records.
+
+The surviving workbook itself contains 163 populated fusion labels and 92 blank
+rows among 255 titles. It therefore preserves the included assignments but not a
+complete 261-row eligibility log identifying all 98 screened-out records. This is
+an archival documentation limitation, not evidence that the 163 records were
+selected by random sampling.
 
 A title-level reconciliation against the supplied 266-record WoS snapshot
 identified seven English records from 2006--2025 that are present in that snapshot

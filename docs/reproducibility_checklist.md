@@ -16,7 +16,8 @@
       each retained network without inventing missing GUI values
 - [ ] Export saved network/map/project files where possible
 - [x] Resolve the 162 versus 163 discrepancy and withdraw the percentage as a
-      corpus-level finding because the archived subset is not representative
+      corpus-level finding because 163 is the criterion-defined fusion-analysis
+      subset rather than the complete 261-record corpus
 - [x] Provide a 163-record coding supplement with identifiers, retained model,
       dataset and fusion-method notes, original labels, standardised levels, and
       operational basis codes

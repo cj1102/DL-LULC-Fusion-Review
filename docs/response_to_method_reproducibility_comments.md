@@ -40,23 +40,23 @@
 > under the archived vocabulary rules. Keyword occurrence, TLS, and co-citation
 > are not treated as evidence of technical performance or replacement.
 >
-> Finally, we withdrew the previously reported 80.9% value as a corpus-level
-> finding. The 163 retained assignments were not produced through a prospective
-> or representative sampling design. Their category counts are now reported only
-> as a descriptive audit of the archived working materials and have been removed
-> from the Abstract and Conclusion. A record-level supplementary workbook
-> documents the retained UT, DOI, title, publication year, model, dataset and
-> fusion-method notes, original labels, standardised categories, and operational
-> basis codes without retrospectively assigning the other 98 records.
+> Finally, we clarified the second-stage fusion-level content screen. All 261
+> records were examined using their abstracts, keywords, dataset information, and
+> model descriptions. A record entered the fusion-level analysis only when an
+> explicit integration operation could be assigned reliably to data-, feature-,
+> decision-, or hybrid-level fusion. This yielded 163 eligible records; the other
+> 98 remained in all bibliometric analyses but did not satisfy the fusion-level
+> eligibility criterion. To avoid presenting the eligible-subset percentage as if
+> it described all 261 records, we removed it from the Abstract and Conclusion.
+> A record-level workbook documents the 163 eligible assignments using UT, DOI,
+> title, publication year, model, dataset and fusion-method notes, original labels,
+> standardised categories, and operational basis codes.
 
-> During preparation of the public materials, we also found that the surviving
-> WoS snapshot is not demonstrably identical to the frozen 261-record file used
-> for the reported analysis. We therefore do not claim UT-level reconstruction
-> from that snapshot. The repository reports the 283, 266, 261, and 255 counts as
-> a documented archival discrepancy and keeps the surviving files separate. An
-> exact record-level reconstruction would require a new frozen retrieval and
-> exclusion crosswalk. We have disclosed this limitation rather than selecting
-> records retrospectively to force the counts to agree.
+**Internal preparation note—not for the response letter unless the editor asks
+specifically about the archived raw files:** the surviving WoS snapshot and
+working sheet are not a complete UT-level reconstruction of the reported final
+corpus. Do not claim that the public repository reproduces the historical corpus
+record for record unless a frozen crosswalk is recovered.
 
 ## Reviewer 1, Comment 8
 

@@ -6,12 +6,12 @@
 3. Full VOSviewer settings and saved network files are not yet available.
 4. Original thesaurus mappings include some concept-level aggregation rather than
    only spelling and abbreviation normalisation.
-5. The 163 archived paper-level assignments were not generated through a
-   prospective or representative sampling design. Their category counts are
-   retained only as supplementary descriptive evidence and are not used as
-   corpus-level prevalence estimates. The supplied workbook contains 255 rather
-   than 261 titles, and reconciliation identified seven records in the historical
-   WoS snapshot that are absent from the working sheet.
+5. The authors confirm that 163 records satisfied a second-stage fusion-level
+   content screen, while 98 records did not satisfy its eligibility rule. The
+   surviving workbook preserves the 163 assignments but contains only 255 rather
+   than 261 titles and does not provide a complete 261-row eligibility log.
+   Reconciliation also identified seven records in the historical WoS snapshot
+   that are absent from the working sheet.
 6. The current manuscript source references
    `Figures/newplot_original_pdf_fig8.pdf`, which was not present under that name
    in the supplied source directory. To permit a clean compilation, the repository

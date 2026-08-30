@@ -7,36 +7,36 @@
 >
 > All 261 records remained in the bibliometric corpus and contributed to
 > publication, author, journal, institution, country, keyword, citation, and
-> co-citation analyses. Fusion-level coding constituted a separate manual,
-> paper-level content analysis. During revision, we audited the retained working
-> materials and identified 163 records with archived paper-level assignments.
-> This retained subset was not created through a prospective, random, or otherwise
-> representative sampling design. For these records, the abstract, author
-> keywords, dataset information, and reported model description were examined,
-> with the location of information integration within the classification pipeline
-> serving as the principal coding criterion. The occurrence of the terms
-> “fusion” or “ensemble” in a bibliographic record was not, by itself, treated as
-> sufficient evidence of a classifiable fusion architecture.
+> co-citation analyses. Fusion-level coding constituted a separate, second-stage
+> manual content screen. All 261 records were examined using their abstracts,
+> author keywords, dataset information, and reported model descriptions. A record
+> entered the fusion-level analysis only when these materials identified an
+> explicit information-integration operation whose position in the classification
+> pipeline could be assigned reliably to data-, feature-, decision-, or
+> hybrid-level fusion. The occurrence of “fusion” or “ensemble” in a
+> bibliographic record was not, by itself, sufficient for inclusion. This screen
+> yielded 163 eligible records.
 >
-> The original working materials did not retain a complete auditable fusion-level
-> assignment for the other 98 records. We therefore did not reconstruct those
-> assignments retrospectively. These records were not excluded from the
-> bibliometric corpus. Because the 163 archived assignments do not constitute a
-> representative sample, we have withdrawn the percentage as a corpus-level
-> finding and removed it from the Abstract and Conclusion.
+> The other 98 records did not satisfy the fusion-level eligibility criterion
+> because the reviewed materials did not establish an explicit integration stage
+> that could be assigned reliably under the operational definitions. They were
+> excluded only from the fusion-level content analysis and were not excluded from
+> the bibliometric corpus. To avoid presenting the eligible-subset percentage as
+> if it described all 261 records, we removed the percentage from the Abstract and
+> Conclusion.
 >
-> For transparency, the Results section documents the retained category counts:
+> For transparency, the Results section documents the eligible-subset category counts:
 > 131 feature-level-only, 18 hybrid, seven data-level-only, and seven
-> decision-level-only assignments. These counts are presented only as an audit of
-> the archived working materials. They are not used to estimate fusion-level
-> prevalence in the complete corpus or to establish the technical superiority of
+> decision-level-only assignments. These counts describe the criterion-defined
+> fusion-level subset. They are not used to estimate the fusion-level distribution
+> in the complete bibliometric corpus or to establish the technical superiority of
 > feature-level fusion.
 >
 > To make this result auditable, we now provide a record-level supplementary
-> workbook for all 163 archived assignments. It contains the WoS accession number,
+> workbook for all 163 eligible assignments. It contains the WoS accession number,
 > DOI, title, publication year, model, dataset and fusion-method notes retained in
 > the working sheet, the original label, the standardised fusion category, and the
 > operational basis code. Formula-based summary cells reproduce 131 feature-level,
-> 18 hybrid, seven data-level, and seven decision-level assignments. We do not
-> claim that this table is representative of or exhaustive for all 261
-> bibliometric records.
+> 18 hybrid, seven data-level, and seven decision-level assignments. The table is
+> explicitly identified as the fusion-level analytical subset rather than an
+> assignment table for all 261 bibliometric records.

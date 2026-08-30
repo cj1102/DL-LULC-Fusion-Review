@@ -21,15 +21,22 @@ contain archived paper-level fusion assignments for 163 records:
 - seven data-level only; and
 - seven decision-level only.
 
-The record-level source for these totals is available as
+The 163 records were identified through a second-stage content screen of the
+261-record bibliometric corpus. A record entered the fusion-level analysis only
+when its abstract, keywords, dataset information, and model description supported
+a reliable assignment to an explicit data-, feature-, decision-, or hybrid-level
+fusion operation. The other 98 records remained in the bibliometric corpus but
+did not satisfy this fusion-level eligibility criterion.
+
+The record-level source for the 163 category assignments is available as
 [`archived_fusion_coding_subset.xlsx`](data/processed/coding/archived_fusion_coding_subset.xlsx),
 with a machine-readable JSON counterpart and a standard-library validation/build
 script. The table includes UT, DOI, title, publication year, retained model,
 dataset and fusion-method notes, original labels, standardised categories, and
-operational basis codes. The 163 records were not selected through a prospective
-or representative sampling design. The table does not assign a fusion level to
-the other 98 bibliometric records, and its category totals are not used as
-prevalence estimates for the complete corpus.
+operational basis codes. This is a criterion-defined analytical subset, not a
+random sample. The table does not assign a fusion level to the other 98
+bibliometric records, and its category totals are not presented as a fusion-level
+distribution for the complete corpus.
 
 These points are recorded in [`docs/current_data_audit.md`](docs/current_data_audit.md).
 They are verification tasks, not corrections made to the authors' data.
