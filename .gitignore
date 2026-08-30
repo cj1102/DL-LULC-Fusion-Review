@@ -1,0 +1,29 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# LaTeX build artefacts
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Generated local previews and the stale manuscript build
+outputs/
+manuscript/manuscript.pdf
+
+# Licensed source records retained only in the authors' private archive
+data/raw/wos/*.txt
+data/raw/screening/*.xls
+
+# Local scratch files
+tmp/
+scratch/
+~$*

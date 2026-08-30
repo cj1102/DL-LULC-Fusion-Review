@@ -1,0 +1,163 @@
+﻿id	keyword	occurrences	total link strength
+9	accuracy	14	143
+11	adaptation models	4	45
+14	adaptive optics	3	29
+23	airborne lidar	4	17
+27	algorithm	8	42
+28	algorithms	6	52
+38	areas	5	33
+43	attention	7	53
+45	attention mechanism	17	97
+51	autoencoder	3	15
+70	biological system modeling	4	42
+94	challenges	4	33
+96	china	4	19
+105	classification	37	246
+108	classifiers	3	15
+115	cloud removal	3	12
+117	cnn	10	53
+132	computational modeling	5	60
+133	computer architecture	5	48
+136	context	3	13
+138	contrastive learning	4	23
+140	convolution	8	92
+144	convolutional networks	3	14
+145	convolutional neural network	12	59
+146	convolutional neural network (cnn)	14	110
+147	convolutional neural networks	23	186
+148	convolutional neural networks (cnn)	3	19
+149	convolutional neural networks (cnns)	12	108
+150	convolutional neural-network	7	39
+151	convolutional neural-networks	5	25
+156	cover	7	40
+157	cover classification	5	37
+162	crop classification	3	33
+173	cross-modal fusion	3	35
+188	data fusion	46	259
+189	data integration	3	42
+190	data mining	14	161
+191	data models	17	196
+202	deep	4	37
+208	deep learning	123	650
+209	deep learning (dl)	13	94
+249	dynamics	4	29
+250	earth	4	39
+264	ensemble	4	14
+267	ensemble learning	7	35
+282	extinction profiles	7	68
+283	extraction	9	72
+291	feature extraction	43	442
+292	feature fusion	13	77
+302	feature-extraction	5	32
+304	features	6	42
+316	forest	11	80
+324	framework	6	58
+331	fuses	3	34
+332	fusion	48	302
+335	fusion network	6	39
+347	generative adversarial network	3	10
+371	graph convolutional networks	3	32
+391	high-resolution	3	16
+418	hyperspectral	11	81
+423	hyperspectral data	4	35
+424	hyperspectral image	8	30
+425	hyperspectral image (hsi)	8	78
+428	hyperspectral image classification	7	38
+434	hyperspectral imaging	14	160
+442	image	6	34
+445	image classification	22	136
+449	image fusion	5	26
+454	image segmentation	8	54
+460	imagery	7	50
+461	images	13	95
+470	index	3	26
+471	indexes	3	28
+473	information	4	23
+481	joint classification	3	25
+497	land cover	7	38
+498	land cover classification	43	197
+503	land surface	13	145
+504	land use	3	15
+505	land use and land cover (lulc)	3	24
+509	land use classification	7	32
+516	land-cover	6	29
+517	land-cover classification	58	347
+521	land-use classification	7	33
+528	laser radar	21	248
+536	lidar	21	167
+538	lidar data	16	124
+541	light detection and ranging (lidar)	10	81
+542	light detection and ranging (lidar) data	4	43
+556	machine learning	7	46
+560	mamba	4	23
+583	model	9	59
+587	models	5	32
+600	multi-modal data fusion	3	12
+605	multi-scale feature fusion	4	10
+624	multimodal	10	83
+630	multimodal fusion	8	58
+644	multiscale	7	51
+650	multisource	6	45
+674	network	20	133
+678	networks	3	29
+682	neural-network	11	54
+683	neural-networks	10	70
+688	noise	3	23
+693	object detection	4	28
+694	object-based classification	3	17
+704	optical imagery	3	21
+705	optical images	3	31
+706	optical imaging	8	68
+711	optical sensors	9	76
+712	optimization	8	55
+727	performance	5	34
+742	points	4	20
+754	profiles	6	62
+760	quality	4	29
+763	radar polarimetry	3	29
+768	random forest	8	57
+769	random forest (rf)	3	23
+782	regression	3	15
+785	remote sensing	63	422
+786	remote sensing (rs)	14	105
+790	remote sensing image	7	40
+799	remote-sensing data	4	38
+803	remote-sensing images	8	63
+808	representation learning	5	40
+814	residual network	3	20
+819	resolution	5	24
+826	robust deep learning	4	23
+827	robustness	3	30
+833	sar	11	62
+843	satellite imagery	5	35
+844	satellite images	5	18
+847	satellites	3	22
+849	scale	4	20
+852	scene classification	8	33
+862	segmentation	19	126
+866	self-attention	4	26
+872	semantic segmentation	35	178
+874	semantics	6	48
+882	sensors	3	26
+885	sentinel-1	7	52
+886	sentinel-2	10	61
+911	spatial resolution	5	42
+922	spectral-spatial classification	3	31
+946	support vector machines	6	37
+956	synthetic aperture radar	10	85
+957	synthetic aperture radar (sar)	4	36
+959	synthetic aperture radar (sar) images	3	31
+963	system	3	17
+966	task analysis	8	85
+987	time-series	4	31
+994	training	9	81
+996	transformer	14	97
+999	transformers	19	219
+1000	tree species classification	3	22
+1005	u-net	5	36
+1019	urban	6	43
+1020	urban areas	5	48
+1033	urban land-use	3	27
+1047	vegetation	10	59
+1051	vegetation mapping	3	25
+1073	wetlands	5	44

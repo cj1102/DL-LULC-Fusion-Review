@@ -1,0 +1,16 @@
+*.csv text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.tex text eol=lf
+*.tsv text eol=lf
+*.txt text eol=lf
+*.bib text eol=lf
+*.bbl text eol=lf
+*.pdf binary
+*.png binary
+*.xls binary
+
+# Preserve every supplied data/output snapshot byte-for-byte. Later rules win.
+data/raw/** -text
+data/processed/** -text
+config/vosviewer/*_original.txt -text

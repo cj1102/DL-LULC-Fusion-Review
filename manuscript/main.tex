@@ -1,0 +1,581 @@
+% main.tex -- International Journal of Remote Sensing manuscript
+
+\documentclass[]{interact}
+\usepackage{epstopdf}% To incorporate .eps illustrations using PDFLaTeX, etc.
+\usepackage[caption=false]{subfig}% Support for small, `sub' figures and tables
+\renewcommand{\thesubfigure}{\textit{\alph{subfigure}}}% IJRS style: italic subfigure letters in roman parentheses
+\usepackage[section]{placeins}% Prevent figures and tables from drifting beyond their section
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{5}
+\renewcommand{\topfraction}{0.90}
+\renewcommand{\bottomfraction}{0.80}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+%\usepackage[nolists,tablesfirst]{endfloat}% To `separate' figures and tables from text if required
+%\usepackage[doublespacing]{setspace}% To produce a `double spaced' document if required
+%\setlength\parindent{24pt}% To increase paragraph indentation when line spacing is doubled
+
+%\usepackage[numbers,sort]{natbib}% Citation support using natbib.sty (numbered P style)
+%\bibpunct[, ]{(}{)}{;}{n}{,}{,}% Citation support using natbib.sty (numeric mode)
+%\renewcommand\bibfont{\fontsize{10}{12}\selectfont}% To set the list of references in 10 point font using natbib.sty
+\usepackage[natbibapa]{apacite}% APA author-year citation support. Commands using natbib.sty MUST be deactivated first!
+\setlength\bibhang{12pt}% To set the indentation in the list of references using apacite.sty.
+\renewcommand\bibliographytypesize{\fontsize{10}{12}\selectfont}% To set the list of references in 10 point font using apacite.sty.
+\usepackage[colorlinks=true, citecolor=blue, linkcolor=blue, urlcolor=blue]{hyperref}% Clickable hyperlinks
+
+
+\theoremstyle{plain}% Theorem-like structures provided by amsthm.sty
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+\newtheorem{notation}{Notation}
+
+\begin{document}
+
+\articletype{Review Article}% Specify the article type or omit as appropriate
+
+\title{Deep learning and multi-level fusion for land-use and land-cover classification: Technological evolution and future directions}
+
+\author{
+\name{Jie Cheng\textsuperscript{a}, Jie Xie\textsuperscript{a}\thanks{CONTACT Jie Xie. Email: xiej8734@gmail.com}, Shupei Xia\textsuperscript{a} and Alejandro C.\ Frery\textsuperscript{b}}
+\affil{\textsuperscript{a}School of Computer and Electronic Information / School of Artificial Intelligence, Nanjing Normal University, Nanjing, China; \textsuperscript{b}School of Mathematics and Statistics, Victoria University of Wellington, New Zealand}
+}
+
+\maketitle
+
+\begin{abstract}
+Land-use and land-cover (LULC) classification provides essential information for environmental monitoring, ecosystem assessment, and land management. With advances in Earth observation and artificial intelligence, deep learning-based multi-source data fusion has received increasing attention as an approach for integrating complementary spectral, spatial, structural, and temporal information. To characterise research at the intersection of deep learning, multi-source fusion, and LULC classification, this study combines a technical review with bibliometric analysis of 261 publications retrieved from the Web of Science Core Collection for the period 2006--2025. The analysed corpus represents this focused intersection rather than the entire LULC research field. The results indicate that: (1) annual publication output within the retrieved corpus increased substantially after 2016; (2) keyword and methodological distributions show increasing research attention to heterogeneous data integration and deep neural architectures; (3) within the 163-record subset for which paper-level fusion assignments were retained in the working coding materials, feature-level-only fusion was the most frequently coded strategy, accounting for 131 studies (80.4\%); this percentage describes the coded subset and should not be interpreted as an estimate for all 261 records or as evidence of universal technical superiority; and (4) important research needs remain in model interpretability, cross-region generalisation, uncertainty quantification, remote sensing foundation models, and multimodal data governance.
+\end{abstract}
+
+\begin{keywords}
+land-use and land-cover classification; deep learning; multi-source data fusion; multimodal learning; remote sensing foundation models
+\end{keywords}
+
+
+\section{Introduction}
+
+Land-use and land-cover (LULC) information constitutes a fundamental baseline for understanding Earth system dynamics and is important for urban planning, ecosystem assessment, disaster monitoring, and climate-change research \citep{1}. Optical remote sensing alone cannot represent every relevant land-surface property. Complementary modalities, including light detection and ranging (LiDAR) and synthetic aperture radar (SAR), can provide structural and all-weather information that is not directly available from optical imagery. The growing volume and diversity of Earth observation data create opportunities for multimodal learning, but accurate and automated classification across heterogeneous landscapes remains a substantial challenge.
+
+
+Historically, LULC classification has employed statistical methods, including Gaussian maximum likelihood classification, as well as traditional machine learning algorithms such as Support Vector Machines (SVMs) and Random Forests (RFs). These methods remain useful, particularly in applications involving limited training samples or carefully designed features. Since approximately 2015, deep learning (DL) architectures, including Convolutional Neural Networks (CNNs) and, more recently, Transformers, have been increasingly investigated for their ability to learn hierarchical representations from remote sensing data \citep{2}. Individual studies have reported performance improvements on particular datasets; however, the magnitude and generalisability of these improvements depend on data quality, sample size, sensor configuration, geographic context, and evaluation protocol.
+
+
+
+Parallel to the evolution of algorithms, the limitations of single-source remote sensing data have become increasingly prominent. Optical imagery is susceptible to cloud cover and illumination conditions, SAR provides limited spectral information, and LiDAR data are often constrained by acquisition costs. Consequently, multi-source data fusion has been widely investigated as a means of combining the complementary properties of optical imagery, SAR, and LiDAR. Within the focused literature examined in this review, the integration of deep learning and multi-source fusion constitutes an active and rapidly developing research area. Nevertheless, the conditions under which fusion improves classification performance, robustness, or transferability remain insufficiently understood \citep{5}.
+
+Sensor observations are not the only relevant information source. Crowdsourced geographic information can provide labels, semantic context, and rapid updates for LULC mapping, but its spatial coverage, positional accuracy, contributor bias, class consistency, and licensing conditions require explicit quality control \citep{wu2024crowdsourced}. In this review, \emph{multi-source fusion} denotes the integration of observations or derived products from multiple sources, whereas \emph{multimodal learning} denotes models that learn from data with different measurement or representational characteristics. These terms are therefore related but not interchangeable.
+
+
+
+
+
+Although numerous review articles on LULC classification or remote sensing data fusion have been published, a combined view of the bibliometric development and technical trade-offs of deep learning-based fusion remains useful. Ma et al. systematically summarised early applications of deep learning in remote sensing, with substantial attention to CNN architectures \citep{ma2019deep}. Later reviews have examined Transformers and multi-source fusion taxonomies, including data-level, feature-level, and decision-level fusion \citep{6,7,8}. These contributions provide important technical foundations, but they do not jointly quantify the composition of the focused literature and critically compare recent learning strategies, foundation models, and practical fusion constraints.
+
+
+
+This study conducts a bibliometric analysis and technical review based on the Web of Science Core Collection for the period 2006--2025. Unlike studies that focus solely on algorithmic techniques or use a traditional narrative review, this paper combines quantitative bibliometric indicators (using tools such as VOSviewer and HistCite \citep{9,10}) with a qualitative technical discussion. This research aims to: (1) describe the geographic and institutional distribution of the retrieved literature; (2) characterise changes in research attention, including the increasing use of Transformer and attention-based architectures; (3) describe the distribution of data-level, feature-level, decision-level, and hybrid fusion strategies within the archived paper-level coding subset and critically examine their reported trade-offs; and (4) identify unresolved challenges and emerging research directions related to data heterogeneity, uncertainty, interpretability, and cross-region generalisation.
+
+\section{Data and Methods}
+
+\subsection{Data Collection}
+\label{sec:data_collection} 
+The Web of Science (WoS) is a major bibliographic database, and the records used for this review were retrieved from its Core Collection. Retrieval was performed through the Advanced Search interface, with the Boolean query applied to the Topic field (\texttt{TS}), which searches titles, abstracts, author keywords, and Keywords Plus. The default Web of Science Core Collection index coverage available through the authors' institutional subscription at the time of retrieval was retained; no individual citation indexes were manually selected. Records were exported as a plain-text file using the ``Full Record and Cited References'' option. To cover models and fusion studies related to LULC classification and to define the research scope, the search query was constructed as summarised in Table~\ref{tab:search_strategy}. 
+
+The period 2006--2025 was selected to capture the development of deep learning-based fusion methods relevant to LULC classification. The resulting corpus includes only publications that satisfy the specified deep learning, fusion, and LULC search blocks; it therefore supports analysis of this focused intersection but not inference about methodological change across the broader LULC field. The final retrieval, completed in January 2026, yielded 261 relevant publications. The search settings are summarised in Table~\ref{tab:search_strategy}.
+
+
+\begin{table}[htb!]
+	\centering
+	\setlength{\belowcaptionskip}{5pt}
+		\caption{Literature search strategy and Boolean query.}
+		\label{tab:search_strategy}
+		\small 
+		\setlength{\tabcolsep}{3pt}
+		\renewcommand{\arraystretch}{1.4}
+		\begin{tabular}{@{} p{4.1cm} p{9.7cm} @{}} 
+		\toprule
+		\textbf{Item} & \textbf{Details} \\
+		\midrule
+		Data source & Web of Science Core Collection \\
+		Search interface and field & Advanced Search; Topic (\texttt{TS}) \\
+		Index coverage & Default Core Collection index coverage available through the authors' institutional subscription; no individual citation indexes manually selected \\
+		Period & 2006--2025 \\
+		Language & English \\
+		Document type & ``Article'', ``Proceeding Paper'' \\
+		Search date & January 2026 \\
+		Export format & Plain-text file; ``Full Record and Cited References'' \\
+		\midrule
+		\textbf{Search structure} & \textbf{(Three conceptual blocks, combined with AND)} \\
+		Block A (sensor/method) & ``ensemble'' OR ``fusion'' \\
+		Block B (topic) & ``land use classification'' OR ``land cover classification'' OR ``land use recognition'' OR ``land cover recognition'' OR ``land use detection'' OR ``land cover detection'' \\
+		Block C (technique) & ``deep learning'' \\
+		\midrule
+			Full Boolean query & \parbox{9.7cm}{\texttt{TS=((``ensemble'' OR ``fusion'') AND (``land use classification'' OR ``land cover classification'' OR ``land use recognition'' OR ``land cover recognition'' OR ``land use detection'' OR ``land cover detection'') AND (``deep learning''))}} \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+
+\subsection{Research Framework and Methodology}
+\label{sec:methodology}
+
+The research framework of this study is structured into three distinct phases: data collection, bibliometric analysis, and discussion/synthesis, as illustrated in Fig.~\ref{fig:flowchart}. 
+
+During the data collection phase, literature retrieval was conducted using the Advanced Search interface within the Web of Science Core Collection. The query was applied to the Topic field (\texttt{TS}) under the default index coverage available through the authors' institutional subscription, as detailed in Section~\ref{sec:data_collection}. The initial search returned 283 records. Application of the language criterion excluded two non-English records, leaving 281 records. The document-type filter subsequently excluded 20 records that were neither articles nor proceeding papers. Because all records originated from a single WoSCC retrieval, no cross-database merging was performed and no records were removed as duplicates; the reduction from 283 to 261 resulted solely from the stated language and document-type criteria. The final corpus therefore comprised 261 publications, including 231 articles and 30 proceeding papers. No records were retrieved for 2006--2014, and only one record was retrieved for 2015. These criteria define the analysed corpus but do not remove database-coverage or topic-screening bias.
+
+This study combines bibliometric indicators \citep{14,16} with co-word, co-author, and co-citation network analysis \citep{17,18,19} to describe publication patterns and research themes in the retrieved LULC classification literature.
+
+
+
+
+Three software tools were used for the scientometric analysis: HistCite, VOSviewer, and the Bibliometrix R package \citep{15}. HistCite was used to calculate indicators including annual publication volume and rankings of authors, countries, journals, and institutions \citep{9}. Bibliometrix and VOSviewer version 1.6.20 were used to construct and analyse co-word networks \citep{17}, co-author relationships \citep{18}, and co-citation networks \citep{19}.
+
+Keyword variants were processed with the period-specific and full-period VOSviewer thesaurus files archived with the supporting materials. These files include orthographic and abbreviation normalisation, such as variants of convolutional neural networks, LiDAR, and SAR, together with broader concept aggregation, such as mapping several fusion-related expressions to ``fusion''. Because retrospectively changing these mappings would alter node frequencies and Total Link Strength (TLS), the original thesauri were retained verbatim and the networks are interpreted under their archived vocabulary rules. The retained 2016--2020 and full-period item tables contain 16 and 162 items, respectively, with a minimum retained occurrence of three. This is consistent with an occurrence threshold of three, although the complete GUI settings, counting method, layout seed, and map/network project files were not preserved. The supporting repository therefore distinguishes confirmed settings from values inferred from outputs and does not claim exact reconstruction of every network layout.
+
+The 261 records constituted the corpus for all bibliometric analyses. A separate manual, paper-level content analysis was used to characterise fusion levels. The fusion-level distribution reported in this review is restricted to 163 records for which paper-level assignments were retained in the authors' working coding materials. For these records, the abstract, author keywords, dataset information, and reported model description were examined, with the location of information integration within the classification pipeline serving as the principal coding criterion. The occurrence of the terms ``fusion'' or ``ensemble'' in a bibliographic record was not, by itself, treated as sufficient evidence of a classifiable fusion architecture. Data-level fusion was assigned when integration occurred before representation learning; feature-level fusion was assigned when intermediate representations were combined before prediction; and decision-level fusion was assigned when independently generated scores, probabilities, labels, or maps were aggregated. Studies reporting integration at more than one stage were coded as hybrid.
+
+For the other 98 records in the bibliometric corpus, the original working materials did not retain a complete auditable fusion-level assignment. We therefore did not reconstruct those assignments retrospectively for this revision. These records continued to contribute to publication, author, journal, institution, country, keyword, and citation analyses, but were excluded from the denominator used to calculate the fusion-level distribution. The resulting percentages are descriptive of the archived 163-record coding subset and should not be interpreted as exhaustive estimates for all 261 records.
+
+A record-level table for the archived 163-record coding subset is provided with the supporting materials. It reports the WoS accession number, DOI, title, publication year, model, dataset and fusion-method notes retained in the working sheet, the original fusion label, and the standardised fusion level. This table reproduces the reported category totals without assigning a fusion level retrospectively to records lacking an archived assignment.
+
+Before institution-level aggregation, affiliation names were manually checked for duplicate institutional identities arising from obvious spelling variants, abbreviations, and alternative name forms. No duplicate institutional identities requiring consolidation were identified; therefore, no affiliation thesaurus-based merging was applied.
+
+
+
+Annual publication output describes the number of retrieved records published each year. The temporal analysis also uses Total Local Citation Score (TLCS) and Total Global Citation Score (TGCS) \citep{20}. TLCS counts citations received from other records in the selected corpus, whereas TGCS counts citations recorded across the Web of Science database. These indicators measure citation frequency, not research quality. Because no records were retrieved for 2006--2014, the visualised series begins with the single record published in 2015 and continues through 2025 (Fig.~\ref{fig:pub_trends}); all corpus-level analyses retain the complete 2006--2025 search window.
+
+\begin{figure}[htb!]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/flowchart.pdf} 
+	\caption{Workflow for literature retrieval, bibliometric analysis, and technical synthesis.}
+	\label{fig:flowchart}
+\end{figure}
+
+
+\section{Bibliometric Profile}
+\subsection{Yearly Output}
+
+\begin{figure}[htb!]
+	\centering
+	\includegraphics[width=0.75\columnwidth]{picture_2.png}
+	\caption{Yearly publication output, TLCS, and TGCS for the retrieved corpus (2015--2025); no records were retrieved for 2006--2014.}
+	\label{fig:pub_trends}
+\end{figure}
+
+No records were retrieved for 2006--2014, so these zero-count years are not shown explicitly in the figure. The single relevant paper published in 2015 is included to mark the onset of subsequent growth. As shown in the figure, annual publication output within the focused corpus increased substantially. This increase coincided with the wider adoption of deep learning methods, growing availability of Earth observation data, and improvements in computational resources \citep{ma2019deep}. These concurrent developments provide plausible context for the observed trend, although the bibliometric data alone do not establish a causal relationship. The final three years (2023--2025) had the largest publication counts, with 37, 48, and 70 papers, respectively.
+
+Publication volume measures output in the retrieved corpus but does not measure the quality or practical influence of individual studies. TLCS and TGCS provide complementary citation counts, although they are affected by publication age and citation practices \citep{bornmann2011citation}. TGCS values are generally higher because they include citations from across the Web of Science database, whereas TLCS is restricted to the selected corpus.
+
+TLCS reached its maximum in 2019 (30). Two papers contributed 25 of these local citations: ``Advanced Multi-Sensor Optical Remote Sensing for Urban Land Use and Land Cover Classification: Outcome of the 2018 IEEE GRSS Data Fusion Contest'' (TLCS=17) \citep{21} and ``Combining Sentinel-1 and Sentinel-2 Satellite Image Time Series for land cover mapping via a multi-source deep learning architecture'' (TLCS=8) \citep{22}. The relatively high 2017 TLCS was similarly concentrated in ``Hyperspectral and LiDAR Data Fusion Using Extinction Profiles and Deep Convolutional Neural Network'' (TLCS=15) \citep{23}. This concentration shows that annual citation totals can be influenced by a small number of papers and should not be interpreted as a uniform change across all publications in a year.
+
+TGCS also reached its maximum in 2019 (1363); contributors included the papers above and ``Urban Tree Species Classification Using a WorldView-2/3 and LiDAR Data Fusion Approach and Deep Learning'' \citep{26}. TGCS reached 1258 in 2020, of which ``Cloud removal in Sentinel-2 imagery using a deep residual neural network and SAR--optical data fusion'' \citep{27} accounted for 345 citations. The 2016 TGCS was also concentrated: ``Deep Learning Earth Observation Classification Using ImageNet Pretrained Networks'' \citep{28} accounted for 492 citations. These raw totals are affected by publication age, field size, and a small number of highly cited papers.
+
+Within the deliberately focused corpus used in this study, several of the largest citation contributions were associated with publications combining deep learning and multi-source remote sensing data. This pattern reflects citation impact within the retrieved dataset and should not be generalised to the broader LULC literature. We also observe local peaks in the 2023 TLCS and 2022 TGCS following minor declines, which may be associated with the delayed citation window effect \citep{bornmann2011citation}. Conversely, the scores for 2024 and 2025 remain relatively low because recently published papers have had less time to accumulate citations.
+
+
+\subsection{Core Journals, Authors, Institutions, and Countries}
+
+\subsubsection{Active Journals}
+
+
+The 261 publications analysed in this study were distributed across 81 journals. Figure~\ref{fig:journal_impact} summarises the top ten journals by publication count, TLCS, and TGCS.
+\begin{figure}[htb!] 
+	\centering
+	\includegraphics[width=0.67\columnwidth]{Figures/Picture_3.pdf} 
+	\caption{Publication count, TLCS, and TGCS per journal (2006--2025).}
+	\label{fig:journal_impact}
+\end{figure}
+
+
+Within the retrieved corpus, \textit{Remote Sensing} had the largest publication count. Its TLCS was 7 (fourth among the journals shown), whereas its TGCS was 1246. The difference reflects the distinct denominators of local and global citation counts; the available bibliometric data do not identify a single causal explanation for it.
+
+\textit{IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing} ranked first in TLCS and third in TGCS among the journals shown in Fig.~\ref{fig:journal_impact}(b,c). \textit{IEEE Transactions on Geoscience and Remote Sensing} had the largest TGCS (1649). These rankings describe citation activity in and around the selected corpus and should not be treated as journal-quality measures.
+
+
+
+
+\subsubsection{Important Authors}
+
+In total, 1,083 authors contributed to the 261 analysed papers. Figure~\ref{fig:author_impact} ranks authors by publication count, TLCS, and TGCS within the retrieved corpus.
+
+
+
+\begin{figure}[htb!] 
+	\centering
+	\includegraphics[width=0.67\columnwidth]{Figures/Picture_4.pdf} 
+	\caption{Publication count, TLCS, and TGCS per author within the retrieved corpus (2006--2025).}
+	\label{fig:author_impact}
+\end{figure}
+
+Ghamisi P., Hamza A., Khan M. A., and Liu Y. each had six papers in the corpus. Ghamisi P. was also among the top ten authors in TLCS (21) and TGCS (399). Zhu X. X., Yokoya N., and Le Saux B. each had a TLCS of 22. The paper ``Hyperspectral and LiDAR Data Fusion Using Extinction Profiles and Deep Convolutional Neural Network'' \citep{23}, co-authored by Ghamisi P. and Zhu X. X., contributed 15 local citations. Hong D. F.'s TGCS was strongly affected by the 2022 paper ``Convolutional Neural Networks for Multimodal Remote Sensing Data Classification'' \citep{2}, which had a TGCS of 450. These author-level totals are therefore partly concentrated in individual highly cited publications.
+
+
+\subsubsection{Active Institutions and Main Countries}
+Following verification of the affiliation names, 420 distinct institutions were identified in the retrieved corpus. No duplicate institutional identities requiring name consolidation were found. Figure~\ref{fig:inst_impact} summarises publication volume, TLCS, and TGCS by institution. Wuhan University had 24 publications in the retrieved corpus, followed by the Chinese Academy of Sciences (22) and Huazhong University of Science and Technology (10).
+
+
+
+The German Aerospace Center (DLR) and Zhuhai University ranked highly by TLCS, while Wuhan University, the Pakistan Institute of Engineering and Applied Sciences (PIEAS), and the University of Technology Sydney each had a TLCS of 22. The Chinese Academy of Sciences and Zhejiang University had the largest TGCS values in Fig.~\ref{fig:inst_impact}(c). As with author rankings, these indicators describe the selected publications and their citations rather than institutional research quality.
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.67\columnwidth]{Figures/Picture_5.pdf} 
+	\caption{Publication volume, TLCS, and TGCS per institution within the retrieved corpus (2006--2025).}
+	\label{fig:inst_impact}
+\end{figure}
+
+
+National contributions provide another perspective on the geographic distribution of the focused corpus. The retrieved literature includes author affiliations from 134 countries, and the top ten countries by publication volume account for 89.30\% of the total output. Fig.~\ref{fig:country_impact} presents the top ten countries according to publication count, TLCS, and TGCS, with Germany and China appearing within the top three for all three indicators. These values describe contributions to the retrieved dataset; they do not measure national research capacity or influence across the entire LULC field. Publication and citation counts may also be affected by population, research-system size, database coverage, collaboration patterns, and the age of publications. Six countries, including China, Germany, India, France, the UK, and Japan, rank among the top ten across all three indicators in this corpus.
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.67\columnwidth]{Figures/Picture_6.pdf} 
+	\caption{Top ten countries ranked by publication volume, TLCS, and TGCS within the retrieved corpus (2006--2025).}
+	\label{fig:country_impact}
+\end{figure}
+
+
+
+As shown in Figs.~\ref{fig:country_impact} and~\ref{fig:country_collab_compact}, China recorded the largest publication count in the retrieved dataset. Single-country publications constitute a larger share than multi-country publications among records associated with China, as indicated by the light-green portion in Fig.~\ref{fig:country_collab_compact}. Figure~\ref{fig:collab_map} further shows collaborative links between China and countries in North America, Europe, and Australia. These patterns describe authorship within the selected corpus and should not be generalised to all LULC research.
+
+India and Germany also had relatively large shares of single-country publications. The USA, South Korea, Iran, and Australia had smaller publication totals but larger proportions of multi-country publications in Fig.~\ref{fig:country_collab_compact}. Figure~\ref{fig:collab_map} visualises the corresponding international links. These proportions describe collaboration patterns; they do not by themselves show that collaboration caused higher citation impact or research quality.
+
+\begin{figure}[htb!]
+	\centering	
+	\includegraphics[width=1.0\textwidth, height=0.38\textheight, keepaspectratio]{Figures/picture_7.pdf}
+	\vspace{-10pt}
+	\caption{Collaboration analysis of major countries: multiple-country publications (MCP; co-authors from two or more countries) and single-country publications (SCP; all authors affiliated with the same country).}
+	\label{fig:country_collab_compact}
+	\vspace{10pt}
+	
+	\includegraphics{Figures/newplot_original_pdf_fig8.pdf}
+	\vspace{-10pt}
+	\caption{Geographical distribution of international research collaborations.}
+	\label{fig:collab_map}
+\end{figure}
+
+\FloatBarrier
+
+\section{Results and Discussion}
+
+All bibliometric counts and networks in this section refer to the 2006--2025 corpus. Publications from 2026 are used only in the qualitative discussion of recent directions and are not included in these statistics.
+
+\subsection{Keyword Co-occurrence and Temporal Evolution}
+
+In this study, VOSviewer was used to conduct a keyword hotspot analysis of 261 publications related to LULC classification indexed in the Web of Science database from 2006 to 2025. The analysis describes prominent themes and their temporal development within the retrieved corpus, as illustrated in Fig.~\ref{fig:keyword_evolution}. Because relatively few publications were retrieved for 2006--2015, a separate keyword visualisation for that decade is not presented.
+
+\begin{figure}[!htbp]
+	\centering
+	\subfloat[2016--2020]{%
+		\includegraphics[
+			width=0.96\linewidth,
+			trim=0 0 256 0,
+			clip
+		]{Figures/picture_8.pdf}}
+	\par\vspace{8pt}
+	\subfloat[2021--2025]{%
+		\includegraphics[
+			width=0.96\linewidth,
+			trim=256 0 0 0,
+			clip
+		]{Figures/picture_8.pdf}}
+	\caption{Keyword co-occurrence networks for the retrieved LULC classification literature: (a) 2016--2020; (b) 2021--2025. For readability, labels are displayed only for the more prominent nodes selected by the visualisation software; all retained nodes contribute to network construction.}
+	\label{fig:keyword_evolution}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.98\linewidth]{Figures/new_all.pdf}
+	\caption{Keyword co-occurrence network for the retrieved LULC classification literature (2006--2025). For readability, labels are displayed only for the more prominent nodes selected by the visualisation software; all retained nodes contribute to network construction.}
+	\label{fig:keyword_all}
+\end{figure}
+
+Because the two temporal maps were constructed from separate subsets containing different numbers of publications, occurrence counts and TLS values are interpreted primarily within each temporal network. TLS depends on corpus size, term selection, and the number and strength of co-occurrence links; its absolute values should therefore not be treated as directly comparable measures of technological growth across the two periods.
+
+As shown in Fig.~\ref{fig:keyword_evolution}(a), the prominent nodes within the 2016--2020 subset included ``land-cover classification'', ``deep learning'', ``fusion'', and ``cnn''. Their occurrence counts were 33, 30, 23, and 23, respectively, with Total Link Strength (TLS) values of 101, 84, 72, and 72. Within this temporal subset, these values indicate the relative bibliometric prominence and connectivity of the corresponding terms. They characterise the focused corpus rather than the broader LULC research field and do not demonstrate technical performance or methodological superiority \citep{6,23}.
+
+Within the 2021--2025 subset shown in Fig.~\ref{fig:keyword_evolution}(b), ``deep learning'', ``fusion'', and ``cnn'' recorded occurrence counts of 104, 94, and 83 and TLS values of 422, 422, and 399, respectively. The ``remote sensing'' node occurred 69 times and had a TLS of 351, while ``land-cover classification'' was also prominent. These values describe term frequency and connectivity within the later subset. Their larger absolute magnitudes may partly reflect the greater number of retrieved publications and the denser co-occurrence network in this period and should not be interpreted as independent evidence of technical superiority or methodological replacement \citep{cao2020urban}.
+
+To provide an integrated view of the focused corpus, Fig.~\ref{fig:keyword_all} presents the keyword co-occurrence network across the entire study period. The dense connections between ``deep learning'' and sensor-related nodes, such as ``hyperspectral imaging'', ``LiDAR'', and ``SAR'', indicate frequent joint discussion of deep architectures and high-dimensional remote sensing data. The presence of keywords such as ``Transformer'', ``attention mechanism'', and ``Mamba'' suggests increasing interest in global contextual modelling alongside established local feature-extraction approaches.
+
+Nodes representing traditional methods, such as ``support vector machines'', ``optical sensors'', and ``random forest'' \citep{belgiu2016random}, are smaller and appear earlier in the temporal overlay. Because the search strategy explicitly required deep learning-related terms, their lower frequency cannot be interpreted as evidence that traditional methods have declined across the broader LULC field. Nodes related to multi-source data fusion remain prominent within the retrieved corpus, while the appearance of ``representation learning'' and ``self-attention'' indicates emerging lines of investigation in feature extraction and model adaptation.
+
+\FloatBarrier
+
+\subsection{Intellectual Structure}
+To examine the cited foundations of the retrieved literature, a document co-citation network was constructed using VOSviewer, as illustrated in Fig.~\ref{fig:intellectual_structure}. Co-citation analysis connects documents that are cited together and does not directly measure semantic similarity or technical performance. The network partition produced four clusters, interpreted here as follows \citep{19}:
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.98\linewidth]{Figures/picture_9.pdf}
+	\caption{Document co-citation network for the retrieved LULC classification literature. Node size indicates citation prominence within the analysed network, colours indicate clusters, and links indicate co-citation relations. For readability, labels are displayed only for the more prominent nodes; all retained nodes contribute to network construction.}
+	\label{fig:intellectual_structure}
+\end{figure}
+
+\begin{enumerate}
+	\item \textbf{Deep Learning Fundamentals (Blue Cluster):} This cluster contains foundational computer vision studies. Core nodes include Krizhevsky et al. (2012, AlexNet) and Simonyan and Zisserman (2015, VGG) \citep{31, 32}. These studies introduced influential CNN architectures that were subsequently adopted as feature extractors for remote sensing imagery. Marmanis et al. (2016) connects this cluster with Earth observation through the use of ImageNet-pretrained networks.
+	
+	\item \textbf{Semantic Segmentation Methods (Green Cluster):} This cluster focuses on pixel-to-pixel classification methods used for LULC mapping. Key nodes include Long et al. (2015, FCN) \citep{33} and Ronneberger et al. (2015, U-Net) \citep{34}. These studies established encoder--decoder architectures for end-to-end dense prediction and enabled researchers to investigate boundary delineation in addition to patch-based classification.
+	
+	\item \textbf{Multi-source Data Fusion (Red Cluster):} Centred on publications by scholars such as Ghamisi P., Zhu X.X., and Hong D.F., this cluster represents applications of deep learning to heterogeneous remote sensing data. Its cited foundations include statistical modelling of sensor physics and evaluation frameworks for pixel-level fusion \citep{58}. Unlike the general-algorithm clusters, this group specifically addresses fusion challenges involving hyperspectral imagery (HSI), LiDAR, and SAR data. The dense connections within this cluster indicate sustained attention to specialised fusion modules for the distinct physical properties of these data sources.
+	
+	\item \textbf{Emerging Transformer-related Cluster (Yellow Cluster):} This cluster includes Dosovitskiy et al. (2021, Vision Transformer) \citep{35} and reflects growing citation attention to self-attention and global contextual modelling. Its connection with recent studies such as ExViT suggests that Transformer-based representations are being increasingly explored in multimodal LULC classification \citep{36}. However, the co-citation structure alone does not demonstrate that these models have replaced CNN-based approaches or provide superior performance across datasets.
+\end{enumerate}
+
+\FloatBarrier
+\subsection{Analysis of Emerging Research Methods}
+Before the widespread adoption of deep learning methods in the literature examined here, statistical classifiers, traditional machine learning algorithms, and object-based approaches were commonly used for LULC classification. As summarised in Table~\ref{tab:traditional_methods}, SVM and RF remain relevant reference methods, particularly for applications involving limited samples or high-dimensional data.
+
+\begin{table}[!htbp]
+	\centering
+	\setlength{\belowcaptionskip}{5pt} 
+	\caption{Traditional methods in LULC research.} 
+		\label{tab:traditional_methods}
+		\small 
+		\setlength{\tabcolsep}{3pt}
+		\renewcommand{\arraystretch}{1.4} 
+		\begin{tabular}{@{} p{2.0cm} p{5.2cm} p{6.2cm} @{}} 
+		\toprule
+		\textbf{Method} & \textbf{Advantages} & \textbf{LULC Application Scenarios} \\ 
+		\midrule
+		SVM & Often competitive with limited samples; kernel choice supports non-linear boundaries. & Pixel- or object-based classification of high-dimensional imagery. \\ \addlinespace[3pt]
+		RF  & Handles mixed feature types and provides internal variable-importance measures. & Regional mapping with spectral, textural, and ancillary features. \\ \addlinespace[3pt]
+		Artificial neural network (ANN) & Learns non-linear decision functions from engineered or raw features. & Classification when training data and network capacity are appropriately controlled. \\ 
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+To characterise methodological composition within the archived coding subset, we analysed the distribution of fusion levels among the 163 records with retained paper-level assignments. Feature-level-only fusion was the most frequently identified category, accounting for 131 studies (80.4\%). Hybrid fusion was identified in 18 studies (11.0\%), including 12 data--feature and six feature--decision combinations. Data-level-only and decision-level-only fusion were each identified in seven studies (4.3\%). The other 98 records in the 261-record bibliometric corpus did not have a complete auditable fusion-level assignment in the original working materials and were therefore not included in this percentage distribution. These frequencies describe the archived coded subset and do not estimate the distribution across all 261 records or demonstrate that one fusion level is technically superior to another.
+
+
+As shown in the keyword density visualisation (Fig.~\ref{fig:keyword_density}), ``deep learning'', ``fusion'', and ``CNN'' are among the most prominent terms in the retrieved corpus. Their density indicates a concentration of research attention around neural feature extraction and fusion methods. Because the search strategy required the term ``deep learning'', this pattern should be interpreted as a characteristic of the focused sample rather than evidence that neural methods dominate the entire LULC field.
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=1.0\columnwidth]{Figures/new_Relitu.pdf}
+	\caption{Density visualisation of keyword hotspots in the retrieved LULC classification literature.}
+	\label{fig:keyword_density}
+\end{figure}
+
+Evaluation in the included studies frequently relies on a limited set of benchmark datasets. The prominence of ``hyperspectral imaging'' and ``LiDAR'' in Fig.~\ref{fig:keyword_density} is also reflected in the dataset-use rankings. As shown in Fig.~\ref{fig:datasets_ranking}, Houston and Trento were used in 25 and 15 studies, respectively. Their frequent use supports comparison across some studies, but the concentration of evaluations on a small number of curated datasets may limit conclusions about cross-region and real-world generalisability.
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=1.0\columnwidth]{Figures/top_datasets_ranking.pdf}
+	\caption{Frequency of benchmark datasets used in the analysed LULC fusion studies.}
+	\label{fig:datasets_ranking}
+\end{figure}
+
+% --- Table 4: representative multimodal benchmark datasets ---
+\begin{table}[!htbp]
+	\centering
+	\setlength{\belowcaptionskip}{8pt}
+	\caption{Technical specifications of representative multimodal benchmark datasets used in LULC classification.}
+	\label{tab:datasets_detail}
+	\scriptsize
+	\setlength{\tabcolsep}{3pt}
+	\renewcommand{\arraystretch}{1.25}
+	\begin{tabular}{@{} p{1.8cm} p{3.5cm} p{3.2cm} c p{3.5cm} @{}}
+		\toprule
+		\textbf{Dataset} & \textbf{Modalities (Sensors)} & \textbf{Resolution} & \textbf{Classes} & \textbf{Dimensions (px)} \\ 
+		\midrule
+		Houston 2013  & HSI (144 bands) + LiDAR      & 2.5 m   & 15 & $349 \times 1905$ \\ 
+		Trento        & HSI (6 bands) + LiDAR        & 1.0 m   & 6  & $600 \times 166$ \\ 
+		Berlin        & HSI (244 bands) + SAR         & 30 m (HSI); 13--13.9 m (SAR) & 8  & $797 \times 220$ (HSI); $1723 \times 476$ (SAR) \\ 
+		Augsburg      & HSI (180 bands) + SAR + digital surface model (DSM) & 30 m (co-registered products) & 7  & $332 \times 485$ \\ 
+		MUUFL Gulfport & HSI (64 bands) + LiDAR       & 0.5 m (HSI); 1 m (LiDAR) & 11 & $325 \times 220$ \\ 
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+Table~\ref{tab:datasets_detail} illustrates the heterogeneity that fusion methods must accommodate. The Berlin and Augsburg datasets combine products that originate at different spatial resolutions, whereas Houston, Trento, and MUUFL Gulfport pair spectral measurements with elevation or structural information. EuroSAT is not included because it contains Sentinel-2 multispectral imagery but is not itself a multimodal fusion benchmark. Dataset specifications for Berlin and Augsburg follow the published multimodal benchmark description, and MUUFL Gulfport follows the official data release \citep{hong2021benchmarks,zare2018muufl}.
+
+Fusion methods are commonly categorised by the stage at which information is combined: data-level, feature-level, and decision-level fusion, as illustrated in Fig.~\ref{fig:fusion_stages}. These categories are not necessarily progressive stages; each imposes different requirements on spatial alignment, training, modularity, and cross-modal interaction. In the comparison below, hybrid fusion denotes a design that combines information at two or more of these stages.
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=1.0\columnwidth, trim=0 10 0 10, clip]{Figures/Fusion_Picture.pdf}
+	\caption{Three principal fusion levels considered in LULC classification: (a) data-level fusion, (b) feature-level fusion, and (c) decision-level fusion. These levels represent alternative design choices rather than a mandatory progression.}
+	\label{fig:fusion_stages}
+\end{figure}
+
+Table~\ref{tab:fusion_levels} provides a design- and evaluation-oriented comparison of the four fusion levels. Fusion level is defined by the first stage at which modality-specific streams explicitly exchange information. Hybrid fusion denotes architectures with explicit fusion operators at two or more distinct stages; ordinary downstream processing after a single fusion operation is not coded as hybrid. Let $M$ be the number of modalities, $d_m$ the input width of modality $m$, $N_m$ its number of tokens or spatial positions, $d$ the latent feature dimension, and $C$ the number of classes. Let $E_m$, $F$, $H$, and $A$ denote a modality encoder, feature-fusion module, prediction head, and decision aggregator, respectively, with $\mathcal{C}(\cdot)$ denoting their computational costs. The expressions below describe representative operators and exclude data loading, preprocessing, and implementation-dependent constants. We do not rank accuracy or measured runtime across publications because datasets, spatial resolutions, hardware, training budgets, and evaluation protocols differ substantially \citep{6,23,41,55,hang2020coupled}.
+
+\begin{table}[!htbp]
+	\centering
+	\caption{Conditional design patterns and minimum evaluation evidence for multimodal LULC fusion levels.}
+	\label{tab:fusion_levels}
+	\scriptsize
+	\setlength{\tabcolsep}{2pt}
+	\renewcommand{\arraystretch}{1.22}
+	\begin{tabular}{@{} p{1.25cm} p{2.80cm} p{3.10cm} p{2.80cm} p{3.50cm} @{}}
+		\toprule
+		\textbf{Fusion level} & \textbf{Integration and data requirements} & \textbf{Training, computation, and scalability} & \textbf{Principal failure modes} & \textbf{Minimum evaluation evidence and appropriate conditions} \\
+		\midrule
+		Data-level & Co-registered observations are combined before representation learning. For grid-based concatenation, direct spatial correspondence and usually comparable spatial support are required after preprocessing; radiometric compatibility remains sensor- and operator-dependent. & Joint training is common. For channel concatenation, encoder input width grows with $\sum_m d_m$; preprocessing and exact costs remain operator-dependent. Scalability is constrained by input dimensionality and source count. & Misregistration, temporal mismatch, redundant or noisy bands, and dominance of a high-dimensional source. Most designs require every source at inference unless variable availability is addressed during training. & Test registration and temporal-offset perturbations, source-wise normalisation, and single-source versus concatenation baselines. Suitable when inputs are accurately aligned and low-level correspondence is important, such as stacked optical--SAR or HSI--LiDAR classification \citep{6,37}. \\
+		\addlinespace[2pt]
+		Feature-level & Intermediate representations from modality-specific or shared encoders are combined. Resampling or learned alignment can accommodate some resolution differences, but semantic correspondence is still required. & A common cost pattern is $\sum_m \mathcal{C}(E_m)+\mathcal{C}(F)+\mathcal{C}(H)$. For dense pairwise cross-attention only, the interaction term scales as $O(N_iN_jd)$ in time and $O(N_iN_j)$ in attention-map memory; projection and activation costs are additional \citep{vaswani2017attention}. & Modality dominance, representation collapse, overfitting, alignment shift, and brittleness when a source is missing or corrupted. & Require modality ablation, corrupted-, misaligned-, and missing-source stress tests, and compute-matched late-fusion baselines. Suitable when detailed cross-modal interaction is required, such as HSI--LiDAR classification or optical--SAR segmentation \citep{23,41,zhang2023multimodal}. \\
+		\addlinespace[2pt]
+		Decision-level & Scores, probabilities, labels, or independently produced maps are aggregated. Low-level feature spaces need not match, but class taxonomies and output units must be compatible. & Cost is $\sum_m[\mathcal{C}(E_m)+\mathcal{C}(H_m)]+\mathcal{C}(A)$. Simple score averaging adds approximately $O(MC)$ operations per prediction unit; branch inference normally dominates total cost. Branches may be trained independently. & Poor calibration, correlated branch errors, incompatible taxonomies, and loss of fine cross-modal interaction. A missing branch is safe only if the aggregator was designed and trained for variable availability. & Report branch-wise performance, error correlation, calibration error or Brier score, and missing-branch tests. Branch outputs remain separately inspectable, but probabilities are comparable only with compatible labels, spatial units, and calibration. Suitable for ensembles and modular sensor pipelines \citep{55}. \\
+		\addlinespace[2pt]
+		Hybrid & Explicit fusion operators are used at two or more stages, for example feature interaction followed by score aggregation. Alignment and inference requirements depend on the stages retained. & Cost is architecture-dependent. Report parameters, floating-point operations, peak memory, and latency under matched inputs. Training may be joint or multi-stage and requires stage-specific ablation. & Redundant fusion paths, cross-stage co-adaptation, optimisation instability, error propagation, and difficulty attributing gains to a particular component. & Use stage-wise ablation, compute-matched single-level baselines, calibration analysis, and corrupted- or missing-modality stress tests. Suitable when fine cross-modal interaction and modular prediction are both required \citep{hang2020coupled}. \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+The entries in Table~\ref{tab:fusion_levels} are conditional design expectations rather than universal rankings. Representative studies illustrate possible uses and failure modes, but do not establish that one fusion level is uniformly more accurate, efficient, robust, or interpretable than another. All levels may be affected by spatial or temporal leakage, class imbalance, label uncertainty, and inconsistent preprocessing; these are evaluation-wide threats rather than failure modes unique to one fusion level \citep{liang2017sampling}. Comparative studies should therefore use identical preprocessing and data splits and, where feasible, include the strongest single-modality model, simple input concatenation, simple score averaging, and a parameter- or compute-matched baseline.
+
+\FloatBarrier
+
+\subsection{Data-Level Fusion}
+Data-level fusion, also referred to as pixel-level or raw-level fusion, directly integrates co-registered multimodal inputs such as optical imagery, LiDAR-derived products, and SAR \citep{57}. The keyword results show frequent discussion of LiDAR and remote sensing in the retrieved corpus \citep{38,39}. LiDAR can contribute elevation and vegetation-structure information, while optical data contribute spectral information and SAR can provide observations under cloud cover. Whether these sources are complementary in a specific classification task depends on acquisition conditions, preprocessing, class definitions, and spatial scale \citep{40}.
+
+Despite its potential value, data-level fusion faces persistent technical challenges, particularly in multi-source spatial registration and heterogeneous noise suppression \citep{41}. The reviewed studies indicate that data-level fusion is frequently used to generate spatially aligned multimodal inputs for subsequent feature extraction. Its effectiveness depends strongly on registration accuracy, radiometric consistency, noise characteristics, and the degree of complementarity among sensors. High-quality fused inputs may support CNN-, Transformer-, and state-space-based models, but reported performance gains are dataset- and task-dependent and should not be interpreted as universal evidence of superiority \citep{23,cao2020urban}.
+
+
+
+
+% \usepackage{booktabs}
+% \usepackage{caption}
+% \captionsetup[table]{labelfont=bf, textfont=it, labelsep=newline, justification=justified, singlelinecheck=false}
+
+\subsection{Feature-Level Fusion and Technical Evolution}
+
+\begin{table}[!htbp]
+	\centering
+	\setlength{\belowcaptionskip}{5pt}
+	\caption{Comparison of deep learning model families for feature-level fusion in LULC classification.}
+	\label{tab:comparison_models}
+	\scriptsize
+	\setlength{\tabcolsep}{2pt}
+	\renewcommand{\arraystretch}{1.4}
+	\begin{tabular}{@{} p{1.55cm} p{2.3cm} p{3.0cm} p{3.1cm} p{3.0cm} @{}}
+		\toprule
+		\textbf{Method} & \textbf{Role in fusion} & \textbf{Potential advantages} & \textbf{Limitations} & \textbf{Recent direction} \\ 
+		\midrule
+		CNN \citep{2,8,29,56} & Local spectral--spatial feature extraction. & Effective inductive bias for local texture and edges; mature implementations. & Long-range interaction requires depth, dilation, or additional modules. & Hybrid CNN--Transformer and lightweight backbones. \\ 
+		\addlinespace[0.8em]
+		
+		Transformer \citep{7,35,36,bazi2021vision,liu2024softformer} & Contextual and cross-modal interaction via self-attention. & Direct long-range interaction between tokens. & Full self-attention scales quadratically with token count; training can be data- and compute-intensive. & Windowed, sparse, and multimodal attention variants. \\ 
+		\addlinespace[0.8em]
+		
+		Attention mechanisms \citep{46,47,zhang2023multimodal} & Adaptive weighting within or across modalities. & Can emphasise task-relevant channels, regions, or source interactions. & Adds parameters and does not guarantee faithful explanations. & Cross-modal attention and efficient attention variants. \\ 
+		\addlinespace[0.8em]
+		
+		Mamba/state-space models \citep{5,49,53} & Selective state-space processing of long sequences. & Theoretical linear scaling with sequence length. & Two-dimensional multimodal evidence remains limited and implementation cost is model-dependent. & Spatial scanning, hybrid encoders, and broader cross-region validation. \\ 
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+Feature-level fusion integrates intermediate representations extracted by architectures such as CNNs or Transformers. It can retain more task-relevant information than late fusion while avoiding some of the dimensionality and registration difficulties associated with direct raw-data concatenation. However, its relative benefits depend on model design, data alignment, training resources, and application context. Within the retrieved corpus, ``CNN'', ``deep learning'', and ``feature extraction'' are among the highest-frequency keywords, alongside terms such as ``Transformer'', ``attention mechanism'', ``representation learning'', and ``semantic segmentation''.
+
+\textbf{Deep learning.} Deep learning provides an end-to-end framework for joint representation learning and classification. In the reviewed LULC studies, these models were used to learn spectral, spatial, and textural representations with less reliance on manually designed features. This capability may help explain the frequent use of feature-level fusion in the included corpus \citep{42,43}; prevalence does not establish superiority over data- or decision-level fusion. The paper ``Deep Learning Earth Observation Classification Using ImageNet Pretrained Networks'' \citep{28} reached a TGCS of 492, indicating substantial citation attention within the analysed literature.
+
+\medskip
+\textbf{Convolutional neural networks.} CNNs were widely used in early feature-level fusion studies to capture local spatial features such as building textures and vegetation-patch structure. Studies have reported classification improvements when CNNs extract and combine local features from multi-source data, for example through channel concatenation or weighted summation; however, observed gains depend on the dataset, fusion design, and evaluation protocol \citep{41}.
+
+\medskip
+\textbf{Transformers.} Transformer-based architectures received increasing attention in the retrieved literature. The 2023 study ``Extended Vision Transformer (ExViT) for Land Use and Land Cover Classification'' \citep{36} had a TGCS of 312 at the time of data collection. Self-attention provides a mechanism for modelling long-range interactions beyond the local receptive fields of conventional convolutions, although its practical benefits depend on data volume, spatial scale, configuration, and computational resources \citep{45}.
+
+\medskip
+\textbf{Feature extraction and attention.} Feature extractors convert multi-source inputs into representations used for classification. Attention modules learn data-dependent weights over channels, locations, tokens, or modalities and may emphasise features associated with particular LULC classes \citep{46,47}. Their weights should not automatically be interpreted as causal explanations, and their contribution should be assessed against simpler fusion operators under matched training conditions.
+
+\medskip
+\textbf{Semantic segmentation.} Semantic segmentation is a frequently studied application of feature fusion in the included corpus. LULC mapping may require both category identification and boundary delineation. The reviewed studies combine complementary information to segment roads, buildings, vegetation, and other classes, although accuracy remains dependent on data quality, spatial resolution, label definition, and evaluation design \citep{45,48}.
+
+Mamba and related state-space architectures have recently attracted attention because their selective state-space operations offer theoretically favourable scaling for long sequences \citep{53}. Recent studies, including Geo-Mamba \citep{49} and Semi-Mamba \citep{51}, demonstrate the feasibility of applying such architectures to geographic and multimodal remote sensing data. Nevertheless, the empirical evidence remains limited: evaluations are concentrated on a small number of datasets, comparisons across regions and sensor combinations remain incomplete, and robustness under spatial, temporal, and modal distribution shifts has not been established. Mamba should therefore be regarded as a promising but insufficiently validated direction for LULC fusion rather than a demonstrated solution to the accuracy--efficiency trade-off.
+
+Overall, the included literature shows increasing methodological diversity, ranging from CNN-based local feature extraction to Transformer-based contextual interaction and emerging state-space architectures. Table~\ref{tab:comparison_models} summarises the reported roles, advantages, limitations, and recent directions of these models. The observed pattern indicates diversification of modelling approaches rather than a linear replacement of one architecture by another.
+
+\FloatBarrier
+\subsection{Decision-Level Fusion}
+Decision-level fusion, also known as late fusion, combines predictions produced independently by multiple models or data streams \citep{6,55}. In the included corpus, it occurred less frequently than feature-level fusion and was commonly associated with ensemble learning, Random Forests, and voting strategies \citep{55}. This difference describes publication and coding frequencies and does not establish inferior technical performance.
+
+Because each modality is processed separately, decision-level fusion may capture fewer low-level cross-modal interactions than joint feature-learning approaches \citep{6}. Conversely, its modular structure can facilitate model replacement, missing-modality handling, uncertainty estimation, and the combination of heterogeneous classifiers. Reported performance is therefore application-dependent: feature-level fusion may be advantageous when detailed cross-modal interactions are required, whereas decision-level fusion may be preferable when modularity, robustness, or independent model validation is important \citep{55,kampffmeyer2018urban}.
+\FloatBarrier
+
+
+\subsection{Learning Strategies Beyond Architecture Design}
+
+Architecture choice is only one component of multimodal LULC classification. The learning strategy determines how supervision is obtained, how modalities are aligned, and whether a trained model remains reliable outside the training distribution. Self-supervised pretraining can exploit unlabelled Earth observation archives by reconstructing masked inputs or learning invariant representations before task-specific fine-tuning. For example, SatMAE adapts masked autoencoding to multispectral and temporal satellite imagery, illustrating how spectral groups and acquisition time can be incorporated into pretraining rather than treated as ordinary colour channels \citep{cong2022satmae}. Such pretraining may reduce label requirements, but improvements must be tested against training from scratch under identical data, augmentation, and compute budgets.
+
+Domain adaptation and domain generalisation address changes in geography, season, sensor, resolution, and class prevalence. Adaptation methods use information from a target domain, whereas generalisation methods aim to perform on unseen domains without target-domain training. Both require spatially separated and temporally separated evaluation; random patch splits can overestimate transfer when nearby samples share landscape context. Semi-supervised learning can combine limited labels with unlabelled observations, while class-balanced sampling, cost-sensitive objectives, and calibrated uncertainty estimates can address rare classes and ambiguous boundaries. For multimodal systems, evaluation should also include missing-source, corrupted-source, and asynchronous-acquisition conditions rather than assuming that every modality is available and perfectly registered \citep{kampffmeyer2018urban}.
+
+Efficiency is likewise a learning and deployment issue, not merely an architectural label. A recent long-term wetland study used lightweight attention-conditional convolution to reduce model cost while retaining task-specific temporal modelling \citep{yin2026lacc}. Lightweight land-target detection \citep{wang2024cgbiyolo} and dual-branch infrared target enhancement \citep{wang2025dabfnet} provide potentially transferable ideas for compact backbones and branch interaction, but their detection objectives differ from LULC classification. Their reported results therefore cannot be used as direct evidence of classification performance.
+
+Recent applications illustrate several adjacent design directions: global-scale SAR inference for iceberg detection \citep{xie2026iceberg}; Transformer--hypergraph aggregation and cross-view filtering for unmanned aerial vehicle (UAV) localisation \citep{huang2026htgl,su2026cpfl}; hybrid physical and data-driven retrieval of land-surface temperature and emissivity \citep{wang2024lst}; and the coupling of compressed sensing with deep learning for polarisation super-resolution \citep{wu2026polarization}. These tasks are not LULC classification benchmarks. They are cited to identify transferable questions---global deployment, physics-aware learning, efficient feature aggregation, and sensing--model co-design---that require separate validation in LULC settings.
+
+\subsection{Remote Sensing Foundation Models and Multimodal Pre-training}
+
+Remote sensing foundation models are generally understood as models pretrained on large and diverse Earth observation corpora and subsequently adapted to multiple downstream tasks \citep{tuia2023toward}. They differ from a task-specific pretrained network in intended breadth, scale, and transfer, although the boundary is not always sharp. Multimodal foundation models seek representations that can connect different sensors or data types, while vision--language models additionally align imagery with text. This terminology distinguishes the model class from the broader process of multi-source fusion.
+
+Current work spans several complementary approaches. SatMAE demonstrates self-supervised pretraining for temporal and multispectral satellite data \citep{cong2022satmae}. RemoteCLIP aligns remote sensing imagery and language, enabling zero-shot or transfer-oriented use of semantic text supervision \citep{liu2024remoteclip}. Foundation-model-based multimodal classification has also been investigated for heterogeneous remote sensing data \citep{he2024foundation}, and a unified multimodal fine-tuning framework has been evaluated for remote sensing semantic segmentation \citep{ma2025multimodal}. Collectively, these studies indicate that pretraining can support transferable representations, but they do not establish one universal model or adaptation strategy for LULC classification.
+
+Several unresolved issues limit stronger conclusions. Pretraining archives are geographically and temporally imbalanced; sensor, resolution, and label taxonomies differ across downstream datasets; and large models impose substantial training and inference costs. Apparent transfer gains can also be inflated by geographic overlap or near-duplicate imagery between pretraining and evaluation data. Future comparisons should disclose pretraining sources, check spatial and temporal leakage, match compute budgets, report per-class and calibration metrics, and compare full fine-tuning with parameter-efficient and frozen-encoder baselines. Multimodal evaluation should further test whether gains persist when a source is missing, degraded, or acquired at a different time.
+
+
+
+\section{Challenges in LULC Studies}
+Within the retrieved corpus, architecture-related keywords such as \textit{deep learning}, \textit{Transformer}, and \textit{fusion} occurred more prominently than terms related to data quality, uncertainty analysis, and error propagation. Keyword frequency does not measure the practical importance of a problem, but the contrast motivates closer examination of data reliability and evaluation conditions.
+
+\subsection{Data-Level Challenges}
+
+The principal data-related challenges can be grouped into four aspects:
+
+\begin{enumerate}
+	\item \textbf{Intrinsic quality and uncertainty:} Optical imagery may be affected by cloud cover, haze, and illumination variation; SAR contains speckle and geometric distortions; and LiDAR point clouds can contain gaps or outliers. Fusion can propagate these source-specific errors unless quality masks, uncertainty estimates, and modality-aware preprocessing are incorporated. Uncertainty in land-use inputs can also affect downstream conclusions differently across spatial scales, as illustrated in ecosystem-service risk assessment \citep{li2026landuncertainty}.
+	\item \textbf{Spatiotemporal inconsistency:} Optical, SAR, and LiDAR observations can differ in spatial resolution, viewing geometry, footprint, and acquisition time. Residual misregistration may associate features from different ground objects, while phenological or land-cover change between acquisitions can be mistaken for a modal difference. Evaluation should therefore report acquisition dates, resampling procedures, registration accuracy where available, and sensitivity to temporal offsets.
+	\item \textbf{Scarce, imbalanced, and inconsistent annotations:} Supervised LULC classification often requires expert, pixel- or object-level labels \citep{56}. Rare classes, mixed pixels, boundary ambiguity, and inconsistent taxonomies can bias aggregate accuracy towards common classes. Crowdsourced labels may broaden coverage, but require provenance, contributor-bias, consistency, and licensing checks \citep{wu2024crowdsourced}.
+	\item \textbf{Limited benchmark representativeness:} Houston, Trento, MUUFL Gulfport, Berlin, and Augsburg are valuable controlled benchmarks, but their geographic extent, sensor combinations, and class schemes do not represent every operational setting. Results from random within-scene splits should not be assumed to transfer to new regions, seasons, or sensors. Cross-region and temporal hold-out evaluation is needed to measure this gap.
+\end{enumerate}
+
+
+
+
+
+\subsection{Algorithm-Level Challenges}
+
+Algorithm-related challenges can be grouped into four aspects:
+
+
+\begin{enumerate}
+	\item \textbf{Semantic gap between multimodal features:} Optical reflectance, SAR backscatter, and LiDAR-derived height encode different physical properties and have different noise distributions. Simple concatenation or weighted summation does not by itself resolve these differences. Learned alignment may support cross-modal interaction, but it can also suppress useful modality-specific information and should be evaluated through ablation and missing-modality tests.
+	
+	\item \textbf{Interpretability and uncertainty calibration:} CNNs, Transformers, and state-space models can make it difficult to determine whether a prediction depends on physically meaningful evidence, spurious spatial context, or one dominant modality. Attention weights alone are not a complete explanation. Modality ablation, counterfactual masking, feature attribution, reliability diagrams, and class-conditional calibration can provide complementary evidence, but their stability should also be reported.
+	
+	\item \textbf{Insufficient generalisation:} Random training and test partitions within one scene approximate an independent and identically distributed setting poorly because neighbouring patches can share spatial context. Operational LULC mapping introduces domain shifts across landscapes, seasons, sensors, and labelling conventions. Claims of generalisation should therefore be supported by geographically disjoint, temporally disjoint, or cross-sensor tests rather than within-scene accuracy alone.
+
+	\item \textbf{Efficiency and operational constraints:} Model size, memory use, latency, energy consumption, and preprocessing cost affect whether a method can be deployed at national or global scale. Theoretical linear sequence scaling in state-space models is promising, but end-to-end cost also includes multimodal encoders, image tiling, data transfer, and post-processing. Comparisons should report parameters, floating-point operations or measured latency, memory, hardware, input size, and accuracy under the same protocol.
+\end{enumerate}
+
+\section{Reproducibility and Open Science}
+
+Supporting materials for this review are available at \url{https://github.com/cj1102/DL-LULC-Fusion-Review}. The repository provides the reported search string and fields, software-version records, the original keyword thesauri, retained item-level network tables, a figure-provenance and resolution audit, the fusion-coding protocol, validation code, and the record-level table underlying the 131/163 (80.4\%) fusion result. Complete WoS full-record exports are not redistributed publicly because access and redistribution are governed by the database licence; readers with appropriate access can rerun the documented query. The repository also distinguishes retained evidence from unavailable settings and does not present the current materials as an exact reconstruction of every graphical layout or as an exhaustive fusion-level assignment for all 261 bibliometric records.
+
+For future comparative studies, reproducible reporting should include public benchmark identifiers, geographically and temporally disjoint splits, class definitions, random seeds, preprocessing and registration procedures, model code and configuration files, parameters or measured computational cost, per-class and calibration metrics, and missing- or corrupted-modality tests. Where licences prevent redistribution of source imagery or bibliographic records, persistent identifiers, executable retrieval instructions, screening logs, and derived non-restricted tables should be provided instead.
+
+\section{Conclusion}
+This study combined bibliometric analysis and critical review to characterise research at the intersection of deep learning, multi-source data fusion, and LULC classification. The analysis was based on 261 publications retrieved from the Web of Science Core Collection for the period 2006--2025. Because the search strategy explicitly required terms related to both deep learning and fusion, the findings describe this focused research area and should not be interpreted as evidence of methodological change across the entire LULC field.
+
+Publication output within the retrieved corpus increased substantially after 2016. Keyword and co-citation analyses indicate growing attention to CNN-based feature extraction, attention mechanisms, Transformers, and multimodal representation learning. Within the archived subset of 163 studies with retained paper-level fusion assignments, feature-level-only fusion was the most frequently identified category, accounting for 131 studies (80.4\%). The other 98 records were retained in the bibliometric corpus but were not included in the fusion-level distribution because the original working materials did not preserve a complete auditable assignment for them. The observed prevalence within the coded subset may reflect the capacity of feature-level fusion to support joint representation learning, but it neither estimates prevalence across all 261 records nor demonstrates universal superiority over data-level, decision-level, or hybrid approaches. The relative suitability of each strategy depends on sensor characteristics, registration quality, sample availability, computational constraints, missing modalities, and the intended application.
+
+The reviewed evidence also suggests that architectural development alone does not resolve the principal limitations of multi-source LULC classification. Important challenges include spatial and temporal misalignment, inconsistent class definitions, class imbalance, limited labelled data, geographic domain shift, incomplete modalities, uncertainty calibration, and the limited comparability of results obtained from small benchmark datasets. Consequently, performance reported on datasets such as Houston or Trento cannot automatically be generalised to large-area or temporally dynamic mapping.
+
+Transformer and state-space architectures provide potentially useful mechanisms for contextual and long-range modelling. However, their comparative advantages remain dependent on dataset scale, training protocol, computational resources, and evaluation setting. In particular, Mamba-based models should be considered a promising but insufficiently validated research direction, as evidence from cross-region, cross-sensor, and long-term LULC applications remains limited.
+
+Future research should prioritise reproducible evaluation across regions and time periods, uncertainty-aware multimodal learning, domain adaptation and generalisation, continual learning, explainable cross-modal interaction, and standardised treatment of missing or asynchronous observations. Remote sensing foundation models and self-supervised pretraining may reduce dependence on labelled samples, but their geographic bias, computational cost, transferability, and interpretability require systematic evaluation. Progress in this area will therefore depend not on a single universally dominant architecture or fusion level, but on transparent comparisons and context-sensitive combinations of data, learning strategies, and evaluation protocols.
+
+
+\bibliographystyle{apacite}
+\bibliography{interactapasample}
+
+\end{document}

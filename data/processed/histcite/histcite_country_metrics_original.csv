@@ -1,0 +1,44 @@
+"Country","Recs","LCS","GCS"
+"Peoples R China",165,68,4226
+"USA",25,26,1029
+"Germany",23,55,1784
+"India",19,2,241
+"UK",12,6,440
+"France",10,31,1597
+"South Korea",10,2,253
+"Iran",9,0,260
+"Japan",9,22,736
+"Saudi Arabia",9,5,112
+"Pakistan",8,5,140
+"Australia",7,3,201
+"Canada",7,2,404
+"Italy",6,5,183
+"Netherlands",6,6,230
+"Brazil",5,1,27
+"Spain",5,1,205
+"Bangladesh",3,0,4
+"Lebanon",3,4,59
+"Norway",3,7,70
+"Austria",2,0,8
+"Ecuador",2,1,50
+"Lithuania",2,0,15
+"Morocco",2,0,4
+"Nigeria",2,0,23
+"Singapore",2,1,31
+"Vietnam",2,2,72
+"BELARUS",1,5,81
+"Belgium",1,0,107
+"Egypt",1,0,1
+"Finland",1,0,6
+"Greece",1,0,18
+"Iraq",1,0,1
+"Malaysia",1,0,146
+"Mexico",1,0,3
+"Mongolia",1,0,78
+"Oman",1,0,8
+"Rwanda",1,0,6
+"Senegal",1,1,59
+"Serbia",1,0,11
+"Switzerland",1,0,1
+"Taiwan",1,0,6
+"U Arab Emirates",1,1,7

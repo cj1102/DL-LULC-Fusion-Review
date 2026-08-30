@@ -1,0 +1,14 @@
+manuscript_asset,manuscript_role,input_data,software_or_script,settings_file,reproduction_status,notes
+flowchart.pdf,research workflow,manuscript methods,manual diagram,not applicable,partial,Burst detection was removed from the retained version
+Picture_3.pdf,journal indicators,histcite_journal_metrics_original.csv,to confirm,to confirm,partial,Existing output retained
+Picture_4.pdf,author indicators,histcite_author_metrics_original.csv,to confirm,to confirm,partial,Existing output retained
+Picture_5.pdf,institution indicators,histcite_institution_metrics_original.csv,to confirm,to confirm,partial,Existing output retained
+Picture_6.pdf,country indicators,histcite_country_metrics_original.csv,to confirm,to confirm,partial,Existing output retained
+picture_7.pdf,country collaboration,to confirm,to confirm,to confirm,partial,Existing output retained
+newplot_original_pdf_fig8.pdf,geographical collaboration map,to confirm,to confirm,to confirm,partial,Byte-identical compatibility copy of supplied newplot.pdf; intended archival asset must be confirmed
+picture_8.pdf,keyword networks by period,private licensed WoS snapshot,VOSviewer 1.6.20,config/vosviewer/retained_network_settings.md,partial,Archived figures and partial item tables retained; complete GUI settings and map/network projects unavailable
+new_all.pdf,overall keyword network,private licensed WoS snapshot,VOSviewer 1.6.20,config/vosviewer/retained_network_settings.md,partial,Archived figure and item table retained; complete GUI settings and map/network project unavailable
+picture_9.pdf,co-citation network,private licensed WoS snapshot,VOSviewer 1.6.20,config/vosviewer/retained_network_settings.md,partial,Archived figure and citation-relation table retained; exact threshold and saved project unavailable
+new_Relitu.pdf,keyword density visualisation,private licensed WoS snapshot,VOSviewer 1.6.20,config/vosviewer/retained_network_settings.md,partial,Archived visual retained; exact density and layout settings unavailable
+top_datasets_ranking.pdf,dataset ranking,private original coding workbook,to confirm,config/fusion_coding_protocol.md,partial,Existing output retained; the public 163-record table preserves only archived fusion assignments and associated notes
+Fusion_Picture.pdf,fusion-level conceptual diagram,review synthesis,manual vector editing,not applicable,partial,Claim text was revised; retain editable source if available

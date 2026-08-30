@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: >-
+  If you use these reproducibility materials, please cite the associated review
+  article. Publication details will be added after acceptance.
+title: >-
+  Reproducibility materials for Deep learning and multi-level fusion for
+  land-use and land-cover classification
+type: dataset
+authors:
+  - family-names: Cheng
+    given-names: Jie
+  - family-names: Xie
+    given-names: Jie
+  - family-names: Xia
+    given-names: Shupei
+  - family-names: Frery
+    given-names: Alejandro C.
+repository-code: https://github.com/cj1102/DL-LULC-Fusion-Review
+

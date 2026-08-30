@@ -1,0 +1,2373 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Aleissaee%
+\ \protect \BOthers {.}}{%
+Aleissaee%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+7}
+\APACinsertmetastar {%
+7}%
+\begin{APACrefauthors}%
+Aleissaee, A\BPBI A.%
+, Kumar, A.%
+, Anwer, R\BPBI M.%
+, Khan, S.%
+, Cholakkal, H.%
+, Xia, G\BPBI S.%
+\BCBL {}\ \BBA {} Khan, F\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Transformers} in remote sensing: A survey}
+  {{Transformers} in remote sensing: A survey}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing}{15}{7}{1860}.
+\newblock
+\APACrefnote{https://doi.org/10.3390/rs15071860}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Aria%
+\ \BBA {} Cuccurullo%
+}{%
+Aria%
+\ \BBA {} Cuccurullo%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+15}
+\APACinsertmetastar {%
+15}%
+\begin{APACrefauthors}%
+Aria, M.%
+\BCBT {}\ \BBA {} Cuccurullo, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Bibliometrix}: An {R}-tool for comprehensive science
+  mapping analysis} {{Bibliometrix}: An {R}-tool for comprehensive science
+  mapping analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Informetrics}{11}{4}{959--975}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.joi.2017.08.007}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bazi%
+, Bashmal%
+, Rahhal%
+, Dayil%
+\BCBL {}\ \BBA {} Ajlan%
+}{%
+Bazi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+bazi2021vision}
+\APACinsertmetastar {%
+bazi2021vision}%
+\begin{APACrefauthors}%
+Bazi, Y.%
+, Bashmal, L.%
+, Rahhal, M\BPBI M\BPBI A.%
+, Dayil, R\BPBI A.%
+\BCBL {}\ \BBA {} Ajlan, N\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Vision {Transformers} for remote sensing image
+  classification} {Vision {Transformers} for remote sensing image
+  classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing}{13}{3}{516}.
+\newblock
+\APACrefnote{https://doi.org/10.3390/rs13030516}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Belgiu%
+\ \BBA {} Dr{\u{a}}gu{\c{t}}%
+}{%
+Belgiu%
+\ \BBA {} Dr{\u{a}}gu{\c{t}}%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+belgiu2016random}
+\APACinsertmetastar {%
+belgiu2016random}%
+\begin{APACrefauthors}%
+Belgiu, M.%
+\BCBT {}\ \BBA {} Dr{\u{a}}gu{\c{t}}, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Random forest in remote sensing: {A} review of
+  applications and future directions} {Random forest in remote sensing: {A}
+  review of applications and future directions}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ISPRS Journal of Photogrammetry and Remote
+  Sensing}{114}{}{24--31}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.isprsjprs.2016.01.011}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bornmann%
+\ \BBA {} Daniel%
+}{%
+Bornmann%
+\ \BBA {} Daniel%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+bornmann2011citation}
+\APACinsertmetastar {%
+bornmann2011citation}%
+\begin{APACrefauthors}%
+Bornmann, L.%
+\BCBT {}\ \BBA {} Daniel, H\BHBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {What do citation counts measure? {A} review of studies
+  on citing behavior} {What do citation counts measure? {A} review of studies
+  on citing behavior}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Documentation}{67}{1}{57--89}.
+\newblock
+\APACrefnote{https://doi.org/10.1108/00220411111105455}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+R.~Cao%
+\ \protect \BOthers {.}}{%
+R.~Cao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+cao2020urban}
+\APACinsertmetastar {%
+cao2020urban}%
+\begin{APACrefauthors}%
+Cao, R.%
+, Tu, W.%
+, Yang, C.%
+, Li, Q.%
+, Liu, J.%
+, Zhu, J.%
+\BDBL {}Qiu, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep learning-based remote and social sensing data
+  fusion for urban region function recognition} {Deep learning-based remote and
+  social sensing data fusion for urban region function recognition}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ISPRS Journal of Photogrammetry and Remote
+  Sensing}{163}{}{82--97}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.isprsjprs.2020.02.014}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Y.~Cao%
+\ \protect \BOthers {.}}{%
+Y.~Cao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+48}
+\APACinsertmetastar {%
+48}%
+\begin{APACrefauthors}%
+Cao, Y.%
+, Wu, Y.%
+, Li, M.%
+, Zheng, M.%
+, Zhang, P.%
+\BCBL {}\ \BBA {} Wang, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multifrequency {PolSAR} image fusion classification
+  based on semantic interactive information and topological structure}
+  {Multifrequency {PolSAR} image fusion classification based on semantic
+  interactive information and topological structure}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{61}{}{1--15}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2023.3263152}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cong%
+\ \protect \BOthers {.}}{%
+Cong%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+cong2022satmae}
+\APACinsertmetastar {%
+cong2022satmae}%
+\begin{APACrefauthors}%
+Cong, Y.%
+, Khanna, S.%
+, Meng, C.%
+, Liu, P.%
+, Rozi, E.%
+, He, Y.%
+\BDBL {}Ermon, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{SatMAE}: Pre-training {Transformers} for temporal and
+  multi-spectral satellite imagery} {{SatMAE}: Pre-training {Transformers} for
+  temporal and multi-spectral satellite imagery}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Advances in Neural Information Processing Systems}
+  {Advances in neural information processing systems}\ (\BVOL~35, \BPGS\
+  197--211).
+\newblock
+\APACrefnote{https://doi.org/10.52202/068431-0015}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dosovitskiy%
+\ \protect \BOthers {.}}{%
+Dosovitskiy%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+35}
+\APACinsertmetastar {%
+35}%
+\begin{APACrefauthors}%
+Dosovitskiy, A.%
+, Beyer, L.%
+, Kolesnikov, A.%
+, Weissenborn, D.%
+, Zhai, X.%
+, Unterthiner, T.%
+\BDBL {}Houlsby, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An image is worth 16x16 words: {Transformers} for image
+  recognition at scale} {An image is worth 16x16 words: {Transformers} for
+  image recognition at scale}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International Conference on Learning Representations
+  (ICLR)} {International conference on learning representations (iclr)}\
+  (\BPGS\ 1--21).
+\newblock
+\APACrefnote{https://doi.org/10.48550/arXiv.2010.11929}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Estacio%
+, Sianipar%
+, Onitsuka%
+\BCBL {}\ \BBA {} Basu%
+}{%
+Estacio%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+1}
+\APACinsertmetastar {%
+1}%
+\begin{APACrefauthors}%
+Estacio, I.%
+, Sianipar, C\BPBI P\BPBI M.%
+, Onitsuka, K.%
+\BCBL {}\ \BBA {} Basu, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A statistical model of land use/cover change integrating
+  logistic and linear models: An application to agricultural abandonment} {A
+  statistical model of land use/cover change integrating logistic and linear
+  models: An application to agricultural abandonment}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Applied Earth Observation and
+  Geoinformation}{120}{}{103339}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.jag.2023.103339}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Frery%
+, M{\"u}ller%
+, Yanasse%
+\BCBL {}\ \BBA {} Sant'Anna%
+}{%
+Frery%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1996}}%
+}]{%
+58}
+\APACinsertmetastar {%
+58}%
+\begin{APACrefauthors}%
+Frery, A\BPBI C.%
+, M{\"u}ller, H\BHBI J.%
+, Yanasse, C\BPBI d\BPBI C\BPBI F.%
+\BCBL {}\ \BBA {} Sant'Anna, S\BPBI J\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1996}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A model for multipolarized {SAR} return} {A model for
+  multipolarized {SAR} return}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{34}{5}{1232--1245}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/36.536540}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Garfield%
+}{%
+Garfield%
+}{%
+{\protect \APACyear {2006}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+14}
+\APACinsertmetastar {%
+14}%
+\begin{APACrefauthors}%
+Garfield, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006{\protect \BCnt {1}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Citation indexes for science. {A} new dimension in
+  documentation through association of ideas} {Citation indexes for science.
+  {A} new dimension in documentation through association of ideas}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of
+  Epidemiology}{35}{5}{1123--1127}.
+\newblock
+\APACrefnote{https://doi.org/10.1093/ije/dyl189}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Garfield%
+}{%
+Garfield%
+}{%
+{\protect \APACyear {2006}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+16}
+\APACinsertmetastar {%
+16}%
+\begin{APACrefauthors}%
+Garfield, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006{\protect \BCnt {2}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The history and meaning of the journal impact factor}
+  {The history and meaning of the journal impact factor}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{JAMA}{295}{1}{90--93}.
+\newblock
+\APACrefnote{https://doi.org/10.1001/jama.295.1.90}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Garfield%
+}{%
+Garfield%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+9}
+\APACinsertmetastar {%
+9}%
+\begin{APACrefauthors}%
+Garfield, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {From the science of science to scientometrics
+  visualizing the history of science with {HistCite} software} {From the
+  science of science to scientometrics visualizing the history of science with
+  {HistCite} software}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Informetrics}{3}{3}{173--179}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.joi.2009.03.009}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ghamisi%
+, H{\"o}fle%
+\BCBL {}\ \BBA {} Zhu%
+}{%
+Ghamisi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+23}
+\APACinsertmetastar {%
+23}%
+\begin{APACrefauthors}%
+Ghamisi, P.%
+, H{\"o}fle, B.%
+\BCBL {}\ \BBA {} Zhu, X\BPBI X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hyperspectral and {LiDAR} data fusion using extinction
+  profiles and deep convolutional neural network} {Hyperspectral and {LiDAR}
+  data fusion using extinction profiles and deep convolutional neural
+  network}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Journal of Selected Topics in Applied Earth
+  Observations and Remote Sensing}{10}{6}{3011--3024}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/JSTARS.2016.2634863}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ghamisi%
+\ \protect \BOthers {.}}{%
+Ghamisi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+6}
+\APACinsertmetastar {%
+6}%
+\begin{APACrefauthors}%
+Ghamisi, P.%
+, Rasti, B.%
+, Yokoya, N.%
+, Wang, Q.%
+, H{\"o}fle, B.%
+, Bruzzone, L.%
+\BDBL {}Benediktsson, J\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multisource and multitemporal data fusion in remote
+  sensing: {A} comprehensive review of the state of the art} {Multisource and
+  multitemporal data fusion in remote sensing: {A} comprehensive review of the
+  state of the art}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Geoscience and Remote Sensing
+  Magazine}{7}{1}{6--39}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/MGRS.2018.2890023}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gu%
+\ \BBA {} Dao%
+}{%
+Gu%
+\ \BBA {} Dao%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+53}
+\APACinsertmetastar {%
+53}%
+\begin{APACrefauthors}%
+Gu, A.%
+\BCBT {}\ \BBA {} Dao, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Mamba}: Linear-time sequence modeling with selective
+  state spaces} {{Mamba}: Linear-time sequence modeling with selective state
+  spaces}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:2312.00752}{}{}{}.
+\newblock
+\APACrefnote{https://doi.org/10.48550/arXiv.2312.00752}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hang%
+\ \protect \BOthers {.}}{%
+Hang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+hang2020coupled}
+\APACinsertmetastar {%
+hang2020coupled}%
+\begin{APACrefauthors}%
+Hang, R.%
+, Li, Z.%
+, Ghamisi, P.%
+, Hong, D.%
+, Xia, G.%
+\BCBL {}\ \BBA {} Liu, Q.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Classification of hyperspectral and {LiDAR} data using
+  coupled {CNNs}} {Classification of hyperspectral and {LiDAR} data using
+  coupled {CNNs}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{58}{7}{4939--4950}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2020.2969024}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hartling%
+, Sagan%
+, Sidike%
+, Maimaitijiang%
+\BCBL {}\ \BBA {} Carron%
+}{%
+Hartling%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+26}
+\APACinsertmetastar {%
+26}%
+\begin{APACrefauthors}%
+Hartling, S.%
+, Sagan, V.%
+, Sidike, P.%
+, Maimaitijiang, M.%
+\BCBL {}\ \BBA {} Carron, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Urban tree species classification using a
+  {WorldView}-2/3 and {LiDAR} data fusion approach and deep learning} {Urban
+  tree species classification using a {WorldView}-2/3 and {LiDAR} data fusion
+  approach and deep learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Sensors}{19}{6}{1284}.
+\newblock
+\APACrefnote{https://doi.org/10.3390/s19061284}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+He%
+, Chen%
+, Huang%
+, Hong%
+\BCBL {}\ \BBA {} Du%
+}{%
+He%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+he2024foundation}
+\APACinsertmetastar {%
+he2024foundation}%
+\begin{APACrefauthors}%
+He, X.%
+, Chen, Y.%
+, Huang, L.%
+, Hong, D.%
+\BCBL {}\ \BBA {} Du, Q.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Foundation model-based multimodal remote sensing data
+  classification} {Foundation model-based multimodal remote sensing data
+  classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{62}{}{5502117}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2023.3344698}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hong%
+, Gao%
+\BCBL {}\ \protect \BOthers {.}}{%
+Hong%
+, Gao%
+\BCBL {}\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+41}
+\APACinsertmetastar {%
+41}%
+\begin{APACrefauthors}%
+Hong, D.%
+, Gao, L.%
+, Yokoya, N.%
+, Yao, J.%
+, Chanussot, J.%
+, Du, Q.%
+\BCBL {}\ \BBA {} Zhang, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {More diverse means better: Multimodal deep learning
+  meets remote-sensing imagery classification} {More diverse means better:
+  Multimodal deep learning meets remote-sensing imagery classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{59}{5}{4340--4354}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2020.3016820}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hong%
+, Hu%
+, Yao%
+, Chanussot%
+\BCBL {}\ \BBA {} Zhu%
+}{%
+Hong%
+, Hu%
+\BCBL {}\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+hong2021benchmarks}
+\APACinsertmetastar {%
+hong2021benchmarks}%
+\begin{APACrefauthors}%
+Hong, D.%
+, Hu, J.%
+, Yao, J.%
+, Chanussot, J.%
+\BCBL {}\ \BBA {} Zhu, X\BPBI X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multimodal remote sensing benchmark datasets for land
+  cover classification with a shared and specific feature learning model}
+  {Multimodal remote sensing benchmark datasets for land cover classification
+  with a shared and specific feature learning model}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ISPRS Journal of Photogrammetry and Remote
+  Sensing}{178}{}{68--80}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.isprsjprs.2021.05.011}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hosseiny%
+, Mahdianpari%
+, Brisco%
+, Mohammadimanesh%
+\BCBL {}\ \BBA {} Salehi%
+}{%
+Hosseiny%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+40}
+\APACinsertmetastar {%
+40}%
+\begin{APACrefauthors}%
+Hosseiny, B.%
+, Mahdianpari, M.%
+, Brisco, B.%
+, Mohammadimanesh, F.%
+\BCBL {}\ \BBA {} Salehi, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{WetNet}: A {Spatial--Temporal} ensemble deep learning
+  model for wetland classification using {Sentinel-1} and {Sentinel-2}}
+  {{WetNet}: A {Spatial--Temporal} ensemble deep learning model for wetland
+  classification using {Sentinel-1} and {Sentinel-2}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{60}{}{4406014}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2021.3113856}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Huang%
+\ \protect \BOthers {.}}{%
+Huang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2026}}%
+}]{%
+huang2026htgl}
+\APACinsertmetastar {%
+huang2026htgl}%
+\begin{APACrefauthors}%
+Huang, X.%
+, Yuan, J.%
+, Tian, C.%
+, Chen, N.%
+, Qi, H.%
+, Tan, A.%
+\BCBL {}\ \BBA {} Zheng, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{HTGL}: {UAV} visual geo-localization network with
+  {Transformer} and hypergraph feature aggregation enhancement} {{HTGL}: {UAV}
+  visual geo-localization network with {Transformer} and hypergraph feature
+  aggregation enhancement}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Drones}{10}{7}{488}.
+\newblock
+\APACrefnote{https://doi.org/10.3390/drones10070488}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hussain%
+, Zhao%
+, Pervaiz%
+\BCBL {}\ \BBA {} Li%
+}{%
+Hussain%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2026}}%
+}]{%
+5}
+\APACinsertmetastar {%
+5}%
+\begin{APACrefauthors}%
+Hussain, K\BPBI M.%
+, Zhao, K.%
+, Pervaiz, S.%
+\BCBL {}\ \BBA {} Li, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Global--local {Mamba}-based {Dual-Modality} fusion for
+  hyperspectral and {LiDAR} data classification} {Global--local {Mamba}-based
+  {Dual-Modality} fusion for hyperspectral and {LiDAR} data
+  classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing}{18}{1}{138}.
+\newblock
+\APACrefnote{https://doi.org/10.3390/rs18010138}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ienco%
+, Interdonato%
+, Gaetano%
+\BCBL {}\ \BBA {} Ho~Tong~Minh%
+}{%
+Ienco%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+22}
+\APACinsertmetastar {%
+22}%
+\begin{APACrefauthors}%
+Ienco, D.%
+, Interdonato, R.%
+, Gaetano, R.%
+\BCBL {}\ \BBA {} Ho~Tong~Minh, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Combining {Sentinel-1} and {Sentinel-2} satellite image
+  time series for land cover mapping via a {Multi-Source} deep learning
+  architecture} {Combining {Sentinel-1} and {Sentinel-2} satellite image time
+  series for land cover mapping via a {Multi-Source} deep learning
+  architecture}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ISPRS Journal of Photogrammetry and Remote
+  Sensing}{158}{}{11--22}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.isprsjprs.2019.09.016}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jia%
+\ \protect \BOthers {.}}{%
+Jia%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+46}
+\APACinsertmetastar {%
+46}%
+\begin{APACrefauthors}%
+Jia, J.%
+, Song, J.%
+, Kong, Q.%
+, Yang, H.%
+, Teng, Y.%
+\BCBL {}\ \BBA {} Song, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multi-attention-based semantic segmentation network for
+  land cover remote sensing images} {Multi-attention-based semantic
+  segmentation network for land cover remote sensing images}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Electronics}{12}{6}{1347}.
+\newblock
+\APACrefnote{https://doi.org/10.3390/electronics12061347}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kampffmeyer%
+, Salberg%
+\BCBL {}\ \BBA {} Jenssen%
+}{%
+Kampffmeyer%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+kampffmeyer2018urban}
+\APACinsertmetastar {%
+kampffmeyer2018urban}%
+\begin{APACrefauthors}%
+Kampffmeyer, M.%
+, Salberg, A\BHBI B.%
+\BCBL {}\ \BBA {} Jenssen, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Urban land cover classification with missing data
+  modalities using deep convolutional neural networks} {Urban land cover
+  classification with missing data modalities using deep convolutional neural
+  networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Journal of Selected Topics in Applied Earth
+  Observations and Remote Sensing}{11}{6}{1758--1768}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/JSTARS.2018.2834961}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kotaridis%
+\ \BBA {} Lazaridou%
+}{%
+Kotaridis%
+\ \BBA {} Lazaridou%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+8}
+\APACinsertmetastar {%
+8}%
+\begin{APACrefauthors}%
+Kotaridis, I.%
+\BCBT {}\ \BBA {} Lazaridou, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{CNNs} in land cover mapping with remote sensing
+  imagery: A review and meta-analysis} {{CNNs} in land cover mapping with
+  remote sensing imagery: A review and meta-analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Remote
+  Sensing}{44}{19}{5896--5935}.
+\newblock
+\APACrefnote{https://doi.org/10.1080/01431161.2023.2255354}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Krizhevsky%
+, Sutskever%
+\BCBL {}\ \BBA {} Hinton%
+}{%
+Krizhevsky%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+31}
+\APACinsertmetastar {%
+31}%
+\begin{APACrefauthors}%
+Krizhevsky, A.%
+, Sutskever, I.%
+\BCBL {}\ \BBA {} Hinton, G\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{ImageNet} classification with deep convolutional neural
+  networks} {{ImageNet} classification with deep convolutional neural
+  networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Advances in Neural Information Processing
+  Systems}{25}{}{1097--1105}.
+\newblock
+\APACrefnote{https://doi.org/10.1145/3065386}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kuras%
+, Brell%
+, Rizzi%
+\BCBL {}\ \BBA {} Burud%
+}{%
+Kuras%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+38}
+\APACinsertmetastar {%
+38}%
+\begin{APACrefauthors}%
+Kuras, A.%
+, Brell, M.%
+, Rizzi, J.%
+\BCBL {}\ \BBA {} Burud, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hyperspectral and {LiDAR} data applied to the urban land
+  cover machine learning and neural-network-based classification: A review}
+  {Hyperspectral and {LiDAR} data applied to the urban land cover machine
+  learning and neural-network-based classification: A review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing}{13}{17}{3393}.
+\newblock
+\APACrefnote{https://doi.org/10.3390/rs13173393}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Laghmara%
+, Laurain%
+, Cudel%
+\BCBL {}\ \BBA {} Lauffenburger%
+}{%
+Laghmara%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+39}
+\APACinsertmetastar {%
+39}%
+\begin{APACrefauthors}%
+Laghmara, H.%
+, Laurain, T.%
+, Cudel, C.%
+\BCBL {}\ \BBA {} Lauffenburger, J\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Heterogeneous sensor data fusion for multiple object
+  association using belief functions} {Heterogeneous sensor data fusion for
+  multiple object association using belief functions}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information Fusion}{57}{}{44--58}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.inffus.2019.11.002}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lei%
+\ \protect \BOthers {.}}{%
+Lei%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+47}
+\APACinsertmetastar {%
+47}%
+\begin{APACrefauthors}%
+Lei, T.%
+, Li, L.%
+, Lv, Z.%
+, Zhu, M.%
+, Du, X.%
+\BCBL {}\ \BBA {} Nandi, A\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Multi-Modality} and {Multi-Scale} attention fusion
+  network for land cover classification from {VHR} remote sensing images}
+  {{Multi-Modality} and {Multi-Scale} attention fusion network for land cover
+  classification from {VHR} remote sensing images}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing}{13}{18}{3771}.
+\newblock
+\APACrefnote{https://doi.org/10.3390/rs13183771}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Li%
+\ \protect \BOthers {.}}{%
+Li%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+51}
+\APACinsertmetastar {%
+51}%
+\begin{APACrefauthors}%
+Li, Y.%
+, Li, D.%
+, Xie, W.%
+, Ma, J.%
+, He, S.%
+\BCBL {}\ \BBA {} Fang, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Semi-Mamba}: Mamba-driven semi-supervised multimodal
+  remote sensing feature classification} {{Semi-Mamba}: Mamba-driven
+  semi-supervised multimodal remote sensing feature classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Circuits and Systems for Video
+  Technology}{35}{10}{9837--9849}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TCSVT.2025.3560615}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Li%
+\ \protect \BOthers {.}}{%
+Li%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2026}}%
+}]{%
+li2026landuncertainty}
+\APACinsertmetastar {%
+li2026landuncertainty}%
+\begin{APACrefauthors}%
+Li, Y.%
+, Wu, H.%
+, Blaschke, T.%
+, Pradhan, B.%
+, Mohamed~Shariff, A\BPBI R\BPBI B.%
+, Avtar, R.%
+\BDBL {}Shao, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Integrating future land use uncertainty and spatial
+  scales into ecosystem service degradation risk assessment for urban
+  ecological management} {Integrating future land use uncertainty and spatial
+  scales into ecosystem service degradation risk assessment for urban
+  ecological management}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Applied Geography}{186}{}{103860}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.apgeog.2025.103860}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liang%
+\ \protect \BOthers {.}}{%
+Liang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+liang2017sampling}
+\APACinsertmetastar {%
+liang2017sampling}%
+\begin{APACrefauthors}%
+Liang, J.%
+, Zhou, J.%
+, Qian, Y.%
+, Wen, L.%
+, Bai, X.%
+\BCBL {}\ \BBA {} Gao, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On the sampling strategy for evaluation of
+  spectral--spatial methods in hyperspectral image classification} {On the
+  sampling strategy for evaluation of spectral--spatial methods in
+  hyperspectral image classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{55}{2}{862--880}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2016.2616489}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+C.~Liu%
+\ \protect \BOthers {.}}{%
+C.~Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+45}
+\APACinsertmetastar {%
+45}%
+\begin{APACrefauthors}%
+Liu, C.%
+, Sun, Y.%
+, Xu, Y.%
+, Sun, Z.%
+, Zhang, X.%
+, Lei, L.%
+\BCBL {}\ \BBA {} Kuang, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A review of optical and {SAR} image deep feature fusion
+  in semantic segmentation} {A review of optical and {SAR} image deep feature
+  fusion in semantic segmentation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Journal of Selected Topics in Applied Earth
+  Observations and Remote Sensing}{17}{}{12910--12930}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/JSTARS.2024.3424831}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+F.~Liu%
+\ \protect \BOthers {.}}{%
+F.~Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+liu2024remoteclip}
+\APACinsertmetastar {%
+liu2024remoteclip}%
+\begin{APACrefauthors}%
+Liu, F.%
+, Chen, D.%
+, Guan, Z.%
+, Zhou, X.%
+, Zhu, J.%
+, Ye, Q.%
+\BDBL {}Zhou, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{RemoteCLIP}: A vision-language foundation model for
+  remote sensing} {{RemoteCLIP}: A vision-language foundation model for remote
+  sensing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{62}{}{1--16}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2024.3390838}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+R.~Liu%
+, Ling%
+\BCBL {}\ \BBA {} Zhang%
+}{%
+R.~Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+liu2024softformer}
+\APACinsertmetastar {%
+liu2024softformer}%
+\begin{APACrefauthors}%
+Liu, R.%
+, Ling, J.%
+\BCBL {}\ \BBA {} Zhang, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{SoftFormer}: {SAR}-optical fusion {Transformer} for
+  urban land use and land cover classification} {{SoftFormer}: {SAR}-optical
+  fusion {Transformer} for urban land use and land cover
+  classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ISPRS Journal of Photogrammetry and Remote
+  Sensing}{218}{}{277--293}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.isprsjprs.2024.09.012}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Long%
+, Shelhamer%
+\BCBL {}\ \BBA {} Darrell%
+}{%
+Long%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+33}
+\APACinsertmetastar {%
+33}%
+\begin{APACrefauthors}%
+Long, J.%
+, Shelhamer, E.%
+\BCBL {}\ \BBA {} Darrell, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Fully convolutional networks for semantic segmentation}
+  {Fully convolutional networks for semantic segmentation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}{39}{}{640--651}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TPAMI.2016.2572683}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+L.~Ma%
+\ \protect \BOthers {.}}{%
+L.~Ma%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+ma2019deep}
+\APACinsertmetastar {%
+ma2019deep}%
+\begin{APACrefauthors}%
+Ma, L.%
+, Liu, Y.%
+, Zhang, X.%
+, Ye, Y.%
+, Yin, G.%
+\BCBL {}\ \BBA {} Johnson, B\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019{\protect \BCnt {1}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep learning in remote sensing: {A} comprehensive
+  review and list of resources} {Deep learning in remote sensing: {A}
+  comprehensive review and list of resources}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ISPRS Journal of Photogrammetry and Remote
+  Sensing}{152}{}{166--177}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.isprsjprs.2019.04.010}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+L.~Ma%
+\ \protect \BOthers {.}}{%
+L.~Ma%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+56}
+\APACinsertmetastar {%
+56}%
+\begin{APACrefauthors}%
+Ma, L.%
+, Liu, Y.%
+, Zhang, X.%
+, Ye, Y.%
+, Yin, G.%
+\BCBL {}\ \BBA {} Johnson, B\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019{\protect \BCnt {2}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep learning in remote sensing applications: {A}
+  meta-analysis and review} {Deep learning in remote sensing applications: {A}
+  meta-analysis and review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ISPRS Journal of Photogrammetry and Remote
+  Sensing}{152}{}{166--177}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.isprsjprs.2019.04.015}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+X.~Ma%
+, Zhang%
+, Pun%
+\BCBL {}\ \BBA {} Huang%
+}{%
+X.~Ma%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+ma2025multimodal}
+\APACinsertmetastar {%
+ma2025multimodal}%
+\begin{APACrefauthors}%
+Ma, X.%
+, Zhang, X.%
+, Pun, M\BHBI O.%
+\BCBL {}\ \BBA {} Huang, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A unified framework with multimodal fine-tuning for
+  remote sensing semantic segmentation} {A unified framework with multimodal
+  fine-tuning for remote sensing semantic segmentation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{63}{}{1--15}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2025.3585238}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Marmanis%
+, Datcu%
+, Esch%
+\BCBL {}\ \BBA {} Stilla%
+}{%
+Marmanis%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+28}
+\APACinsertmetastar {%
+28}%
+\begin{APACrefauthors}%
+Marmanis, D.%
+, Datcu, M.%
+, Esch, T.%
+\BCBL {}\ \BBA {} Stilla, U.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep learning earth observation classification using
+  {ImageNet} pretrained networks} {Deep learning earth observation
+  classification using {ImageNet} pretrained networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Geoscience and Remote Sensing
+  Letters}{13}{1}{105--109}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/LGRS.2015.2499239}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Meraner%
+, Ebel%
+, Zhu%
+\BCBL {}\ \BBA {} Schmitt%
+}{%
+Meraner%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+27}
+\APACinsertmetastar {%
+27}%
+\begin{APACrefauthors}%
+Meraner, A.%
+, Ebel, P.%
+, Zhu, X\BPBI X.%
+\BCBL {}\ \BBA {} Schmitt, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cloud removal in {Sentinel-2} imagery using a deep
+  residual neural network and {SAR-Optical} data fusion} {Cloud removal in
+  {Sentinel-2} imagery using a deep residual neural network and {SAR-Optical}
+  data fusion}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ISPRS Journal of Photogrammetry and Remote
+  Sensing}{166}{}{333--346}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.isprsjprs.2020.05.013}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Newman%
+}{%
+Newman%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+18}
+\APACinsertmetastar {%
+18}%
+\begin{APACrefauthors}%
+Newman, M\BPBI E\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Coauthorship networks and patterns of scientific
+  collaboration} {Coauthorship networks and patterns of scientific
+  collaboration}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the National Academy of
+  Sciences}{101}{Suppl. 1}{5200--5205}.
+\newblock
+\APACrefnote{https://doi.org/10.1073/pnas.0307545100}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nguyen%
+}{%
+Nguyen%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+17}
+\APACinsertmetastar {%
+17}%
+\begin{APACrefauthors}%
+Nguyen, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mapping knowledge domains of non-biomedical modalities:
+  {A} large-scale co-word analysis of literature 1987--2017} {Mapping knowledge
+  domains of non-biomedical modalities: {A} large-scale co-word analysis of
+  literature 1987--2017}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Social Science \& Medicine}{233}{}{1--12}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.socscimed.2019.05.044}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pohl%
+\ \BBA {} van Genderen%
+}{%
+Pohl%
+\ \BBA {} van Genderen%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+37}
+\APACinsertmetastar {%
+37}%
+\begin{APACrefauthors}%
+Pohl, C.%
+\BCBT {}\ \BBA {} van Genderen, J\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multisensor image fusion in remote sensing: Concepts,
+  methods and applications} {Multisensor image fusion in remote sensing:
+  Concepts, methods and applications}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Remote
+  Sensing}{19}{5}{823--854}.
+\newblock
+\APACrefnote{https://doi.org/10.1080/014311698215748}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Qiu%
+, Tong%
+, Schmitt%
+, Bechtel%
+\BCBL {}\ \BBA {} Zhu%
+}{%
+Qiu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+42}
+\APACinsertmetastar {%
+42}%
+\begin{APACrefauthors}%
+Qiu, C.%
+, Tong, X.%
+, Schmitt, M.%
+, Bechtel, B.%
+\BCBL {}\ \BBA {} Zhu, X\BPBI X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Multi-Level} feature fusion-based {CNN} for local
+  climate zone classification from {Sentinel-2} images: Benchmark results on
+  the {So2Sat} {LCZ42} dataset} {{Multi-Level} feature fusion-based {CNN} for
+  local climate zone classification from {Sentinel-2} images: Benchmark results
+  on the {So2Sat} {LCZ42} dataset}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Journal of Selected Topics in Applied Earth
+  Observations and Remote Sensing}{13}{}{2793--2806}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/JSTARS.2020.2995711}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ronneberger%
+, Fischer%
+\BCBL {}\ \BBA {} Brox%
+}{%
+Ronneberger%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+34}
+\APACinsertmetastar {%
+34}%
+\begin{APACrefauthors}%
+Ronneberger, O.%
+, Fischer, P.%
+\BCBL {}\ \BBA {} Brox, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{U-Net}: Convolutional networks for biomedical image
+  segmentation} {{U-Net}: Convolutional networks for biomedical image
+  segmentation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv:1505.04597}{9351}{}{234-241}.
+\newblock
+\APACrefnote{https://doi.org/10.1007/978-3-319-24574-4\_28}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Shi%
+, Zhao%
+, Wang%
+, Kong%
+\BCBL {}\ \BBA {} Zhu%
+}{%
+Shi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+49}
+\APACinsertmetastar {%
+49}%
+\begin{APACrefauthors}%
+Shi, Z.%
+, Zhao, C.%
+, Wang, K.%
+, Kong, X.%
+\BCBL {}\ \BBA {} Zhu, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Geo-Mamba}: A data-driven {Mamba} framework for
+  {Spatiotemporal} modeling with {Multi-Source} geographic factor integration}
+  {{Geo-Mamba}: A data-driven {Mamba} framework for {Spatiotemporal} modeling
+  with {Multi-Source} geographic factor integration}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Applied Earth Observation and
+  Geoinformation}{144}{}{104854}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.jag.2025.104854}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Simonyan%
+\ \BBA {} Zisserman%
+}{%
+Simonyan%
+\ \BBA {} Zisserman%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+32}
+\APACinsertmetastar {%
+32}%
+\begin{APACrefauthors}%
+Simonyan, K.%
+\BCBT {}\ \BBA {} Zisserman, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Very deep convolutional networks for large-scale image
+  recognition} {Very deep convolutional networks for large-scale image
+  recognition}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv:1409.1556}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Small%
+}{%
+Small%
+}{%
+{\protect \APACyear {1973}}%
+}]{%
+19}
+\APACinsertmetastar {%
+19}%
+\begin{APACrefauthors}%
+Small, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1973}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Co-citation in the scientific literature: {A} new
+  measure of the relationship between two documents} {Co-citation in the
+  scientific literature: {A} new measure of the relationship between two
+  documents}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the American Society for Information
+  Science}{24}{4}{265--269}.
+\newblock
+\APACrefnote{https://doi.org/10.1002/asi.4630240406}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Su%
+\ \protect \BOthers {.}}{%
+Su%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2026}}%
+}]{%
+su2026cpfl}
+\APACinsertmetastar {%
+su2026cpfl}%
+\begin{APACrefauthors}%
+Su, C.%
+, Yuan, J.%
+, Zheng, E.%
+, Xu, W.%
+, Liu, Z.%
+\BCBL {}\ \BBA {} Hu, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{CPFL}: Resilient continuous {UAV} localization via
+  cross-view perception and particle filtering} {{CPFL}: Resilient continuous
+  {UAV} localization via cross-view perception and particle filtering}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Drones}{10}{6}{437}.
+\newblock
+\APACrefnote{https://doi.org/10.3390/drones10060437}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tuia%
+\ \protect \BOthers {.}}{%
+Tuia%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+tuia2023toward}
+\APACinsertmetastar {%
+tuia2023toward}%
+\begin{APACrefauthors}%
+Tuia, D.%
+, Schindler, K.%
+, Demir, B.%
+, Camps-Valls, G.%
+, Bruzzone, L.%
+, Bovolo, F.%
+\BCBL {}\ \BBA {} Marcos, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Toward a collective understanding of a foundation model
+  for earth observation} {Toward a collective understanding of a foundation
+  model for earth observation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature Communications}{14}{1}{3071}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+van Eck%
+\ \BBA {} Waltman%
+}{%
+van Eck%
+\ \BBA {} Waltman%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+10}
+\APACinsertmetastar {%
+10}%
+\begin{APACrefauthors}%
+van Eck, N\BPBI J.%
+\BCBT {}\ \BBA {} Waltman, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Software survey: {VOSviewer}, a computer program for
+  bibliometric mapping} {Software survey: {VOSviewer}, a computer program for
+  bibliometric mapping}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Scientometrics}{84}{2}{523--538}.
+\newblock
+\APACrefnote{https://doi.org/10.1007/s11192-009-0146-3}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vaswani%
+\ \protect \BOthers {.}}{%
+Vaswani%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+vaswani2017attention}
+\APACinsertmetastar {%
+vaswani2017attention}%
+\begin{APACrefauthors}%
+Vaswani, A.%
+, Shazeer, N.%
+, Parmar, N.%
+, Uszkoreit, J.%
+, Jones, L.%
+, Gomez, A\BPBI N.%
+\BDBL {}Polosukhin, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Attention is all you need} {Attention is all you
+  need}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Advances in Neural Information Processing Systems}
+  {Advances in neural information processing systems}\ (\BVOL~30, \BPGS\
+  5998--6008).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vivone%
+\ \protect \BOthers {.}}{%
+Vivone%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+57}
+\APACinsertmetastar {%
+57}%
+\begin{APACrefauthors}%
+Vivone, G.%
+, Alparone, L.%
+, Chanussot, J.%
+, Dalla~Mura, M.%
+, Garzelli, A.%
+, Licciardi, G\BPBI A.%
+\BDBL {}Wald, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A critical comparison among pansharpening algorithms} {A
+  critical comparison among pansharpening algorithms}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{53}{5}{2565--2586}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2014.2361734}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+D.~Wang%
+\ \protect \BOthers {.}}{%
+D.~Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+29}
+\APACinsertmetastar {%
+29}%
+\begin{APACrefauthors}%
+Wang, D.%
+, Cao, W.%
+, Zhang, F.%
+, Li, Z.%
+, Xu, S.%
+\BCBL {}\ \BBA {} Wu, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A review of deep learning in multiscale agricultural
+  sensing} {A review of deep learning in multiscale agricultural
+  sensing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing}{14}{3}{559}.
+\newblock
+\APACrefnote{https://doi.org/10.3390/rs14030559}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+F.~Wang%
+\ \protect \BOthers {.}}{%
+F.~Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+wang2025dabfnet}
+\APACinsertmetastar {%
+wang2025dabfnet}%
+\begin{APACrefauthors}%
+Wang, F.%
+, Zhang, C.%
+, Liu, P.%
+, Xie, B.%
+, Chen, Z.%
+\BCBL {}\ \BBA {} Hu, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{DABF-Net}: A dual-branch attention-guided and
+  bi-directional feature enhancement network for infrared small-target
+  detection with air-to-ground benchmark} {{DABF-Net}: A dual-branch
+  attention-guided and bi-directional feature enhancement network for infrared
+  small-target detection with air-to-ground benchmark}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{63}{}{1--14}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2025.3586362}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+M.~Wang%
+\ \protect \BOthers {.}}{%
+M.~Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+wang2024lst}
+\APACinsertmetastar {%
+wang2024lst}%
+\begin{APACrefauthors}%
+Wang, M.%
+, He, G.%
+, Hu, T.%
+, Yang, M.%
+, Zhang, Z.%
+, Zhang, Z.%
+\BDBL {}Liu, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Innovative hybrid algorithm for simultaneous land
+  surface temperature and emissivity retrieval: Case study with {SDGSAT-1}
+  data} {Innovative hybrid algorithm for simultaneous land surface temperature
+  and emissivity retrieval: Case study with {SDGSAT-1} data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing of Environment}{315}{}{114449}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.rse.2024.114449}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+R.~Wang%
+\ \protect \BOthers {.}}{%
+R.~Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+wang2024cgbiyolo}
+\APACinsertmetastar {%
+wang2024cgbiyolo}%
+\begin{APACrefauthors}%
+Wang, R.%
+, Lu, S.%
+, Tian, J.%
+, Yin, L.%
+, Wang, L.%
+, Chen, X.%
+\BCBL {}\ \BBA {} Zheng, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{CGBi\_YOLO}: Lightweight land target detection network}
+  {{CGBi\_YOLO}: Lightweight land target detection network}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Land}{13}{12}{2060}.
+\newblock
+\APACrefnote{https://doi.org/10.3390/land13122060}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Waske%
+\ \BBA {} Benediktsson%
+}{%
+Waske%
+\ \BBA {} Benediktsson%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+55}
+\APACinsertmetastar {%
+55}%
+\begin{APACrefauthors}%
+Waske, B.%
+\BCBT {}\ \BBA {} Benediktsson, J\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Fusion of support vector machines for classification of
+  multisensor data} {Fusion of support vector machines for classification of
+  multisensor data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{45}{12}{3858--3866}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2007.898446}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+H.~Wu%
+\ \protect \BOthers {.}}{%
+H.~Wu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+wu2024crowdsourced}
+\APACinsertmetastar {%
+wu2024crowdsourced}%
+\begin{APACrefauthors}%
+Wu, H.%
+, Li, Y.%
+, Lin, A.%
+, Fan, H.%
+, Fan, K.%
+, Xie, J.%
+\BCBL {}\ \BBA {} Luo, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A review of crowdsourced geographic information for
+  land-use and land-cover mapping: Current progress and challenges} {A review
+  of crowdsourced geographic information for land-use and land-cover mapping:
+  Current progress and challenges}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Geographical Information
+  Science}{38}{11}{2183--2215}.
+\newblock
+\APACrefnote{https://doi.org/10.1080/13658816.2024.2379468}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+X.~Wu%
+, Hong%
+\BCBL {}\ \BBA {} Chanussot%
+}{%
+X.~Wu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+2}
+\APACinsertmetastar {%
+2}%
+\begin{APACrefauthors}%
+Wu, X.%
+, Hong, D.%
+\BCBL {}\ \BBA {} Chanussot, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Convolutional neural networks for multimodal remote
+  sensing data classification} {Convolutional neural networks for multimodal
+  remote sensing data classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{60}{}{5517010}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2021.3124913}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+X.~Wu%
+\ \protect \BOthers {.}}{%
+X.~Wu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2026}}%
+}]{%
+wu2026polarization}
+\APACinsertmetastar {%
+wu2026polarization}%
+\begin{APACrefauthors}%
+Wu, X.%
+, Wang, C.%
+, Song, C.%
+, Fu, Q.%
+, Liu, J.%
+, Liu, J.%
+\BDBL {}Shi, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Polarization super-resolution remote sensing imaging
+  based on compressed sensing and deep learning} {Polarization super-resolution
+  remote sensing imaging based on compressed sensing and deep learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{64}{}{1--26}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2026.3672085}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+J.~Xie%
+, Hu%
+, Zhu%
+\BCBL {}\ \BBA {} Guo%
+}{%
+J.~Xie%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+20}
+\APACinsertmetastar {%
+20}%
+\begin{APACrefauthors}%
+Xie, J.%
+, Hu, K.%
+, Zhu, M.%
+\BCBL {}\ \BBA {} Guo, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Data-driven analysis of global research trends in
+  bioacoustics and ecoacoustics from 1991 to 2018} {Data-driven analysis of
+  global research trends in bioacoustics and ecoacoustics from 1991 to
+  2018}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Ecological Informatics}{57}{}{101068}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.ecoinf.2020.101068}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+T.~Xie%
+\ \protect \BOthers {.}}{%
+T.~Xie%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2026}}%
+}]{%
+xie2026iceberg}
+\APACinsertmetastar {%
+xie2026iceberg}%
+\begin{APACrefauthors}%
+Xie, T.%
+, Wang, C.%
+, Li, X\BHBI M.%
+, Li, H.%
+, Fan, G.%
+, Mouche, A.%
+\BCBL {}\ \BBA {} Chapron, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Iceberg detection from global open ocean {Sentinel-1}
+  wave mode {SAR} data with {YOLO} deep learning} {Iceberg detection from
+  global open ocean {Sentinel-1} wave mode {SAR} data with {YOLO} deep
+  learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Remote Sensing of Environment}{337}{}{115344}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.rse.2026.115344}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Xu%
+\ \protect \BOthers {.}}{%
+Xu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+21}
+\APACinsertmetastar {%
+21}%
+\begin{APACrefauthors}%
+Xu, Y.%
+, Du, B.%
+, Zhang, L.%
+, Cerra, D.%
+, Pato, M.%
+, Carmona, E.%
+\BDBL {}Le~Saux, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Advanced {Multi-Sensor} optical remote sensing for urban
+  {LULC} classification: {Outcome} of the 2018 {IEEE} {GRSS} data fusion
+  contest} {Advanced {Multi-Sensor} optical remote sensing for urban {LULC}
+  classification: {Outcome} of the 2018 {IEEE} {GRSS} data fusion
+  contest}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Journal of Selected Topics in Applied Earth
+  Observations and Remote Sensing}{12}{6}{1709--1724}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/JSTARS.2019.2911113}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Xue%
+\ \protect \BOthers {.}}{%
+Xue%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+43}
+\APACinsertmetastar {%
+43}%
+\begin{APACrefauthors}%
+Xue, Z.%
+, Yu, X.%
+, Yu, A.%
+, Liu, B.%
+, Zhang, P.%
+\BCBL {}\ \BBA {} Wu, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Self-supervised feature learning for multimodal remote
+  sensing image land cover classification} {Self-supervised feature learning
+  for multimodal remote sensing image land cover classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{60}{}{5533815}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2022.3190466}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yao%
+, Zhang%
+, Li%
+, Hong%
+\BCBL {}\ \BBA {} Chanussot%
+}{%
+Yao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+36}
+\APACinsertmetastar {%
+36}%
+\begin{APACrefauthors}%
+Yao, J.%
+, Zhang, B.%
+, Li, C.%
+, Hong, D.%
+\BCBL {}\ \BBA {} Chanussot, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Extended vision {Transformer} ({ExViT}) for land use and
+  land cover classification: A multimodal deep learning framework} {Extended
+  vision {Transformer} ({ExViT}) for land use and land cover classification: A
+  multimodal deep learning framework}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{61}{}{5514415}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/TGRS.2023.3284671}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yin%
+\ \protect \BOthers {.}}{%
+Yin%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2026}}%
+}]{%
+yin2026lacc}
+\APACinsertmetastar {%
+yin2026lacc}%
+\begin{APACrefauthors}%
+Yin, L.%
+, Wang, L.%
+, Behrangi, A.%
+, Niu, G\BHBI Y.%
+, Lu, S.%
+\BCBL {}\ \BBA {} Zheng, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{LACC}: A lightweight attention-conditional convolution
+  network for long-term wetland classification} {{LACC}: A lightweight
+  attention-conditional convolution network for long-term wetland
+  classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Environmental Research}{302}{}{124613}.
+\newblock
+\APACrefnote{https://doi.org/10.1016/j.envres.2026.124613}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zare%
+\ \protect \BOthers {.}}{%
+Zare%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+zare2018muufl}
+\APACinsertmetastar {%
+zare2018muufl}%
+\begin{APACrefauthors}%
+Zare, A.%
+, Gader, P.%
+, Aitken, J.%
+, Close, R.%
+, Tuell, G.%
+, Glenn, T.%
+\BDBL {}Du, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {{GatorSense/MUUFLGulfport}: Release 01.}
+  {{GatorSense/MUUFLGulfport}: Release 01.}
+\newblock
+\APACaddressPublisher{}{Zenodo}.
+\newblock
+\APACrefnote{https://doi.org/10.5281/zenodo.1186326}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+, Yao%
+, Ni%
+, Gao%
+\BCBL {}\ \BBA {} Huang%
+}{%
+Zhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+zhang2023multimodal}
+\APACinsertmetastar {%
+zhang2023multimodal}%
+\begin{APACrefauthors}%
+Zhang, H.%
+, Yao, J.%
+, Ni, L.%
+, Gao, L.%
+\BCBL {}\ \BBA {} Huang, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multimodal attention-aware convolutional neural networks
+  for classification of hyperspectral and {LiDAR} data} {Multimodal
+  attention-aware convolutional neural networks for classification of
+  hyperspectral and {LiDAR} data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Journal of Selected Topics in Applied Earth
+  Observations and Remote Sensing}{16}{}{3635--3644}.
+\newblock
+\APACrefnote{https://doi.org/10.1109/JSTARS.2022.3187730}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

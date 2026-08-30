@@ -1,0 +1,421 @@
+"Institution","Recs","LCS","GCS"
+"Wuhan Univ",24,22,711
+"Chinese Acad Sci",22,9,1378
+"Nanjing Univ Informat Sci & Technol",10,8,343
+"Xidian Univ",10,3,142
+"China Univ Geosci",9,4,246
+"Univ Chinese Acad Sci",8,9,562
+"Peking Univ",7,1,131
+"Tsinghua Univ",7,1,144
+"German Aerosp Ctr DLR",6,31,810
+"HITEC Univ",6,5,77
+"Informat Engn Univ",6,3,175
+"Southeast Univ",6,0,333
+"Tech Univ Munich",6,25,1147
+"Beijing Inst Technol",5,6,665
+"King Khalid Univ",5,2,54
+"Minist Educ",5,1,35
+"Minist Nat Resources",5,0,39
+"Natl Univ Def Technol",5,0,156
+"Princess Nourah bint Abdulrahman Univ",5,2,50
+"Beijing Key Lab Embedded Real Time Informat Proc",4,1,81
+"Chengdu Univ Technol",4,0,14
+"Chinese Univ Hong Kong",4,4,252
+"RIKEN",4,22,527
+"Southwest Med Univ",4,0,14
+"Sun Yat Sen Univ",4,1,28
+"Univ Elect Sci & Technol China",4,0,78
+"Univ Montpellier",4,8,339
+"Univ Tokyo",4,5,158
+"Univ Twente",4,1,113
+"Xi An Jiao Tong Univ",4,0,27
+"Zhengzhou Univ",4,0,38
+"Fuzhou Univ",3,0,51
+"Griffith Univ",3,3,44
+"Henan Polytech Univ",3,1,18
+"Hubei Univ",3,0,25
+"King Saud Univ",3,3,23
+"Lanzhou Univ",3,2,14
+"Lebanese Amer Univ",3,4,59
+"Nanjing Forestry Univ",3,4,53
+"Nanjing Univ",3,0,23
+"North Univ China",3,1,6
+"Northwestern Polytech Univ",3,0,76
+"Qiqihar Univ",3,1,6
+"Soonchunhyang Univ",3,1,18
+"Univ Extremadura",3,0,176
+"Univ Grenoble Alpes",3,0,825
+"Univ Hong Kong",3,4,72
+"Univ Sci & Technol Beijing",3,0,11
+"Univ Waterloo",3,2,71
+"Vellore Inst Technol",3,0,36
+"Zhejiang Univ",3,0,27
+"Anhui Univ",2,0,60
+"Ant Grp",2,2,40
+"Beijing Forestry Univ",2,0,7
+"Cent China Normal Univ",2,1,37
+"Cent South Univ",2,0,22
+"China Agr Univ",2,0,166
+"China Univ Geosci Beijing",2,0,19
+"Chongqing Univ",2,1,32
+"Commun Univ China",2,1,62
+"Dalian Maritime Univ",2,0,1
+"Emory Univ",2,0,15
+"Free Univ Berlin",2,1,2
+"Helmholtz Inst Freiberg Resource Technol",2,0,91
+"Helmholtz Zentrum Dresden Rossendorf HZDR",2,1,2
+"Henan Univ",2,1,11
+"Hohai Univ",2,0,16
+"Huaiyin Inst Technol",2,2,70
+"Hubei Luojia Lab",2,0,10
+"Hunan Univ",2,2,35
+"Huzhou Univ",2,1,4
+"Inst Global Environm Strategies",2,0,170
+"Jalpaiguri Govt Engn Coll",2,0,130
+"JinXi Ind Grp CO LTD",2,0,0
+"Kangwon Natl Univ",2,0,1
+"Key Lab Smart Earth",2,0,0
+"Mapping Inst Gansu Prov",2,1,5
+"Mississippi State Univ",2,6,235
+"Northeastern Univ",2,0,15
+"Norwegian Comp Ctr",2,4,55
+"PLA Strateg Support Force Informat Engn Univ",2,0,40
+"Prince Mohammad bin Fahd Univ",2,0,11
+"Remote Sensing Technol Inst",2,0,10
+"Sejong Univ",2,0,181
+"Shanghai Jiao Tong Univ",2,0,3
+"Shenzhen Univ",2,3,297
+"SRM Inst Sci & Technol",2,0,0
+"Tech Univ Berlin",2,20,310
+"Tech Univ Munich TUM",2,2,80
+"UiT Arctic Univ Norway",2,4,55
+"Umm Al Qura Univ",2,2,43
+"Univ Hamburg",2,5,112
+"Univ Isfahan",2,0,12
+"Univ Nottingham",2,3,297
+"Univ Nottingham Ningbo China",2,3,297
+"Univ Oklahoma",2,0,10
+"Univ Paris Saclay",2,22,374
+"Univ Tehran",2,0,97
+"Univ Wyoming",2,0,10
+"Aditya Univ",1,0,0
+"Adv Data Proc Res Inst",1,0,13
+"Agr Res Ctr ARC",1,0,1
+"AGT Int",1,5,111
+"Al Maarefa Univ",1,0,35
+"Alipurduar Govt Engn & Management Coll",1,0,67
+"Anhui Ecoenvironm Monitoring Ctr",1,0,18
+"Anhui Engn Res Ctr Geog Informat Intelligent Tech",1,0,18
+"Appl Innovat Ctr AIC",1,0,1
+"Appl Res LLC",1,0,46
+"AVIC Shenyang Aircraft Design Res Inst",1,0,1
+"Beijing Elect Sci & Technol Inst",1,1,48
+"Beijing Inst Comp Technol & Applicat",1,0,3
+"Beijing Jiaotong Univ",1,0,7
+"Beijing Normal Univ",1,0,12
+"Beijing Shen Xin Da Cheng Technol Co Ltd",1,0,13
+"Beijing Univ Chem Technol",1,0,0
+"Beijing Univ Civil Engn & Architecture",1,0,13
+"Beijing Univ Technol",1,0,11
+"Belarusian State Univ Informat & Radioelect BSUIR",1,5,81
+"Bharati Vidyapeeths Coll Engn BVCOE",1,1,4
+"Brazilian Agr Res Corp",1,0,6
+"Brunel Univ",1,0,23
+"BTechn Univ Darmstadt",1,0,4
+"C CORE",1,0,95
+"Cairo Univ",1,0,1
+"Canada Ctr Mapping & Earth Observat",1,0,95
+"CCCC Second Highway Consultants Co Ltd",1,0,18
+"Cent Queensland Univ",1,0,2
+"Changsha Normal Univ",1,0,0
+"Chengdu Med Coll",1,0,6
+"Chiba Univ",1,0,8
+"China & Innovat Ctr GPU & Intelligent Comp Syst Te",1,0,0
+"China Acad Space Technol Xian",1,0,6
+"China Aero Geophys Survey & Remote Sensing Ctr Na",1,0,0
+"China Air Separat Engn Co Ltd",1,0,14
+"China Ctr Resources Satellite Data & Applicat",1,0,1
+"China Inst Geotech Invest & Surveying",1,0,13
+"China Mobile Chengdu Ind Res & Dev",1,0,0
+"China Natl Logging Corp",1,0,1
+"China Univ Min & Technol",1,0,1
+"China Univ Petr East China",1,0,12
+"Chinese Acad Agr Sci",1,0,12
+"Chinese Acad Forestry",1,0,146
+"Chinese Acad Nat Resources Econ",1,0,8
+"Chongqing Univ Posts & Telecommun",1,0,6
+"CIRAD",1,8,248
+"Collaborat Innovat Ctr Geoinformat Technol Smart C",1,0,7
+"Commonwealth Sci & Ind Res Org",1,0,2
+"Daffodil Int Univ",1,0,2
+"Dalian Minzu Univ",1,0,0
+"Dalian Nationalities Univ",1,1,3
+"Dalian Univ Technol",1,0,1
+"Darya Tarsim Consulting Engn Co Ltd",1,0,146
+"Deakin Univ",1,0,6
+"Delhi Technol Univ",1,1,4
+"Dept Nat & Resources Hubei Prov",1,3,40
+"Dept Stat",1,0,4
+"Edith Cowan Univ",1,0,2
+"Eindhoven Univ Technol",1,0,6
+"Engn Res Ctr Intelligent & Accurate Measurement S",1,0,5
+"ESPOL Polytech Univ",1,1,29
+"EUMETSAT",1,5,345
+"Evenor Tech",1,0,0
+"ExoLabs GmbH",1,0,1
+"Fdn Res & Technol Hellas FORTH",1,0,18
+"Fed Stat Off FSO",1,0,1
+"Fed Univ Bahia UFBA",1,0,0
+"Fed Univ Technol Parana UTFPR",1,0,0
+"First Geol Survey Explorat Inst Henan Bur Geoexplo",1,0,10
+"Flinders Univ S Australia",1,0,2
+"Fraunhofer IOSB",1,0,4
+"French Agr Res Ctr Int Dev",1,0,17
+"Fudan Univ",1,0,0
+"Gachon Univ",1,1,36
+"German Aerosp Ctr",1,4,492
+"German Res Ctr Artificial Intelligence DFKI",1,1,18
+"Guangdong Univ Finance & Econ",1,0,6
+"Guangxi Univ Sci & Technol",1,0,0
+"Guangzhou Univ",1,0,7
+"Guizhou Univ Commerce",1,0,1
+"Hainan Univ",1,0,20
+"Harbin Inst Technol",1,0,20
+"Harbin Inst Technol HIT",1,0,39
+"Harbin Normal Univ",1,0,3
+"Hebei Engn Univ",1,0,0
+"Heidelberg Univ",1,15,195
+"Heilongjiang Inst Technol",1,0,3
+"Helmholtz Zentrum Dresden Rossendorf",1,2,27
+"Henan Key Lab Big Data Anal & Proc",1,0,0
+"HIT Artificial Intelligence Res Inst Co Ltd",1,1,31
+"Hong Kong Polytech Univ",1,0,15
+"Huaqiao Univ",1,0,35
+"Huazhong Agr Univ",1,1,31
+"Hubei Coinnovat Ctr Basic Educ Informat Technol Se",1,0,0
+"Hubei Prov Key Lab Green Intelligent Comp Power Ne",1,0,1
+"Hubei Univ Educ",1,0,0
+"Hubei Univ Technol",1,0,1
+"Hunan Police Acad",1,0,0
+"Independent Univ Bangladesh IUB",1,0,0
+"Indian Inst Space Sci & Technol",1,0,13
+"Indian Inst Technol",1,1,13
+"Indiana State Univ",1,0,45
+"Inst Adv Res Artificial Intelligence IARAI",1,0,5
+"Inst Nacl Pesquisas Espaciais INPE",1,0,0
+"Inst Smart City & Big Data Technol Qingdao",1,0,5
+"Inst Zooprofilatt Sperimentale Abruzzo & Molise G",1,0,35
+"Islamic Azad Univ",1,0,1
+"Islamic Univ",1,0,1
+"JCGCS",1,0,127
+"Jeonbuk Natl Univ",1,0,17
+"Jiangsu Univ",1,0,1
+"Jiangxi Normal Univ",1,3,40
+"Jin Ind Grp Co Ltd",1,1,6
+"Jouf Univ",1,0,35
+"Kauel Inc",1,1,29
+"Kaunas Univ Technol",1,0,7
+"Key Lab Visual Media Intelligent Proc Technol Zhe",1,0,33
+"King Abdulaziz Univ",1,0,0
+"King Faisal Univ",1,0,0
+"KN Toosi Univ Technol",1,0,3
+"Kunming Univ Sci & Technol",1,0,0
+"Kyungpook Natl Univ",1,0,0
+"Liaocheng Univ",1,0,1
+"Liaoning Normal Univ",1,0,0
+"Liaoning Tech Univ",1,0,1
+"Liuzhou Survey & Mapping Res Inst Co Ltd",1,0,0
+"Loughborough Univ",1,0,8
+"Macau Univ Sci & Technol",1,0,1
+"Maison Teledetect",1,0,59
+"Majmaah Univ",1,0,0
+"Malla Reddy Engn Coll & Management Sci",1,0,0
+"Manchester Metropolitan Univ",1,3,15
+"Manonmaniam Sundaranar Univ",1,0,1
+"Mantle Labs",1,0,3
+"Maryam Abacha Amer Univ Nigeria",1,0,0
+"Mem Univ Newfoundland",1,0,95
+"Michigan Technol Univ",1,0,6
+"Mil Geog Inst",1,0,11
+"Minist Nat Resources China",1,0,1
+"Mohammed V Univ",1,0,4
+"Mohammed V Univ Rabat",1,0,0
+"Mohammed VI Polytech Univ",1,0,4
+"Mongolian Univ Sci & Technol",1,0,78
+"Nandha Engn Coll",1,0,1
+"Nanjing Audit Univ",1,0,5
+"Nanjing Tech Univ",1,0,2
+"Nanjing Univ Aeronaut & Astronaut",1,1,9
+"Nanjing Univ Posts & Telecommun",1,0,5
+"Nanyang Technol Univ",1,0,0
+"Natl Acad Sci Belarus",1,5,81
+"Natl Adm Surveying Mapping & Geoinformat",1,0,13
+"Natl Engn Coll",1,0,0
+"Natl Forestry & Grassland Adm",1,0,0
+"Natl Inst Forest Sci",1,0,1
+"Natl Inst Space Res INPE",1,1,21
+"Natl Inst Technol",1,0,31
+"Natl Land Survey Finland",1,0,6
+"Natl Polytech Inst",1,0,3
+"Natl Remote Sensing Ctr",1,0,42
+"Natl Univ Comp & Emerging Sci",1,0,63
+"Natl Univ Sci & Technol",1,0,8
+"Natl Univ Singapore",1,1,31
+"Naval Univ Engn",1,0,96
+"Ningbo Univ",1,0,1
+"Northeast Normal Univ",1,0,7
+"Northern Border Univ",1,0,0
+"Norwegian Univ Sci & Technol",1,3,15
+"Oak Ridge Natl Lab",1,0,3
+"Ohio State Univ",1,1,3
+"Okayama Univ",1,0,0
+"Old Dominion Univ",1,0,46
+"Oregon State Univ",1,0,9
+"Pandit Deendayal Energy Univ",1,0,3
+"Peng Cheng Lab",1,0,5
+"PLA Air Force Command Coll",1,0,47
+"Planet Labs PBC",1,0,9
+"Politecn Milan",1,0,0
+"Pontifical Catholic Univ Rio De Janeiro PUC",1,1,21
+"Prince Sattam Bin Abdulaziz Univ",1,0,7
+"Princess Nourah Bin Abdulrahman Univ",1,0,4
+"Progress Syst Srl",1,0,35
+"Project Lead Way",1,0,9
+"Qingdao Univ",1,0,5
+"Qinghai Normal Univ",1,0,146
+"Qinghai Univ",1,0,7
+"Queens Univ",1,0,161
+"Republ China Mil Acad",1,0,6
+"Riphah Int Univ",1,0,0
+"Ruhr Univ Bochum",1,1,60
+"Rwanda Space Agcy",1,0,6
+"Sai Univ",1,0,0
+"SAK Informat",1,0,0
+"Santa Catarina State Univ UDESC",1,1,21
+"SASTRA Deemed Univ",1,0,1
+"Saudi Elect Univ",1,0,0
+"Seculayer Co Ltd",1,0,35
+"Sethu Inst Technol",1,0,2
+"Shaanxi Key Lab Opt Remote Sensing & Intelligent I",1,0,5
+"Shaanxi Univ Sci & Technol",1,0,23
+"Shahid Beheshti Univ",1,0,0
+"Shandong Jianzhu Univ",1,0,78
+"Shandong Univ",1,0,33
+"Shanghai Hangyao Informat Technol Co LTD",1,0,0
+"Shanghai Ocean Univ",1,0,23
+"Shanghai Surveying & Mapping Inst",1,0,36
+"Shanxi Agr Univ",1,0,7
+"Shenyang Geotech Invest & Surveying Res Inst Co L",1,0,0
+"Shenyang Jianzhu Univ",1,0,3
+"Shenzhen Aerosp Dongfanghong Satellite Co Ltd",1,0,19
+"Shenzhen Engn Lab Ocean Environm Big Data Anal &",1,0,66
+"Shihezi Univ",1,0,42
+"Sichuan Univ Arts & Sci",1,0,0
+"Sichuan Univ Sci & Engn",1,0,0
+"Signal Proc Inc",1,1,22
+"Simon Fraser Univ",1,0,67
+"Skymap High Technol Co Ltd",1,2,71
+"Sorbonne Univ",1,1,59
+"South Dakota State Univ",1,0,9
+"Southern Marine Sci & Engn Guangdong Lab Guangzhou",1,0,3
+"Southern Marine Sci & Engn Guangdong Lab Zhuhai",1,0,23
+"St Louis Univ",1,0,171
+"State Grid Pingxiang Power Supply Co",1,0,51
+"State Key Lab Remote Sensing Sci",1,3,40
+"SUNY Syracuse",1,0,95
+"Suzhou Aerosp Informat Res Inst",1,0,0
+"Symbiosis Skills & Profess Univ",1,0,8
+"Taif Univ",1,1,36
+"Tarbiat Modares Univ",1,0,1
+"Tech Univ Dresden",1,0,0
+"Technocrats Inst Technol",1,0,8
+"Texas A&M Univ",1,0,24
+"Tianjin Chengjian Univ",1,0,7
+"TOKEN CEE Consultants Co Ltd",1,0,0
+"Tongji Univ",1,0,36
+"TU Wien",1,0,5
+"UCL",1,0,1
+"UESTC",1,3,40
+"Univ Aberdeen",1,0,0
+"Univ Alabama",1,0,21
+"Univ Appl Sci & Arts Northwestern Switzerland FHNW",1,0,1
+"Univ Appl Sci Wurzburg Schweinfurt",1,0,23
+"Univ Arkansas",1,0,9
+"Univ Autonoma Barcelona",1,1,29
+"Univ Belgrade",1,0,11
+"Univ Bundeswehr Munich",1,0,0
+"Univ Burgos",1,0,0
+"Univ Calgary",1,0,1
+"Univ Cambridge",1,0,16
+"Univ Cent Arkansas",1,0,9
+"Univ Chittagong",1,0,2
+"Univ Complutense Madrid",1,0,46
+"Univ Crete",1,0,18
+"Univ Cuenca",1,0,21
+"Univ Def",1,0,11
+"Univ Estado Mato Grosso",1,0,0
+"Univ Estadual Campinas",1,0,6
+"Univ Federico II",1,0,24
+"Univ Gaston Berger St Louis",1,1,59
+"Univ Genoa",1,5,111
+"Univ Guangxi",1,0,0
+"Univ Houston",1,17,263
+"Univ Illinois",1,0,15
+"Univ Kaiserslautern Landau RPTU",1,1,18
+"Univ Lagos",1,0,23
+"Univ Lancaster",1,0,67
+"Univ Leeds",1,0,5
+"Univ Leicester",1,0,8
+"Univ Leipzig",1,0,23
+"Univ Macau",1,0,22
+"Univ Management & Technol",1,0,0
+"Univ Manchester",1,0,0
+"Univ Massachusetts",1,0,0
+"Univ Minnesota",1,0,7
+"Univ Missouri",1,0,6
+"Univ Modena & Reggio Emilia",1,0,35
+"Univ Montana",1,0,9
+"Univ Petr Energy & Studies",1,0,0
+"Univ Puerto Rico",1,0,9
+"Univ Putra Malaysia",1,0,146
+"Univ Queensland",1,0,2
+"Univ S Florida",1,0,0
+"Univ Sannio",1,0,6
+"Univ Sci & Technol Hanoi",1,2,71
+"Univ Sharjah",1,1,7
+"Univ Technol Sydney",1,0,146
+"Univ Toronto",1,0,10
+"Univ Trento",1,0,7
+"Univ Uyo",1,0,23
+"Univ Wollongong",1,0,3
+"US Geol Survey USGS",1,1,3
+"Vaagdevi Coll Engn",1,0,0
+"Vietnam Acad Sci & Technol",1,2,71
+"VinUniversity",1,0,1
+"Vishwakarma Govt Engn Coll",1,0,3
+"VIT",1,0,0
+"VIT AP Univ",1,0,0
+"VNU Univ Sci",1,2,71
+"Vrije Univ Brussel",1,0,107
+"Vytautas Magnus Univ",1,0,8
+"Wageningen Univ & Res",1,5,111
+"Wuhan Digital Engn Inst",1,0,0
+"Wuhan Univ Technol",1,0,0
+"Xian Inst Opt & Precis Mech CAS",1,0,6
+"Xian Key Lab Social Intelligence & Complex Data Pr",1,0,1
+"Xian Space Sensor Opt Technol Engn Res Ctr",1,0,6
+"Xian Surveying & Mapping Stn",1,0,0
+"Xian Technol Univ",1,0,6
+"Xian Univ Technol",1,0,23
+"Xiangtan Univ",1,0,6
+"Xinjiang Univ",1,0,1
+"Xuzhou Univ Technol",1,0,1
+"Yanbian Univ",1,1,9
+"Yanshan Univ",1,0,1
+"Yunnan Inst Water & Hydropower Engn Invest Design",1,0,0
+"Yunnan Water Resources & Hydropower Survey & Desig",1,0,0
+"Zhejiang A&F Univ",1,0,7
+"Zhejiang Univ Technol",1,0,33
+"Zhengzhou Nat Reserve Affairs Ctr",1,0,0
+"Zhengzhou Univ Aeronaut",1,0,0
+"Zhongnan Univ Econ & Law",1,0,24

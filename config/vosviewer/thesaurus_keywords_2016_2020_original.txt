@@ -1,0 +1,20 @@
+Label	Replace by
+convolutional neural network (cnn)	cnn
+convolutional neural networks (cnns)	cnn
+convolutional neural network	cnn
+convolutional neural networks	cnn
+convolutional neural-networks	cnn
+neural-network	cnn
+land cover classification	land-cover classification
+land-use classification	land-cover classification
+land-cover	land-cover classification
+deep learning (dl)	deep learning
+data fusion	fusion
+multimodal	fusion
+feature-extraction	feature extraction
+extraction	feature extraction
+hyperspectral	hyperspectral imaging
+hyperspectral image	hyperspectral imaging
+image segmentation	semantic segmentation
+segmentation	semantic segmentation
+classification	image classification

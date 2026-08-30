@@ -1,0 +1,51 @@
+Label	Replace by
+convolutional neural network (cnn)	cnn
+convolutional neural networks (cnns)	cnn
+convolutional neural network (	cnn
+convolutional neural networks	cnn
+convolutional neural network	cnn
+convolutional neural-networks	cnn
+convolutional neural-network	cnn
+neural networks	cnn
+neural network	cnn
+neural-network	cnn
+neural-networks	cnn
+network	cnn
+convolution	cnn
+deep	deep learning
+synthetic aperture radar	sar
+image segmentation	semantic segmentation
+classification	image classification
+land-cover	land-cover classification
+land cover	land-cover classification
+land use classification	land-cover classification
+land cover classification	land-cover classification
+cover	land-cover classification
+deep learning (dl)	deep learning
+remote sensing (rs)	remote sensing
+transformers	transformer
+laser radar	lidar
+light detection and ranging (lidar) data	lidar
+light detection and ranging (lidar)	lidar
+lidar data	lidar
+light detection and ranging (l	lidar
+hyperspectral image	hyperspectral imaging
+hyperspectral	hyperspectral imaging
+hyperspectral image classifica	hyperspectral imaging
+hyperspectral image (hsi)	hyperspectral imaging
+attention	attention mechanism
+feature fusion	fusion
+data fusion	fusion
+multimodal	fusion
+segmentation	semantic segmentation
+semantics	semantic segmentation
+extraction	feature extraction
+features	feature extraction
+image	image classification
+models	model
+data models	model
+fusion network	fusion
+multimodal fusion	fusion
+remote sensing image	remote sensing
+hyperspectral image classification	hyperspectral imaging
+remote-sensing images	remote sensing
