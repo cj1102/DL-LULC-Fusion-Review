@@ -12,5 +12,5 @@
 | Tectonic | 0.17.0 | Repository compilation check on 26 August 2026 | Clean LaTeX build verification; not necessarily the authors' original compiler |
 
 For every retained figure, the version and the exact settings must be documented
-in `figures/figure_manifest.csv`. Software names alone are insufficient for exact
-reproduction.
+in `docs/figures/figure_manifest.csv`. Software names alone are insufficient for
+exact reproduction.

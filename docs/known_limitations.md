@@ -19,15 +19,9 @@
    six restored bibliometric records. No retrospective fusion categories were
    assigned to the six restored records, so the archived 163-record category
    totals remain unchanged.
-6. The current manuscript source references
-   `Figures/newplot_original_pdf_fig8.pdf`, which was not present under that name
-   in the supplied source directory. To permit a clean compilation, the repository
-   provides a byte-identical compatibility copy of the supplied `newplot.pdf`
-   under the referenced filename. The authors must still confirm that
-   `newplot.pdf` is the intended archival Figure 8 asset.
-7. The repository records existing outputs but does not yet contain scripts for
+6. The repository records existing outputs but does not yet contain scripts for
    regenerating every figure.
-8. The author-identified later-period input contains one 2026 record and three
+7. The author-identified later-period input contains one 2026 record and three
    Chinese-language records. This retained input is documented without alteration
    for provenance; it is not presented as a newly reconstructed, strictly filtered
    2021–2025 English corpus.

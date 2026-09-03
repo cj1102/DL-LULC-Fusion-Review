@@ -20,7 +20,7 @@ their reconstruction by WoS accession number (`UT`). Because database content an
 record status can change, a later rerun is not expected to reproduce the historical
 result count without the original licensed snapshot.
 
-## Retained full-period keyword-map input
+## Retained private keyword-map inputs
 
 The privately retained file identified by the author as the source loaded for the
 full-period keyword-map workflow is:

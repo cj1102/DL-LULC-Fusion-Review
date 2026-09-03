@@ -87,7 +87,8 @@ data/interim/     Templates for future screening and reviewed coding
 data/processed/   Supplied HistCite and VOSviewer outputs
 config/           Search, coding, software, and VOSviewer documentation
 code/             Validation utilities and future analysis scripts
-figures/          Figure provenance and reproduction manifest
+docs/figures/     Figure provenance, reproduction manifest, and quality audit
+docs/review/      Reviewer-response working documents
 docs/             Audit findings, limitations, and reproducibility checklist
 ```
 
@@ -132,7 +133,7 @@ does not replace or revise the screened 261-publication corpus. See
    [`retained_network_settings.md`](config/vosviewer/retained_network_settings.md)
    to distinguish confirmed settings from unavailable GUI values.
 6. Link each manuscript figure to its input, software or script, settings, and
-   output in `figures/figure_manifest.csv`.
+   output in [`docs/figures/figure_manifest.csv`](docs/figures/figure_manifest.csv).
 
 Authorised users who create their own local WoS tagged-text export can inspect it
 without changing it:
