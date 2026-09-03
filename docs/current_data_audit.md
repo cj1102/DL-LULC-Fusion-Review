@@ -51,6 +51,15 @@ not exclusively 2021–2025. The 56 records found only in the full snapshot comp
 retraction-related document types. These two retained snapshot files are described
 for archival provenance and do not redefine the screened 261-publication corpus.
 
+On 3 September 2026, the author identified this 210-record file as the source
+loaded for the later temporal keyword panel, together with `21-25Keyword.txt` as
+the VOSviewer thesaurus. The latter is byte-identical to the public
+`thesaurus_keywords_2021_2025_original.txt`. The source contains one 2026 record
+and three Chinese-language records, so the provenance record does not describe it
+as a strictly filtered 2021–2025 English subset. The 2016–2020 thesaurus has also
+been verified byte for byte, while its corresponding tagged-text input remains
+pending.
+
 ## Screening and fusion coding workbook
 
 `data/raw/screening/fusion_coding_original.xls`, Sheet1, contains 255 non-empty,

@@ -167,12 +167,14 @@ into `fusion`). Their use and limitations are documented in
 [`keyword_cleaning_protocol.md`](config/vosviewer/keyword_cleaning_protocol.md).
 No keyword frequencies were recomputed during revision.
 
-For the retained full-period keyword map, the documented chain is: private WoS
-tagged-text input → VOSviewer co-occurrence analysis using *All keywords* → the
-public full-period thesaurus → the archived visible settings → exported network
-figure. The restricted input is identified by record count and SHA-256 in
+For the retained full-period and temporal keyword maps, the documented chain is:
+private period-appropriate WoS tagged-text input → VOSviewer co-occurrence
+analysis using *All keywords* → the corresponding public thesaurus → the archived
+visible settings → exported network or average-publication-year overlay. The
+available restricted inputs are identified by record count and SHA-256 in
 [`data/raw/private_source_manifest.csv`](data/raw/private_source_manifest.csv),
-without republishing the licensed full records.
+without republishing the licensed full records. The 2016–2020 tagged-text input
+will be added to the private-source manifest when supplied.
 
 ## Data access and licensing
 

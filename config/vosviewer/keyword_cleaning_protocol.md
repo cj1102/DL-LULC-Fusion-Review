@@ -34,6 +34,33 @@ publication-screening file and does not remove bibliographic records. The privat
 source manifest records the exact local input filename, record count, and SHA-256
 without redistributing licensed WoS full-record content.
 
+## Temporal keyword-map processing chains
+
+The author confirmed that the two temporal maps used the same analysis sequence
+with period-specific inputs and thesauri:
+
+- **2021–2025 panel:** load the private `21-25.txt` tagged-text file, select
+  co-occurrence analysis with *All keywords*, apply `21-25Keyword.txt`, apply the
+  retained VOSviewer settings, and export the average-publication-year overlay.
+  The public thesaurus is the byte-identical
+  `thesaurus_keywords_2021_2025_original.txt`; the private input is identified by
+  checksum in `data/raw/private_source_manifest.csv`.
+- **2016–2020 panel:** load the corresponding period tagged-text file, select
+  co-occurrence analysis with *All keywords*, apply `16-20keyword.txt`, apply the
+  retained VOSviewer settings, and export the average-publication-year overlay.
+  The public thesaurus is the byte-identical
+  `thesaurus_keywords_2016_2020_original.txt`. The period tagged-text file is
+  pending author upload and is therefore not assigned a filename, record count,
+  or checksum here.
+
+The retained screenshots show association-strength normalisation, attraction 2,
+repulsion −2, clustering resolution 1.60, minimum cluster size 1, small-cluster
+merging, occurrence weights, and average-publication-year scoring for both
+temporal overlays. The 2016–2020 threshold dialogue shows a minimum occurrence of
+three, with 16 of 288 keywords meeting the threshold. The corresponding
+2021–2025 threshold dialogue has not been supplied, so that threshold is not
+reconstructed from the displayed node count.
+
 ## Applied replacement rules
 
 The first column (`Label`) contains the source term and the second column

@@ -1,2 +1,3 @@
 archive_filename,repository_local_alias,sha256,record_count,publicly_redistributed,role
 Wos_raw_data_records_2006-2025.txt,data/raw/wos/wos_export_full_original.txt,a25e1bafad9ab8afc4b947d0591e453578730ea96bdf6c5adf217250c381ded2,266,no,Private tagged-text input retained for the full-period keyword-map workflow
+21-25.txt,data/raw/wos/wos_export_period_subset_original.txt,0f303905703ee9335528757481d8c41da0f362b95e15231f9b7d7ba0bc283f85,210,no,Private tagged-text input retained for the later-period keyword-map workflow; observed years are 2021-2026

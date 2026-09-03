@@ -11,6 +11,14 @@ co-occurrence analysis with *All keywords*, and applied the author-created
 `all_keywords(1).txt` thesaurus. The public copy of that thesaurus is
 `thesaurus_keywords_all_original.txt`; the two files are byte-identical.
 
+For the later temporal panel, the author identified `21-25.txt` as the private
+input and `21-25Keyword.txt` as the thesaurus. They are byte-identical to the
+locally retained period snapshot and the public
+`thesaurus_keywords_2021_2025_original.txt`, respectively. For the earlier panel,
+`16-20keyword.txt` is byte-identical to the public
+`thesaurus_keywords_2016_2020_original.txt`; its tagged-text input is pending
+author upload.
+
 ## Visible keyword-map controls
 
 The cropped settings screenshots show:
@@ -24,17 +32,18 @@ The cropped settings screenshots show:
 - minimum displayed link strength 0, a maximum of 1000 displayed links, and
   coloured curved lines.
 
-These values document the visible temporal keyword-map configuration represented
-by the supplied panels. Display controls do not alter the occurrence or TLS
-values. The panels do not establish the counting method, occurrence threshold,
-hidden advanced parameters, or settings of every other network figure.
+These values document the visible configuration of both temporal keyword maps.
+The temporal overlays use average publication year as the score. Display controls
+do not alter the occurrence or TLS values. The panels do not establish the
+counting method, the 2021–2025 occurrence threshold, hidden advanced parameters,
+or settings of every other network figure.
 
 ## Figure-specific retained evidence
 
 | Manuscript figure | Analysis/unit | Threshold evidence | Thesaurus | Remaining unavailable information |
 |---|---|---|---|---|
-| Temporal keyword map, 2016–2020 | Keyword co-occurrence; keyword unit | Retained item table has 16 items and a minimum occurrence of 3; consistent with a threshold of 3 | `thesaurus_keywords_2016_2020_original.txt` | Counting method, hidden advanced parameters, seed, and saved project |
-| Temporal keyword map, 2021–2025 | Keyword co-occurrence; keyword unit | GUI threshold and complete retained item table unavailable | `thesaurus_keywords_2021_2025_original.txt` | Threshold, counting method, hidden advanced parameters, seed, and saved project |
+| Temporal keyword map, 2016–2020 | Keyword co-occurrence; *All keywords*; average-publication-year overlay | Minimum occurrence 3; 16 of 288 keywords met the threshold; final output has 16 items, 8 clusters, 79 links, and TLS 284 | `thesaurus_keywords_2016_2020_original.txt` | Private tagged-text input, counting method, hidden advanced parameters, seed, and saved project |
+| Temporal keyword map, 2021–2025 | Keyword co-occurrence; *All keywords*; average-publication-year overlay | Threshold dialogue unavailable; final output has 39 items, 13 clusters, 458 links, and TLS 2475 | `thesaurus_keywords_2021_2025_original.txt` | Threshold, counting method, hidden advanced parameters, seed, and saved project |
 | Full-period keyword map | Keyword co-occurrence; keyword unit | Retained item table has 162 items and a minimum occurrence of 3; consistent with a threshold of 3 | `thesaurus_keywords_all_original.txt` | Manuscript-compatible GUI capture, counting method, hidden advanced parameters, seed, and saved project |
 | Keyword density map | Same retained full-period keyword vocabulary | Uses the archived full-period visual output | `thesaurus_keywords_all_original.txt` | Exact density, layout, and saved-project settings |
 | Document co-citation map | Document co-citation | Retained citation-relation table documents 797 links after its header | Not applicable | Threshold, counting method, normalisation, clustering, seed, and saved project |

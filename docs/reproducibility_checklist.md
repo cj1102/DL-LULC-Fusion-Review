@@ -19,6 +19,12 @@
 - [x] Archive the requested cropped VOSviewer settings panels and record
       confirmed, output-inferred, and unavailable settings without extrapolating
       the panels to every figure or overriding manuscript-authoritative counts
+- [x] Link the supplied 2021–2025 tagged-text input and both temporal keyword
+      thesauri to the retained temporal-map workflow by filename and checksum
+- [ ] Add the corresponding 2016–2020 tagged-text input to the private-source
+      manifest when supplied
+- [ ] Confirm the 2021–2025 keyword occurrence threshold from a retained
+      threshold dialogue or saved project
 - [ ] Export saved network/map/project files where possible
 - [x] Resolve the 162 versus 163 discrepancy and withdraw the percentage as a
       corpus-level finding because 163 is the criterion-defined fusion-analysis
