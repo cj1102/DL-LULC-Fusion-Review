@@ -5,6 +5,12 @@ The manuscript and retained item tables remain the authority for reported item
 counts. This record distinguishes visible screenshot settings, values inferred
 from retained outputs, and settings that remain unavailable.
 
+For the full-period keyword workflow, the author identified the private tagged-text
+file `Wos_raw_data_records_2006-2025.txt` as the bibliographic input, selected
+co-occurrence analysis with *All keywords*, and applied the author-created
+`all_keywords(1).txt` thesaurus. The public copy of that thesaurus is
+`thesaurus_keywords_all_original.txt`; the two files are byte-identical.
+
 ## Visible keyword-map controls
 
 The cropped settings screenshots show:

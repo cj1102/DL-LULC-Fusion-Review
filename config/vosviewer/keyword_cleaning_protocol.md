@@ -13,6 +13,27 @@ These files are preserved verbatim so that the labels and reported total link
 strength values remain traceable to the figures. No post-hoc changes were applied
 to the thesauri during manuscript revision.
 
+## Full-period keyword-map processing chain
+
+The author identified the following retained workflow for the full-period keyword
+map:
+
+1. Load the private WoS tagged-text file
+   `Wos_raw_data_records_2006-2025.txt` into VOSviewer 1.6.20 using *Create a map
+   based on bibliographic data*.
+2. Select a co-occurrence analysis using *All keywords* as the unit of analysis.
+3. Apply `all_keywords(1).txt` as the thesaurus file. The public, byte-identical
+   copy is `thesaurus_keywords_all_original.txt`.
+4. Apply the visible normalisation, layout, clustering, weighting, label, and line
+   controls documented in `retained_network_settings.md` and the cropped evidence
+   panels.
+5. Export the retained keyword network figure.
+
+The thesaurus standardises or aggregates keyword labels; it is not a
+publication-screening file and does not remove bibliographic records. The private
+source manifest records the exact local input filename, record count, and SHA-256
+without redistributing licensed WoS full-record content.
+
 ## Applied replacement rules
 
 The first column (`Label`) contains the source term and the second column
@@ -37,9 +58,9 @@ prevalence across the entire LULC field.
 
 ## Reproducibility boundary
 
-The exact mapping files are public, but some VOSviewer GUI settings and saved
-map/network project files were not retained. The repository therefore distinguishes
-confirmed settings, settings inferred from retained outputs, and unavailable
-settings. Re-running the analysis with a more conservative thesaurus would be a
-new analysis and would change the published node frequencies and total link
-strength values; it was not performed retrospectively.
+The exact mapping files and cropped visible-setting panels are public, but some
+VOSviewer GUI settings and saved map/network project files were not retained. The
+repository therefore distinguishes confirmed settings, settings inferred from
+retained outputs, and unavailable settings. Re-running the analysis with a more
+conservative thesaurus would be a new analysis and would change the published node
+frequencies and total link strength values; it was not performed retrospectively.

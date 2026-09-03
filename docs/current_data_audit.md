@@ -34,6 +34,14 @@ met the stated scope and were restored, while one non-trained, fixed-kernel meth
 was excluded, giving `255 + 6 = 261`. The seven decisions and their `UT`
 identifiers are documented in `docs/coding_sheet_omissions.md`.
 
+On 3 September 2026, the author identified this same byte-level file as the source
+loaded for the retained full-period keyword-map workflow. The associated
+`all_keywords(1).txt` file is byte-identical to the public
+`config/vosviewer/thesaurus_keywords_all_original.txt`. The thesaurus transforms
+keyword labels but does not screen publications. Consequently, this provenance
+statement identifies the retained figure input; it does not convert the 266-record
+archival file into the separately reconciled 261-publication manuscript corpus.
+
 ### Supplied period snapshot
 
 `data/raw/wos/wos_export_period_subset_original.txt` contains 210 unique records.

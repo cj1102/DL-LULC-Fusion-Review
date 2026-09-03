@@ -2,10 +2,11 @@
 
 ## `raw/`
 
-The public repository contains only a README in this directory. Complete Web of
-Science tagged-text exports and the original author coding workbook remain in the
-authors' private archive because they contain licensed bibliographic content.
-They are not required to verify the archived 163-record coding-subset totals.
+The public repository contains documentation and a private-source manifest in
+this directory, but not the complete Web of Science tagged-text exports or the
+original author coding workbook. Those files remain in the authors' private
+archive because they contain licensed bibliographic content. They are not
+required to verify the archived 163-record coding-subset totals.
 
 ## `interim/`
 
