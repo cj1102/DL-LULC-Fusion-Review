@@ -27,11 +27,14 @@
 > The revision distinguishes settings that are confirmed from those inferred from
 > retained outputs. The retained 2016–2020 and full-period keyword item tables
 > contain 16 and 162 items, respectively, with a minimum retained occurrence of
-> three, which is consistent with an occurrence threshold of three. The original
-> counting method, normalisation choice, layout seed, attraction/repulsion,
-> clustering resolution, and saved map/network project files were not retained.
-> We therefore report these values as unavailable rather than reconstructing them
-> retrospectively, and we no longer claim exact graphical reproducibility.
+> three, which is consistent with an occurrence threshold of three. Cropped
+> VOSviewer panels additionally document the visible normalisation, layout,
+> clustering, weighting, label, and line-display controls for the represented
+> keyword-map configuration. The original counting method, thresholds for every
+> map, hidden advanced parameters, manuscript-compatible full-period GUI capture,
+> co-citation GUI settings, and saved map/network projects remain unavailable. We
+> report that boundary explicitly rather than extrapolating the panels to other
+> figures, and we do not claim pixel-identical graphical reproducibility.
 >
 > Keyword cleaning is now documented explicitly. The archived thesauri contain
 > both lexical normalisation and broader concept aggregation. Because changing
@@ -40,23 +43,31 @@
 > under the archived vocabulary rules. Keyword occurrence, TLS, and co-citation
 > are not treated as evidence of technical performance or replacement.
 >
-> Finally, we clarified the second-stage fusion-level content screen. All 261
-> records were examined using their abstracts, keywords, dataset information, and
-> model descriptions. A record entered the fusion-level analysis only when an
-> explicit integration operation could be assigned reliably to data-, feature-,
-> decision-, or hybrid-level fusion. This yielded 163 eligible records; the other
-> 98 remained in all bibliometric analyses but did not satisfy the fusion-level
-> eligibility criterion. To avoid presenting the eligible-subset percentage as if
-> it described all 261 records, we removed it from the Abstract and Conclusion.
-> A record-level workbook documents the 163 eligible assignments using UT, DOI,
-> title, publication year, model, dataset and fusion-method notes, original labels,
-> standardised categories, and operational basis codes.
+> Finally, we clarified the second-stage fusion-level content analysis. A record
+> received a fusion-level assignment only when its abstract, keywords, dataset
+> information, and model description supported reliable assignment of an explicit
+> integration stage to data-, feature-, decision-, or hybrid-level fusion. The
+> archived materials retain 163 such assignments. The other 98 bibliometric
+> records comprise 92 working-sheet rows without a retained qualifying assignment
+> and the six records restored during title-level reconciliation; no fusion
+> categories were reconstructed retrospectively for the latter records. To avoid
+> presenting the archived-subset percentage as if it described all 261 records, we
+> removed it from the Abstract and Conclusion. A record-level workbook documents
+> the 163 archived assignments using UT, DOI, title, publication year, model,
+> dataset and fusion-method notes, original labels, standardised categories, and
+> operational basis codes.
 
 **Internal preparation note—not for the response letter unless the editor asks
-specifically about the archived raw files:** the surviving WoS snapshot and
-working sheet are not a complete UT-level reconstruction of the reported final
-corpus. Do not claim that the public repository reproduces the historical corpus
-record for record unless a frozen crosswalk is recovered.
+specifically about the archived raw files:** the completed historical screening
+flow defines the original final corpus as 261 publications. The separately
+retained 266-record WoS snapshot is an archival file and does not revise that
+denominator. At title level, the final count is reconciled as 255 working-sheet
+records plus six eligible records restored from seven candidate omissions. The
+remaining candidate was excluded because it used fixed, non-learned convolutional
+kernels rather than an applied deep-learning model. The repository does not yet
+reproduce the original 255 records by `UT` one by one, so distinguish the resolved
+title-level count from complete identifier-level reconstruction if the editor
+specifically requests the latter.
 
 ## Reviewer 1, Comment 8
 
@@ -71,9 +82,9 @@ record for record unless a frozen crosswalk is recovered.
 > while the full-period keyword map is predominantly vector. The original
 > topology, occurrence counts, TLS, and clustering were unchanged.
 
-The original VOSviewer map/network project files and GUI layout settings were not
-retained, so enlarging every internal node label would require recalculating the
-layout. We have not claimed to have done so. Instead, the revision uses the
+The original VOSviewer map/network project files and an editable final layout were
+not retained, so enlarging every internal node label would require recalculating
+the layout. We have not claimed to have done so. Instead, the revision uses the
 highest-resolution retained exports, enlarges their placement in the manuscript,
 and explains the software's selective label display in the captions. This closes
 the resolution and placement aspects of the comment, but exact re-export with a

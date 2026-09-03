@@ -7,23 +7,23 @@
 >
 > All 261 records remained in the bibliometric corpus and contributed to
 > publication, author, journal, institution, country, keyword, citation, and
-> co-citation analyses. Fusion-level coding constituted a separate, second-stage
-> manual content screen. All 261 records were examined using their abstracts,
-> author keywords, dataset information, and reported model descriptions. A record
-> entered the fusion-level analysis only when these materials identified an
-> explicit information-integration operation whose position in the classification
-> pipeline could be assigned reliably to data-, feature-, decision-, or
-> hybrid-level fusion. The occurrence of “fusion” or “ensemble” in a
-> bibliographic record was not, by itself, sufficient for inclusion. This screen
-> yielded 163 eligible records.
+> co-citation analyses. The retained title-level materials reconcile this corpus as
+> 255 working-sheet titles plus six eligible records restored after review of seven
+> candidate omissions. The remaining candidate was excluded because it used
+> fixed, non-learned convolutional kernels and explicitly avoided network training
+> rather than applying a deep-learning model.
 >
-> The other 98 records did not satisfy the fusion-level eligibility criterion
-> because the reviewed materials did not establish an explicit integration stage
-> that could be assigned reliably under the operational definitions. They were
-> excluded only from the fusion-level content analysis and were not excluded from
-> the bibliometric corpus. To avoid presenting the eligible-subset percentage as
-> if it described all 261 records, we removed the percentage from the Abstract and
-> Conclusion.
+> Fusion-level coding constituted a separate, second-stage manual analysis. A
+> record received a fusion-level assignment only when its abstract, author
+> keywords, dataset information, and model description supported reliable
+> assignment of an explicit integration stage to data-, feature-, decision-, or
+> hybrid-level fusion. The occurrence of “fusion” or “ensemble” alone was not
+> sufficient. The archived working materials retain 163 assignments. The other 98
+> records comprise 92 working-sheet rows without a retained qualifying assignment
+> and the six restored bibliometric records, which were not assigned fusion
+> categories retrospectively. To avoid presenting the archived-subset percentage
+> as if it described all 261 records, we removed the percentage from the Abstract
+> and Conclusion.
 >
 > For transparency, the Results section documents the eligible-subset category counts:
 > 131 feature-level-only, 18 hybrid, seven data-level-only, and seven
@@ -33,7 +33,7 @@
 > feature-level fusion.
 >
 > To make this result auditable, we now provide a record-level supplementary
-> workbook for all 163 eligible assignments. It contains the WoS accession number,
+> workbook for all 163 archived assignments. It contains the WoS accession number,
 > DOI, title, publication year, model, dataset and fusion-method notes retained in
 > the working sheet, the original label, the standardised fusion category, and the
 > operational basis code. Formula-based summary cells reproduce 131 feature-level,

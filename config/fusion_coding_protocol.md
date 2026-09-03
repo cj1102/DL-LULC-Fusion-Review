@@ -43,11 +43,11 @@ For each record, store the quoted or paraphrased methodological evidence and its
 location. Prefer two independent coders for ambiguous cases and record the final
 adjudication. Report category counts and the denominator before percentages.
 
-The authors report that all 261 bibliometric records underwent this second-stage
-content screen. A total of 163 records satisfied the eligibility rule and received
-a fusion-level assignment, including 131 feature-level-only records. The other 98
-records remained in the bibliometric corpus but did not provide sufficient
-evidence of an explicit integration stage that could be assigned reliably under
-the operational categories. The 163-record denominator therefore describes the
-criterion-defined fusion-level analysis, not a random sample or the distribution
-of fusion levels across all 261 bibliometric records.
+The archived working materials retain fusion-level assignments for 163 records,
+including 131 feature-level-only records. The other 98 bibliometric records
+comprise 92 rows in the intermediate working sheet without a retained qualifying
+assignment and six records restored during title-level corpus reconciliation. No
+fusion category was reconstructed retrospectively for the six restored records.
+The 163-record denominator therefore describes the archived criterion-defined
+fusion-level analysis, not a random sample or the distribution of fusion levels
+across all 261 bibliometric records.

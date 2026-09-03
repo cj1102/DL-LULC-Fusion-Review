@@ -6,7 +6,7 @@ Picture_5.pdf,institution indicators,histcite_institution_metrics_original.csv,t
 Picture_6.pdf,country indicators,histcite_country_metrics_original.csv,to confirm,to confirm,partial,Existing output retained
 picture_7.pdf,country collaboration,to confirm,to confirm,to confirm,partial,Existing output retained
 newplot_original_pdf_fig8.pdf,geographical collaboration map,to confirm,to confirm,to confirm,partial,Byte-identical compatibility copy of supplied newplot.pdf; intended archival asset must be confirmed
-picture_8.pdf,keyword networks by period,private licensed WoS snapshot,VOSviewer 1.6.20,config/vosviewer/retained_network_settings.md,partial,Archived figures and partial item tables retained; complete GUI settings and map/network projects unavailable
+picture_8.pdf,keyword networks by period,private licensed WoS snapshot,VOSviewer 1.6.20,config/vosviewer/retained_network_settings.md,partial,Cropped panels document visible keyword-map controls; thresholds are supported only where stated from retained item tables and saved projects remain unavailable
 new_all.pdf,overall keyword network,private licensed WoS snapshot,VOSviewer 1.6.20,config/vosviewer/retained_network_settings.md,partial,Archived figure and item table retained; complete GUI settings and map/network project unavailable
 picture_9.pdf,co-citation network,private licensed WoS snapshot,VOSviewer 1.6.20,config/vosviewer/retained_network_settings.md,partial,Archived figure and citation-relation table retained; exact threshold and saved project unavailable
 new_Relitu.pdf,keyword density visualisation,private licensed WoS snapshot,VOSviewer 1.6.20,config/vosviewer/retained_network_settings.md,partial,Archived visual retained; exact density and layout settings unavailable

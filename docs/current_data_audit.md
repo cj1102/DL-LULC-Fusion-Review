@@ -1,6 +1,6 @@
 # Current data audit
 
-Audit date: 26 August 2026. This report describes files retained in the authors'
+Audit updated: 31 August 2026. This report describes files retained in the authors'
 private source archive; it does not change inclusion decisions or manuscript
 results. The licensed WoS exports and original workbook named below are not
 redistributed in the public repository.
@@ -18,9 +18,21 @@ redistributed in the public repository.
 | Languages | English: 263; Chinese: 3 |
 | Document types | Article: 232; Proceedings Paper: 27; Article + Proceedings Paper: 3; Article + Early Access: 2; Article + Retracted Publication: 2 |
 
-The numeric operation `266 - 3 Chinese - 2 retracted = 261` is not accepted as a
-corpus reconstruction because it retains the 2026 record and has not been linked
-to the manuscript's stated exclusion process.
+This 266-record file is a retained archival WoS snapshot, not the screened corpus
+used to define the manuscript denominator. The author-confirmed historical
+screening flow was 283 initial records, followed by exclusion of two non-English
+records and 20 records outside the eligible document types, yielding the original
+final corpus of 261 publications (231 Articles and 30 Proceeding Papers). The
+manuscript and response letter therefore consistently use 261 as the denominator
+for the reported bibliometric analyses.
+
+The later 266-record archival snapshot is documented only for provenance. It does
+not supersede the completed screening decisions and should not be used to revise
+the historical corpus count. The title-level corpus reconciliation is instead
+based on the 255-title working sheet and seven candidate omissions. Six candidates
+met the stated scope and were restored, while one non-trained, fixed-kernel method
+was excluded, giving `255 + 6 = 261`. The seven decisions and their `UT`
+identifiers are documented in `docs/coding_sheet_omissions.md`.
 
 ### Supplied period snapshot
 
@@ -28,7 +40,8 @@ to the manuscript's stated exclusion process.
 It is a UT-level subset of the 266-record file. It includes records from 2021–2026,
 not exclusively 2021–2025. The 56 records found only in the full snapshot comprise
 53 records from 2015–2020 and three later records carrying Early Access or
-retraction-related document types.
+retraction-related document types. These two retained snapshot files are described
+for archival provenance and do not redefine the screened 261-publication corpus.
 
 ## Screening and fusion coding workbook
 
@@ -44,46 +57,53 @@ unique titles. The `Type of fusion` column is populated for 163 rows:
 | feature + decision variants | 6 |
 | Blank | 92 |
 
-The authors confirm that the 163 populated fusion-level rows resulted from a
-second-stage content screen of the bibliometric corpus: records entered the
-fusion-level analysis only when the abstract, keywords, dataset information, and
-model description supported reliable assignment of an explicit integration
-stage. The previous 80.9% value has been withdrawn as a corpus-level finding. The
-complete 261-record corpus remains in the bibliometric analyses, while 98 records
-were reported as not satisfying the fusion-level eligibility criterion. The
-category counts remain available in the supplement for transparency but are not
-presented as a fusion-level distribution for all 261 records.
+The 163 populated fusion-level rows retain the assignments produced by the
+second-stage content analysis: a record received an assignment only when the
+abstract, keywords, dataset information, and model description supported reliable
+classification of an explicit integration stage. The previous 80.9% value has
+been withdrawn as a corpus-level finding. The complete 261-record corpus remains
+in the bibliometric analyses, while only the archived 163-record subset is used
+for the reported fusion-level category counts. Those counts remain available in
+the supplement for transparency but are not presented as a distribution for all
+261 records.
 
-The surviving workbook itself contains 163 populated fusion labels and 92 blank
-rows among 255 titles. It therefore preserves the included assignments but not a
-complete 261-row eligibility log identifying all 98 screened-out records. This is
-an archival documentation limitation, not evidence that the 163 records were
-selected by random sampling.
-
-A title-level reconciliation against the supplied 266-record WoS snapshot
-identified seven English records from 2006--2025 that are present in that snapshot
-but absent from the 255-title working sheet. These seven records are treated as
-omissions from the intermediate coding sheet; no retrospective fusion assignment
-has been added from titles alone.
+The surviving workbook contains 163 populated fusion labels and 92 blank rows
+among 255 titles. Title-level reconciliation identified seven candidate omissions;
+six were restored to the bibliometric corpus and one was excluded from the
+deep-learning scope. Consequently, the final bibliometric denominator is
+`255 + 6 = 261`, while the 98 records outside the archived fusion-level subset
+comprise the 92 blank workbook rows and the six restored bibliometric records.
+No fusion category was assigned retrospectively to those six records, and the
+archived 163-record category totals were not changed.
 
 ## HistCite and VOSviewer files
 
-- The journal table contains 81 journal rows and its record-count column sums to
-  266, consistent with the supplied full snapshot rather than a 261-record corpus.
+- The retained journal table contains 81 journal rows and its record-count column
+  sums to 266, indicating that this particular archival output is associated with
+  the retained 266-record snapshot. It is preserved for provenance and must not be
+  used to redefine the original screened corpus of 261 publications.
 - Author, country, and institution record-count columns are non-exclusive and may
   legitimately sum above the corpus size.
 - The VOSviewer item files contain item counts and total link strength but do not
   contain sufficient edge, coordinate, cluster, and setting information to
   reconstruct all displayed networks exactly.
+- Two cropped screenshots document visible controls for the represented keyword
+  map configuration. They do not establish the original counting method,
+  thresholds for every map, hidden advanced parameters, or saved map/network
+  projects. The manuscript-authoritative full-period count remains the retained
+  162-item table.
 
-## Required resolution
+## Interpretation and remaining record-level documentation
 
-1. Locate or reconstruct the frozen final corpus using `UT`, not title alone.
-2. Explain the relationship among the 283 initial results, 266 supplied records,
-   261 reported final records, and 255 workbook titles.
-3. Record the handling of the 2026, non-English, Early Access, combined-type, and
-   retracted records.
-4. If an exhaustive record-level distribution is required, create a reviewed
-   261-row fusion table and document any newly assigned records separately from the
-   archived 163-record coding subset.
-5. Freeze all figure inputs after the above decisions and update the manifest.
+1. The reported corpus size is defined by the completed historical screening flow:
+   283 initial records, 22 exclusions, and 261 included publications.
+2. The retained 266-record export is a separate archival snapshot and does not
+   alter the final screened count used in the manuscript.
+3. The title-level composition is reconciled as the 255-title working sheet plus
+   six documented inclusions selected from seven candidate omissions. A future
+   261-row `UT` manifest would strengthen identifier-level traceability for the
+   original 255 rows, but it would not change the reconciled total.
+4. If an exhaustive record-level fusion distribution is required, create a
+   reviewed 261-row fusion table and document any newly assigned records separately
+   from the archived 163-record coding subset.
+5. Freeze all inputs used in any future reanalysis and update the figure manifest.

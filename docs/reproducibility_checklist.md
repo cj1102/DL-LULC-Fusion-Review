@@ -8,12 +8,17 @@
 - [ ] Confirm exact retrieval date
 - [ ] Identify the UT-level frozen 261-record corpus
 - [ ] Complete an inclusion/exclusion log
-- [ ] Reconcile the 283, 266, 261, and 255 record counts
+- [x] Reconcile the intermediate 255-title sheet to the 261-publication corpus by
+      documenting six inclusions and one exclusion among seven candidate omissions
+- [x] Distinguish the completed 283-to-261 screening flow from the separately
+      retained 266-record archival snapshot; do not use the later snapshot to
+      redefine the historical denominator
 - [ ] Confirm HistCite, Bibliometrix, CiteSpace, R, and Python versions
 - [x] Document why the original keyword mappings were retained, including the
       distinction between lexical normalisation and broader concept aggregation
-- [x] Record confirmed, output-inferred, and unavailable VOSviewer settings for
-      each retained network without inventing missing GUI values
+- [x] Archive the requested cropped VOSviewer settings panels and record
+      confirmed, output-inferred, and unavailable settings without extrapolating
+      the panels to every figure or overriding manuscript-authoritative counts
 - [ ] Export saved network/map/project files where possible
 - [x] Resolve the 162 versus 163 discrepancy and withdraw the percentage as a
       corpus-level finding because 163 is the criterion-defined fusion-analysis

@@ -1,17 +1,22 @@
 # Known limitations of this working repository
 
-1. The currently supplied WoS export is not demonstrably the frozen 261-record
-   corpus reported in the manuscript.
+1. The final corpus count has been reconciled at title level as the 255-title
+   working sheet plus six documented inclusions selected from seven candidate
+   omissions. A single 261-row `UT` manifest is not yet available for the original
+   255 rows.
 2. The exact January 2026 retrieval date is not confirmed.
-3. Full VOSviewer settings and saved network files are not yet available.
+3. Cropped screenshots recover several visible controls for the represented
+   keyword-map configuration, but the original counting method, thresholds for
+   every map, hidden advanced parameters, a manuscript-compatible full-period
+   settings capture, co-citation GUI settings, and saved network files are not
+   available.
 4. Original thesaurus mappings include some concept-level aggregation rather than
    only spelling and abbreviation normalisation.
-5. The authors confirm that 163 records satisfied a second-stage fusion-level
-   content screen, while 98 records did not satisfy its eligibility rule. The
-   surviving workbook preserves the 163 assignments but contains only 255 rather
-   than 261 titles and does not provide a complete 261-row eligibility log.
-   Reconciliation also identified seven records in the historical WoS snapshot
-   that are absent from the working sheet.
+5. The archived materials retain fusion-level assignments for 163 records. The
+   other 98 records comprise 92 blank rows in the 255-title working sheet plus the
+   six restored bibliometric records. No retrospective fusion categories were
+   assigned to the six restored records, so the archived 163-record category
+   totals remain unchanged.
 6. The current manuscript source references
    `Figures/newplot_original_pdf_fig8.pdf`, which was not present under that name
    in the supplied source directory. To permit a clean compilation, the repository

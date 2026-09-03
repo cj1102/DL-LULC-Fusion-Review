@@ -21,12 +21,22 @@ contain archived paper-level fusion assignments for 163 records:
 - seven data-level only; and
 - seven decision-level only.
 
-The 163 records were identified through a second-stage content screen of the
-261-record bibliometric corpus. A record entered the fusion-level analysis only
-when its abstract, keywords, dataset information, and model description supported
-a reliable assignment to an explicit data-, feature-, decision-, or hybrid-level
-fusion operation. The other 98 records remained in the bibliometric corpus but
-did not satisfy this fusion-level eligibility criterion.
+The corpus count is reconciled at title level as the 255 publications in the
+intermediate working sheet plus six eligible publications restored from seven
+candidate omissions, giving `255 + 6 = 261`. The excluded candidate used fixed,
+non-learned convolutional kernels and explicitly avoided network training, so it
+did not meet the applied deep-learning scope. The record-level decisions are
+listed in [`docs/coding_sheet_omissions.md`](docs/coding_sheet_omissions.md).
+
+The retained working materials contain 163 assignments from a separate,
+second-stage fusion-content analysis associated with the 261-record bibliometric
+corpus. An assignment was retained only when the abstract, keywords, dataset
+information, and model description supported a reliable classification of an
+explicit data-, feature-, decision-, or hybrid-level fusion operation. The other
+98 records remained in the bibliometric corpus but are outside this archived
+assigned subset: 92 are unassigned rows in the 255-title working sheet and six
+are the restored bibliometric records for which no fusion category was created
+retrospectively.
 
 The record-level source for the 163 category assignments is available as
 [`archived_fusion_coding_subset.xlsx`](data/processed/coding/archived_fusion_coding_subset.xlsx),
@@ -37,6 +47,11 @@ operational basis codes. This is a criterion-defined analytical subset, not a
 random sample. The table does not assign a fusion level to the other 98
 bibliometric records, and its category totals are not presented as a fusion-level
 distribution for the complete corpus.
+
+The six restored bibliometric records were not assigned fusion categories
+retrospectively. Accordingly, the 98 records outside the archived 163-record
+fusion-level subset consist of the 92 blank rows in the intermediate sheet plus
+these six restored records; the archived category totals remain unchanged.
 
 These points are recorded in [`docs/current_data_audit.md`](docs/current_data_audit.md).
 They are verification tasks, not corrections made to the authors' data.
@@ -78,8 +93,10 @@ TS=(("ensemble" OR "fusion") AND
 
 The manuscript reports 283 initial records, followed by exclusion of two
 non-English records and 20 records outside the eligible document types, yielding
-261 records. This reported flow and the currently supplied 266-record export are
-kept separate until a UT-level crosswalk is completed. See
+the original final corpus of 261 publications. This completed screening flow
+defines the denominator used in the manuscript and response letter. The retained
+266-record WoS file is a later archival snapshot documented for provenance; it
+does not replace or revise the screened 261-publication corpus. See
 [`config/search_strategy.md`](config/search_strategy.md).
 
 ## Reproduction workflow
@@ -113,10 +130,14 @@ analysis remain to be recorded in
 ## VOSviewer materials
 
 The supplied keyword and author tables report item-level counts and total link
-strength. They do not include all network edges, layout coordinates, clusters, or
-the complete analysis settings. Confirmed, output-inferred, and unavailable
-settings are reported in
+strength. Two cropped screenshots document the visible normalisation, layout,
+clustering, weighting, label, and line-display controls for the represented
+keyword-map configuration. They do not establish all network edges, coordinates,
+counting methods, thresholds, hidden advanced parameters, or saved project files.
+Confirmed, output-inferred, and unavailable settings are reported in
 [`retained_network_settings.md`](config/vosviewer/retained_network_settings.md).
+The corresponding unedited screenshots are archived in
+[`config/vosviewer/evidence`](config/vosviewer/evidence/).
 
 The original thesauri are preserved verbatim. Some replacements merge related but
 non-equivalent concepts (for example, `network` into `cnn`, or `multimodal fusion`
