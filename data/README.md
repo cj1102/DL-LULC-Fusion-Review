@@ -22,6 +22,12 @@ The `coding/` subdirectory contains the public, record-level table for the 163
 archived fusion assignments, a machine-readable JSON copy, and no abstracts or
 cited-reference lists.
 
+The `corpus/` subdirectory contains the public 261-record analytical-corpus
+manifest in CSV and JSON formats. It was reconciled from 255 non-empty titles in
+the historical working sheet plus six documented eligible inclusions. It contains
+limited bibliographic metadata only and must not be confused with the separately
+retained 266-record WoS archival snapshot.
+
 The distinction between `raw`, `interim`, and `processed` describes provenance; it
 does not imply that the current collection has passed the consistency checks in
 `docs/current_data_audit.md`.

@@ -9,6 +9,8 @@ The public reproducibility package provides instead:
 
 - the database, interface, field, query, time window, language, document types,
   and export format in `config/search_strategy.md`;
+- a limited-metadata manifest of the 261-record analytical corpus in
+  `data/processed/corpus/`;
 - public identifiers and non-restricted coding fields for the 163 records with
   archived fusion assignments in `data/processed/coding/`;
 - the original keyword thesauri and retained software-output tables;

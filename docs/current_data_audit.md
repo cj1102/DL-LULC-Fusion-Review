@@ -34,6 +34,15 @@ met the stated scope and were restored, while one non-trained, fixed-kernel meth
 was excluded, giving `255 + 6 = 261`. The seven decisions and their `UT`
 identifiers are documented in `docs/coding_sheet_omissions.md`.
 
+The reconciliation has now been materialised as
+`data/processed/corpus/screened_corpus_261_manifest.csv` and a parallel JSON file.
+The manifest contains 261 unique `UT` identifiers: 255 matched to non-empty titles
+in the historical working sheet and six matched directly by the documented
+restored `UT` values. It contains 261 English-language records from 2015--2025 and
+reproduces the reported mutually exclusive grouping of 231 Articles and 30
+Proceedings Papers; records tagged as both Article and Proceedings Paper are
+grouped under Proceedings Paper for that reported total.
+
 On 3 September 2026, the author identified this same byte-level file as the source
 loaded for the retained full-period keyword-map workflow. The associated
 `all_keywords(1).txt` file is byte-identical to the public
@@ -117,9 +126,9 @@ archived 163-record category totals were not changed.
 2. The retained 266-record export is a separate archival snapshot and does not
    alter the final screened count used in the manuscript.
 3. The title-level composition is reconciled as the 255-title working sheet plus
-   six documented inclusions selected from seven candidate omissions. A future
-   261-row `UT` manifest would strengthen identifier-level traceability for the
-   original 255 rows, but it would not change the reconciled total.
+   six documented inclusions selected from seven candidate omissions. The public
+   261-row `UT`/title manifest provides identifier-level traceability without
+   relabelling the separate 266-record archival snapshot.
 4. If an exhaustive record-level fusion distribution is required, create a
    reviewed 261-row fusion table and document any newly assigned records separately
    from the archived 163-record coding subset.

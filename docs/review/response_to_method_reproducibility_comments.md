@@ -56,6 +56,13 @@
 > the 163 archived assignments using UT, DOI, title, publication year, model,
 > dataset and fusion-method notes, original labels, standardised categories, and
 > operational basis codes.
+>
+> The repository also provides a limited-metadata manifest identifying all 261
+> analytical records by WoS accession number and title. It reconstructs the
+> analytical membership as the 255 non-empty titles in the historical working
+> sheet plus the six documented eligible inclusions. The separately retained
+> 266-record WoS snapshot is preserved only as source provenance and is not
+> relabelled as the 261-record corpus.
 
 **Internal preparation note—not for the response letter unless the editor asks
 specifically about the archived raw files:** the completed historical screening
@@ -64,10 +71,9 @@ retained 266-record WoS snapshot is an archival file and does not revise that
 denominator. At title level, the final count is reconciled as 255 working-sheet
 records plus six eligible records restored from seven candidate omissions. The
 remaining candidate was excluded because it used fixed, non-learned convolutional
-kernels rather than an applied deep-learning model. The repository does not yet
-reproduce the original 255 records by `UT` one by one, so distinguish the resolved
-title-level count from complete identifier-level reconstruction if the editor
-specifically requests the latter.
+kernels rather than an applied deep-learning model. The public 261-record
+`UT`/title manifest now supplies identifier-level traceability for this
+reconciliation without changing the retained archival snapshot.
 
 ## Reviewer 1, Comment 8
 
@@ -103,7 +109,8 @@ larger internal font remains unavailable from the archived materials.
 
 > **Response:** We added a dedicated “Reproducibility and Open Science” section
 > and a public companion repository. The repository provides the search strategy,
-> coding protocol, 163-record coding supplement, original keyword thesauri,
+> coding protocol, 261-record analytical-corpus manifest, 163-record coding
+> supplement, original keyword thesauri,
 > retained item tables, software and figure manifests, data-audit notes, and
 > validation code. Complete WoS full-record exports are not redistributed because
 > access and redistribution are governed by the database licence; instead, the

@@ -1,9 +1,10 @@
 # Known limitations of this working repository
 
-1. The final corpus count has been reconciled at title level as the 255-title
-   working sheet plus six documented inclusions selected from seven candidate
-   omissions. A single 261-row `UT` manifest is not yet available for the original
-   255 rows.
+1. The final corpus is documented in a 261-row `UT`/title manifest reconstructed
+   from the 255-title historical working sheet plus six documented inclusions.
+   Because the identifiers were recovered against a later archival WoS snapshot,
+   two titles carry later retraction-status notes; the historical membership is
+   preserved rather than silently changed.
 2. The exact January 2026 retrieval date is not confirmed.
 3. Cropped screenshots recover several visible controls for the represented
    keyword-map configuration. The 2016–2020 threshold is confirmed, but the

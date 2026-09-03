@@ -49,6 +49,11 @@ candidate omissions, giving `255 + 6 = 261`. The excluded candidate used fixed,
 non-learned convolutional kernels and explicitly avoided network training, so it
 did not meet the applied deep-learning scope. The record-level decisions are
 listed in [`docs/coding_sheet_omissions.md`](docs/coding_sheet_omissions.md).
+The resulting analytical membership is published as a limited-metadata
+[`261-record CSV manifest`](data/processed/corpus/screened_corpus_261_manifest.csv),
+with a machine-readable [`JSON counterpart`](data/processed/corpus/screened_corpus_261_manifest.json).
+It contains 261 unique WoS accession numbers and reproduces the reported grouping
+of 231 Articles and 30 Proceedings Papers.
 
 The retained working materials contain 163 assignments from a separate,
 second-stage fusion-content analysis associated with the 261-record bibliometric
@@ -119,7 +124,9 @@ non-English records and 20 records outside the eligible document types, yielding
 the original final corpus of 261 publications. This completed screening flow
 defines the denominator used in the manuscript and response letter. The retained
 266-record WoS file is a later archival snapshot documented for provenance; it
-does not replace or revise the screened 261-publication corpus. See
+does not replace or revise the screened 261-publication corpus. The public
+261-record identifier/title manifest records the analytical membership; the
+266-record file is not relabelled as 261. See
 [`config/search_strategy.md`](config/search_strategy.md).
 
 ## Reproduction workflow
@@ -141,6 +148,13 @@ without changing it:
 ```bash
 python3 code/validate_wos_records.py \
   /path/to/authorised-wos-export.txt
+```
+
+The public 261-record analytical manifest can be checked without access to the
+licensed source export:
+
+```bash
+python3 code/validate_screened_corpus_manifest.py
 ```
 
 ## Software information
@@ -181,9 +195,9 @@ will be added to the private-source manifest when supplied.
 
 Complete WoS exports, abstracts, and cited-reference records are not included in
 this public repository because their redistribution is governed by the database
-licence. The public package instead provides the search strategy, record
-identifiers for the archived coded subset, derived tables, protocols, validation
-code, and figures. Licensing boundaries are documented in
+licence. The public package instead provides the search strategy, the 261-record
+identifier/title manifest, record-level coding for the archived 163-record subset,
+derived tables, protocols, validation code, and figures. Licensing boundaries are documented in
 [`docs/licensing.md`](docs/licensing.md); code is covered by the MIT `LICENSE`.
 
 ## Citation

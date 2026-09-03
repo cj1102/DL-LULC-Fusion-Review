@@ -9,6 +9,20 @@ authorised local WoS export and a CSV conversion of the original private coding
 workbook. It deliberately excludes rows without an archived assignment and does
 not export abstracts or cited references.
 
+`build_screened_corpus_manifest.py` reconciles the 255 non-empty titles in a CSV
+conversion of the private historical working sheet with the six documented
+eligible inclusions. It writes the public 261-record CSV and JSON manifests and
+checks the record count, unique WoS accession numbers, and 255-plus-six
+composition. The supplied private WoS file is used only to recover identifiers and
+limited bibliographic metadata; it is not presented as the analytical corpus.
+
+`validate_screened_corpus_manifest.py` validates the public manifest without
+access to the private source files:
+
+```bash
+python3 code/validate_screened_corpus_manifest.py
+```
+
 `validate_archived_coding_subset.py` checks the public JSON without requiring
 licensed source data:
 

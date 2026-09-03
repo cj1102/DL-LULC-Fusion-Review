@@ -6,7 +6,8 @@
 - [x] Record the reported search interface, field, query, period, and filters
 - [x] Record confirmed VOSviewer version
 - [ ] Confirm exact retrieval date
-- [ ] Identify the UT-level frozen 261-record corpus
+- [x] Publish a 261-record UT/title analytical-corpus manifest reconstructed from
+      the 255-title historical working sheet plus six documented inclusions
 - [ ] Complete an inclusion/exclusion log
 - [x] Reconcile the intermediate 255-title sheet to the 261-publication corpus by
       documenting six inclusions and one exclusion among seven candidate omissions
