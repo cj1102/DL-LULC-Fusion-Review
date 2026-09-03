@@ -10,6 +10,28 @@ The repository separates derived software outputs, method settings, manuscript
 files, validation code, and materials that still require verification. Complete
 Web of Science full-record exports are intentionally not redistributed.
 
+## Study overview
+
+The review combines a documented WoSCC search and screening process with
+bibliometric analysis, keyword-network analysis, and a critical synthesis of
+deep-learning-based fusion methods. The workflow below links the corpus definition
+to the three analytical components and the final discussion.
+
+[![Literature retrieval, screening, and review workflow](docs/assets/review_workflow.png)](manuscript/Figures/flowchart.pdf)
+
+*Literature retrieval, screening, and review workflow. Select the image to open
+the original PDF.*
+
+Within the technical synthesis, data-level, feature-level, and decision-level
+fusion are treated as alternative integration designs with different information
+flows and failure modes, rather than as a compulsory sequence of technological
+development.
+
+[![Data-level, feature-level, and decision-level fusion strategies](docs/assets/fusion_levels.png)](manuscript/Figures/Fusion_Picture.pdf)
+
+*Schematic comparison of the three principal fusion levels. Select the image to
+open the original PDF.*
+
 ## Current status
 
 The manuscript reports a final corpus of 261 publications retrieved from the Web
@@ -60,7 +82,7 @@ They are verification tasks, not corrections made to the authors' data.
 
 ```text
 manuscript/       Current LaTeX source and active figures
-data/raw/         Public README only; licensed source exports remain private
+data/raw/         Public documentation/manifest; licensed source exports private
 data/interim/     Templates for future screening and reviewed coding
 data/processed/   Supplied HistCite and VOSviewer outputs
 config/           Search, coding, software, and VOSviewer documentation
@@ -163,6 +185,14 @@ code, and figures. Licensing boundaries are documented in
 
 ## Citation
 
-Preliminary citation metadata are provided in [`CITATION.cff`](CITATION.cff).
-Version and DOI information should be added only when the reviewed replication
-package is released.
+Please cite the associated manuscript as:
+
+> Cheng, J., Xie, J., Xia, S., & Frery, A. C. *Deep learning and multi-level
+> fusion for land-use and land-cover classification: Technological evolution and
+> future directions*. Manuscript under review at *International Journal of Remote
+> Sensing*.
+
+Machine-readable metadata are provided in [`CITATION.cff`](CITATION.cff).
+Publication year, volume, issue, page range, and DOI are intentionally omitted
+until the manuscript is accepted and the corresponding bibliographic information
+is available.
