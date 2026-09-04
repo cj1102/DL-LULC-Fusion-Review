@@ -3,8 +3,8 @@
 
 The manifest reconciles the 255 non-empty titles in the historical working
 sheet with six documented eligible records restored after review.  It exports
-only limited bibliographic metadata and never copies abstracts, addresses, or
-cited-reference lists from the licensed Web of Science source file.
+only limited bibliographic metadata to the CSV/JSON manifest; the complete
+screened tagged-text input is maintained separately under `data/raw/wos/`.
 """
 
 from __future__ import annotations
@@ -176,9 +176,9 @@ def main() -> None:
             "six documented eligible inclusions."
         ),
         "provenance_note": (
-            "The licensed 266-record WoS file is a later archival snapshot used "
-            "only to recover identifiers and limited bibliographic metadata. It "
-            "is not relabelled as the 261-record analytical corpus."
+            "The 261 records were selected by WoS accession number from the "
+            "retained source export. Included records were copied verbatim to "
+            "the public screened tagged-text analysis input."
         ),
         "record_count": 261,
         "composition": {

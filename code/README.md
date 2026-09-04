@@ -23,8 +23,14 @@ access to the private source files:
 python3 code/validate_screened_corpus_manifest.py
 ```
 
-`validate_archived_coding_subset.py` checks the public JSON without requiring
-licensed source data:
+`filter_wos_to_screened_corpus.py` uses the public 261-record UT manifest to
+filter an authorised local WoS tagged-text snapshot. It copies the selected
+records verbatim and writes a 261-record tagged-text input suitable for rerunning
+bibliometric software. The generated screened input is included in this
+repository at the author's request.
+
+`validate_archived_coding_subset.py` checks the public JSON independently of the
+tagged-text source:
 
 ```bash
 python3 code/validate_archived_coding_subset.py

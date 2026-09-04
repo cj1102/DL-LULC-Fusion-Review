@@ -2,11 +2,9 @@
 
 ## `raw/`
 
-The public repository contains documentation and a private-source manifest in
-this directory, but not the complete Web of Science tagged-text exports or the
-original author coding workbook. Those files remain in the authors' private
-archive because they contain licensed bibliographic content. They are not
-required to verify the archived 163-record coding-subset totals.
+This directory contains the screened 261-record WoS tagged-text input, its
+checksum manifest, and documentation. The original author coding workbook remains
+private; the public 163-record coding supplement is stored under `processed/`.
 
 ## `interim/`
 
@@ -25,8 +23,8 @@ cited-reference lists.
 The `corpus/` subdirectory contains the public 261-record analytical-corpus
 manifest in CSV and JSON formats. It was reconciled from 255 non-empty titles in
 the historical working sheet plus six documented eligible inclusions. It contains
-limited bibliographic metadata only and must not be confused with the separately
-retained 266-record WoS archival snapshot.
+limited bibliographic metadata and matches the 261 accession numbers in the
+screened tagged-text input.
 
 The distinction between `raw`, `interim`, and `processed` describes provenance; it
 does not imply that the current collection has passed the consistency checks in

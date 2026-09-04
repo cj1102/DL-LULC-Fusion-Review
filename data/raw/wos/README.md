@@ -1,18 +1,10 @@
-# Web of Science source exports
+# Web of Science analysis input
 
-This directory is the expected local location for authorised Web of Science
-tagged-text inputs. Complete full-record exports are intentionally excluded from
-the public Git repository because they contain database-supplied abstracts,
-cited references, addresses, and other licensed metadata.
+`wos_export_screened_261.txt` is the screened tagged-text source for the reported
+261-record analytical corpus. It contains 261 unique `UT` identifiers and no
+records outside 2015--2025.
 
-The filenames and SHA-256 checksums of the author-retained inputs are recorded in
-[`../private_source_manifest.csv`](../private_source_manifest.csv). An authorised
-user may place matching exports in this directory and validate them without
-changing their contents:
-
-```bash
-python3 ../../../code/validate_wos_records.py /path/to/authorised-export.txt
-```
-
-Publicly redistributable derived tables, thesauri, search instructions, and
-record-level coding evidence are stored elsewhere in the repository.
+The file is a record-preserving subset: included tagged records were copied
+verbatim, and the original retained export was not overwritten. Corpus membership
+can be cross-checked against
+`../../processed/corpus/screened_corpus_261_manifest.csv`.

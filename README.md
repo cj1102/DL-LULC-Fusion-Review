@@ -6,9 +6,8 @@ reproducibility materials for:
 > *Deep learning and multi-level fusion for land-use and land-cover
 > classification: Technological evolution and future directions*
 
-The repository separates derived software outputs, method settings, manuscript
-files, validation code, and materials that still require verification. Complete
-Web of Science full-record exports are intentionally not redistributed.
+The repository separates the screened analysis input, derived software outputs,
+method settings, manuscript files, and validation code.
 
 ## Study overview
 
@@ -80,14 +79,18 @@ retrospectively. Accordingly, the 98 records outside the archived 163-record
 fusion-level subset consist of the 92 blank rows in the intermediate sheet plus
 these six restored records; the archived category totals remain unchanged.
 
-These points are recorded in [`docs/current_data_audit.md`](docs/current_data_audit.md).
-They are verification tasks, not corrections made to the authors' data.
+The screened WoS tagged-text input is available as
+[`wos_export_screened_261.txt`](data/raw/wos/wos_export_screened_261.txt). It was
+created by retaining the 261 accession numbers in the analytical-corpus manifest
+and removing five records that did not satisfy the period, language, or applied
+deep-learning scope. The original archive is preserved locally and was not
+overwritten.
 
 ## Repository structure
 
 ```text
 manuscript/       Current LaTeX source and active figures
-data/raw/         Public documentation/manifest; licensed source exports private
+data/raw/         Screened 261-record WoS input and source documentation
 data/interim/     Templates for future screening and reviewed coding
 data/processed/   Supplied HistCite and VOSviewer outputs
 config/           Search, coding, software, and VOSviewer documentation
@@ -121,37 +124,29 @@ TS=(("ensemble" OR "fusion") AND
 
 The manuscript reports 283 initial records, followed by exclusion of two
 non-English records and 20 records outside the eligible document types, yielding
-the original final corpus of 261 publications. This completed screening flow
-defines the denominator used in the manuscript and response letter. The retained
-266-record WoS file is a later archival snapshot documented for provenance; it
-does not replace or revise the screened 261-publication corpus. The public
-261-record identifier/title manifest records the analytical membership; the
-266-record file is not relabelled as 261. See
+the final corpus of 261 publications. The public tagged-text file and the
+identifier/title manifest contain the same 261 unique WoS accession numbers. See
 [`config/search_strategy.md`](config/search_strategy.md).
 
 ## Reproduction workflow
 
-1. Rerun the documented WoS query under an authorised institutional subscription.
-2. Freeze any reconstructed corpus by Web of Science accession number (`UT`).
-3. Record every exclusion in `data/interim/screening_log_template.csv`.
-4. Review or extend fusion-level coding using
+1. Validate the screened tagged-text file and freeze the corpus by Web of Science
+   accession number (`UT`).
+2. Record every further exclusion in `data/interim/screening_log_template.csv`.
+3. Review or extend fusion-level coding using
    `data/interim/fusion_coding_reviewed_template.csv` and the documented protocol.
-5. Use the archived thesauri and
-   [`retained_network_settings.md`](config/vosviewer/retained_network_settings.md)
-   to distinguish confirmed settings from unavailable GUI values.
-6. Link each manuscript figure to its input, software or script, settings, and
+4. Use the archived thesauri and the visible VOSviewer settings in
+   [`retained_network_settings.md`](config/vosviewer/retained_network_settings.md).
+5. Link each manuscript figure to its input, software or script, settings, and
    output in [`docs/figures/figure_manifest.csv`](docs/figures/figure_manifest.csv).
 
-Authorised users who create their own local WoS tagged-text export can inspect it
-without changing it:
+The screened WoS tagged-text file can be validated without changing it:
 
 ```bash
-python3 code/validate_wos_records.py \
-  /path/to/authorised-wos-export.txt
+python3 code/validate_wos_records.py data/raw/wos/wos_export_screened_261.txt
 ```
 
-The public 261-record analytical manifest can be checked without access to the
-licensed source export:
+The public 261-record analytical manifest can also be checked independently:
 
 ```bash
 python3 code/validate_screened_corpus_manifest.py
@@ -167,11 +162,9 @@ analysis remain to be recorded in
 ## VOSviewer materials
 
 The supplied keyword and author tables report item-level counts and total link
-strength. Two cropped screenshots document the visible normalisation, layout,
-clustering, weighting, label, and line-display controls for the represented
-keyword-map configuration. They do not establish all network edges, coordinates,
-counting methods, thresholds, hidden advanced parameters, or saved project files.
-Confirmed, output-inferred, and unavailable settings are reported in
+strength. Two cropped screenshots document only the visible normalisation,
+layout, clustering, weighting, label, and line-display controls for the
+represented keyword-map configuration. These visible controls are recorded in
 [`retained_network_settings.md`](config/vosviewer/retained_network_settings.md).
 The corresponding unedited screenshots are archived in
 [`config/vosviewer/evidence`](config/vosviewer/evidence/).
@@ -182,22 +175,18 @@ into `fusion`). Their use and limitations are documented in
 [`keyword_cleaning_protocol.md`](config/vosviewer/keyword_cleaning_protocol.md).
 No keyword frequencies were recomputed during revision.
 
-For the retained full-period and temporal keyword maps, the documented chain is:
-private period-appropriate WoS tagged-text input → VOSviewer co-occurrence
-analysis using *All keywords* → the corresponding public thesaurus → the archived
-visible settings → exported network or average-publication-year overlay. The
-available restricted inputs are identified by record count and SHA-256 in
-[`data/raw/private_source_manifest.csv`](data/raw/private_source_manifest.csv),
-without republishing the licensed full records. The 2016–2020 tagged-text input
-will be added to the private-source manifest when supplied.
+For the keyword maps, the documented chain is: screened WoS tagged-text input →
+VOSviewer co-occurrence analysis using *All keywords* → the corresponding public
+thesaurus → the archived visible settings → exported network or
+average-publication-year overlay. The 261-record input is identified by record
+count and SHA-256 in
+[`data/raw/private_source_manifest.csv`](data/raw/private_source_manifest.csv).
 
 ## Data access and licensing
 
-Complete WoS exports, abstracts, and cited-reference records are not included in
-this public repository because their redistribution is governed by the database
-licence. The public package instead provides the search strategy, the 261-record
-identifier/title manifest, record-level coding for the archived 163-record subset,
-derived tables, protocols, validation code, and figures. Licensing boundaries are documented in
+The screened WoS export is included at the author's request. Users remain
+responsible for complying with the terms attached to their own access to Web of
+Science content. Licensing boundaries are documented in
 [`docs/licensing.md`](docs/licensing.md); code is covered by the MIT `LICENSE`.
 
 ## Citation

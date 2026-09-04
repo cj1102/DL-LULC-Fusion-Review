@@ -34,9 +34,9 @@ The manuscript currently reports:
 3. Twenty records outside Article or Proceedings Paper excluded: 261 records.
 4. Final composition: 231 articles and 30 proceedings papers.
 
-The completed screening process therefore defines the original final corpus as
-261 publications. The separately retained 266-record WoS snapshot is an archival
-file and is not used to revise that historical screened count.
+The completed screening process defines the final corpus as 261 publications.
+The public tagged-text analysis input contains the same 261 unique WoS accession
+numbers as the corpus manifest.
 
 The retained title-level materials reconcile the final count as 255 records in the
 intermediate working sheet plus six eligible records restored after review of
@@ -44,10 +44,10 @@ seven candidate omissions. The remaining candidate was excluded because it used
 fixed, non-learned convolutional kernels rather than an applied deep-learning
 model. See `docs/coding_sheet_omissions.md` for the `UT`-level decisions.
 
-## Additional record-level freeze recommended for future reanalysis
+## Record-level corpus freeze
 
-If the historical file is recovered or the search is rerun, create a UT-level file
-containing the complete 261-record corpus and record:
+The repository includes a UT-level tagged-text file containing the complete
+261-record corpus. For any future rerun, additionally record:
 
 - exact retrieval date and local time;
 - query copied directly from WoS;
@@ -58,7 +58,5 @@ containing the complete 261-record corpus and record:
 - treatment of Early Access, retracted publications, combined document types, and
   records whose publication year changes after indexing.
 
-Do not attempt to replace the author-confirmed screening flow by subtracting
-categories retrospectively from the currently retained 266-record snapshot. A
-future crosswalk would strengthen UT-level traceability, but it would not redefine
-the reported final denominator of 261 publications.
+Any later database search should be treated as a new retrieval rather than used to
+rewrite the frozen 261-record historical corpus.

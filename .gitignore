@@ -21,6 +21,7 @@ manuscript/manuscript.pdf
 
 # Licensed source records retained only in the authors' private archive
 data/raw/wos/*.txt
+!data/raw/wos/wos_export_screened_261.txt
 data/raw/screening/*.xls
 
 # Local scratch files

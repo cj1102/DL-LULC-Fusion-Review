@@ -24,17 +24,13 @@
 > and screening stages. We also identify VOSviewer version 1.6.20 and archive the
 > exact period-specific and full-period keyword thesaurus files.
 >
-> The revision distinguishes settings that are confirmed from those inferred from
-> retained outputs. The retained 2016–2020 and full-period keyword item tables
-> contain 16 and 162 items, respectively, with a minimum retained occurrence of
-> three, which is consistent with an occurrence threshold of three. Cropped
-> VOSviewer panels additionally document the visible normalisation, layout,
-> clustering, weighting, label, and line-display controls for the represented
-> keyword-map configuration. The original counting method, thresholds for every
-> map, hidden advanced parameters, manuscript-compatible full-period GUI capture,
-> co-citation GUI settings, and saved map/network projects remain unavailable. We
-> report that boundary explicitly rather than extrapolating the panels to other
-> figures, and we do not claim pixel-identical graphical reproducibility.
+> The repository now provides the screened 261-record tagged-text input and a
+> matching UT-level manifest. Cropped VOSviewer panels document only the visible
+> normalisation, layout, clustering, weighting, label, and line-display controls.
+> We do not infer thresholds, random seeds, or hidden advanced parameters from
+> screenshots that do not display them. The reported node counts, occurrence
+> values, and Total Link Strength values remain those stated in the manuscript
+> and retained item tables.
 >
 > Keyword cleaning is now documented explicitly. The archived thesauri contain
 > both lexical normalisation and broader concept aggregation. Because changing
@@ -57,23 +53,11 @@
 > dataset and fusion-method notes, original labels, standardised categories, and
 > operational basis codes.
 >
-> The repository also provides a limited-metadata manifest identifying all 261
-> analytical records by WoS accession number and title. It reconstructs the
-> analytical membership as the 255 non-empty titles in the historical working
-> sheet plus the six documented eligible inclusions. The separately retained
-> 266-record WoS snapshot is preserved only as source provenance and is not
-> relabelled as the 261-record corpus.
-
-**Internal preparation note—not for the response letter unless the editor asks
-specifically about the archived raw files:** the completed historical screening
-flow defines the original final corpus as 261 publications. The separately
-retained 266-record WoS snapshot is an archival file and does not revise that
-denominator. At title level, the final count is reconciled as 255 working-sheet
-records plus six eligible records restored from seven candidate omissions. The
-remaining candidate was excluded because it used fixed, non-learned convolutional
-kernels rather than an applied deep-learning model. The public 261-record
-`UT`/title manifest now supplies identifier-level traceability for this
-reconciliation without changing the retained archival snapshot.
+> The screened tagged-text file and limited-metadata manifest identify the same
+> 261 analytical records by WoS accession number. The screened file was created
+> by retaining the verified analytical UTs and omitting five records outside the
+> period, language, or applied deep-learning scope. The original source archive
+> was preserved separately rather than overwritten.
 
 ## Reviewer 1, Comment 8
 
@@ -110,12 +94,9 @@ larger internal font remains unavailable from the archived materials.
 > **Response:** We added a dedicated “Reproducibility and Open Science” section
 > and a public companion repository. The repository provides the search strategy,
 > coding protocol, 261-record analytical-corpus manifest, 163-record coding
-> supplement, original keyword thesauri,
+> supplement, screened 261-record tagged-text input, original keyword thesauri,
 > retained item tables, software and figure manifests, data-audit notes, and
-> validation code. Complete WoS full-record exports are not redistributed because
-> access and redistribution are governed by the database licence; instead, the
-> repository provides executable retrieval instructions and non-restricted
-> derived materials. The new section also recommends reporting public benchmark
+> validation code. The new section also recommends reporting public benchmark
 > identifiers, geographic and temporal hold-outs, class definitions, random
 > seeds, preprocessing, code and configurations, compute, per-class and
 > calibration metrics, and missing-modality stress tests.

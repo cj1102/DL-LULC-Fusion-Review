@@ -1,6 +1,6 @@
 {
   "scope_note": "This is the public identifier/title manifest for the 261-publication analytical corpus reported in the manuscript. It is reconstructed from the 255 non-empty titles in the historical working sheet plus six documented eligible inclusions.",
-  "provenance_note": "The licensed 266-record WoS file is a later archival snapshot used only to recover identifiers and limited bibliographic metadata. It is not relabelled as the 261-record analytical corpus.",
+  "provenance_note": "The 261 records were selected by WoS accession number from the retained source export. Included records were copied verbatim to the public screened tagged-text analysis input.",
   "record_count": 261,
   "composition": {
     "historical_working_sheet": 255,

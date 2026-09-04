@@ -1,63 +1,39 @@
-# Retained VOSviewer network settings and evidence
+# Retained VOSviewer settings
 
-VOSviewer version 1.6.20 is confirmed from the supplied application information.
-The manuscript and retained item tables remain the authority for reported item
-counts. This record distinguishes visible screenshot settings, values inferred
-from retained outputs, and settings that remain unavailable.
+VOSviewer version 1.6.20 is confirmed by the supplied application screenshot.
+The two evidence images record only the controls that are visibly shown in the
+screenshots; they are not used to infer thresholds, random seeds, or hidden
+advanced settings.
 
-For the full-period keyword workflow, the author identified the private tagged-text
-file `Wos_raw_data_records_2006-2025.txt` as the bibliographic input, selected
-co-occurrence analysis with *All keywords*, and applied the author-created
-`all_keywords(1).txt` thesaurus. The public copy of that thesaurus is
-`thesaurus_keywords_all_original.txt`; the two files are byte-identical.
+## Layout and clustering
 
-For the later temporal panel, the author identified `21-25.txt` as the private
-input and `21-25Keyword.txt` as the thesaurus. They are byte-identical to the
-locally retained period snapshot and the public
-`thesaurus_keywords_2021_2025_original.txt`, respectively. For the earlier panel,
-`16-20keyword.txt` is byte-identical to the public
-`thesaurus_keywords_2016_2020_original.txt`; its tagged-text input is pending
-author upload.
+| Setting | Visible value |
+|---|---:|
+| Normalisation | Association strength |
+| Attraction | 2 |
+| Repulsion | -2 |
+| Use default layout values | No |
+| Clustering resolution | 1.60 |
+| Minimum cluster size | 1 |
+| Merge small clusters | Yes |
 
-## Visible keyword-map controls
+## Visualisation
 
-The cropped settings screenshots show:
+| Setting | Visible value |
+|---|---|
+| Node weights | Occurrences |
+| Node style | Circles |
+| Maximum label length | 30 |
+| Font | Open Sans |
+| Minimum displayed link strength | 0 |
+| Maximum displayed links | 1000 |
+| Coloured lines | Yes |
+| Curved lines | Yes |
 
-- association-strength normalisation;
-- layout attraction 2 and repulsion −2, with default layout values disabled;
-- clustering resolution 1.60, minimum cluster size 1, and merging of small
-  clusters enabled;
-- occurrence-based node weights;
-- circular nodes, maximum label length 30, and Open Sans labels; and
-- minimum displayed link strength 0, a maximum of 1000 displayed links, and
-  coloured curved lines.
+The temporal overlay screenshots use average publication year as the score. The
+display controls affect presentation rather than the corpus definition. Reported
+node counts, occurrence values, TLS values, and substantive interpretations are
+those stated in the manuscript and retained output tables.
 
-These values document the visible configuration of both temporal keyword maps.
-The temporal overlays use average publication year as the score. Display controls
-do not alter the occurrence or TLS values. The panels do not establish the
-counting method, the 2021–2025 occurrence threshold, hidden advanced parameters,
-or settings of every other network figure.
-
-## Figure-specific retained evidence
-
-| Manuscript figure | Analysis/unit | Threshold evidence | Thesaurus | Remaining unavailable information |
-|---|---|---|---|---|
-| Temporal keyword map, 2016–2020 | Keyword co-occurrence; *All keywords*; average-publication-year overlay | Minimum occurrence 3; 16 of 288 keywords met the threshold; final output has 16 items, 8 clusters, 79 links, and TLS 284 | `thesaurus_keywords_2016_2020_original.txt` | Private tagged-text input, counting method, hidden advanced parameters, seed, and saved project |
-| Temporal keyword map, 2021–2025 | Keyword co-occurrence; *All keywords*; average-publication-year overlay | Threshold dialogue unavailable; final output has 39 items, 13 clusters, 458 links, and TLS 2475 | `thesaurus_keywords_2021_2025_original.txt` | Threshold, counting method, hidden advanced parameters, seed, and saved project |
-| Full-period keyword map | Keyword co-occurrence; keyword unit | Retained item table has 162 items and a minimum occurrence of 3; consistent with a threshold of 3 | `thesaurus_keywords_all_original.txt` | Manuscript-compatible GUI capture, counting method, hidden advanced parameters, seed, and saved project |
-| Keyword density map | Same retained full-period keyword vocabulary | Uses the archived full-period visual output | `thesaurus_keywords_all_original.txt` | Exact density, layout, and saved-project settings |
-| Document co-citation map | Document co-citation | Retained citation-relation table documents 797 links after its header | Not applicable | Threshold, counting method, normalisation, clustering, seed, and saved project |
-
-## Evidence files
-
-Only the requested cropped parameter panels are public. They are archived with
-checksums in [`evidence/`](evidence/). The original full-window screenshots and
-threshold dialogues are not included in the repository.
-
-## Interpretation boundary
-
-The repository supports auditing of the retained item counts and reported
-item-level occurrence and TLS values, but it cannot recreate every network layout
-pixel for pixel. The manuscript therefore avoids claims based on exact node
-positions and does not treat absolute TLS values from independently constructed
-temporal networks as directly comparable measures of technical development.
+The cropped evidence images and their checksums are stored in
+[`evidence/`](evidence/).
