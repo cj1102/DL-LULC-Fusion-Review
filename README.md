@@ -202,3 +202,5 @@ Machine-readable metadata are provided in [`CITATION.cff`](CITATION.cff).
 Publication year, volume, issue, page range, and DOI are intentionally omitted
 until the manuscript is accepted and the corresponding bibliographic information
 is available.
+
+Detailed keyword-processing, corpus-reconciliation and historical-setting documentation is provided in the [supporting methodological notes](docs/supporting_methodological_notes.md).
