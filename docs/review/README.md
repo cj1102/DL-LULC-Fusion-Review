@@ -4,6 +4,9 @@ The current formal response is
 [`response_to_reviewers_original_baseline_aligned.docx`](response_to_reviewers_original_baseline_aligned.docx).
 It accompanies the [revised manuscript](../../manuscript/manuscript_revised.pdf)
 and [tracked comparison](../../manuscript/manuscript_diff.pdf).
+The response now contains 14 pages; the complete editable Table 4 is reproduced
+on its landscape page 6, immediately after the response to Reviewer 1 Comment 5,
+with the original table note, citations and mathematical notation.
 
 See [the 23-item correspondence check](revision_alignment_check_20260909.md),
 [full-text audit](submission_audit_20260910.md), and

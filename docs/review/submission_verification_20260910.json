@@ -11,13 +11,7 @@
     "main": 33,
     "main_diff": 38
   },
-  "response_pages": 13,
-  "response_changed_paragraphs_zero_based": [
-    40,
-    80,
-    83,
-    107
-  ],
+  "response_pages": 14,
   "other_response_paragraph_text_unchanged": true,
   "cited_bibliography_entries": 78,
   "missing_citation_keys": [],
@@ -30,8 +24,8 @@
   "outputs_sha256": {
     "pdf/manuscript_original_baseline_revised.pdf": "3833ba8267edee0590a327b4aa85a015a5954c586625b8ff0863c3bbb9ad1a4d",
     "pdf/manuscript_original_baseline_diff.pdf": "07112dd6562be2593514f096134e3c03d90de9da7cd35901d7a927be03a0a275",
-    "response_to_reviewers_original_baseline_aligned.docx": "f4a8c3d14ec9050a252a664f778df1bc614000a882a5bbce419941f2e7c8a070",
-    "manuscript_original_baseline_source.zip": "a3d847fc22291e4251655715011fff8c3ad3c36c5f43487bfc4b685cbc5cde26"
+    "response_to_reviewers_original_baseline_aligned.docx": "89231f98a634f1c025cda141427accce8ec35228f190a39910e98c70fd4b90a4",
+    "manuscript_original_baseline_source.zip": "078357d18fffe958cea1654115fada139c92148862e673c5afcb653aa70189ce"
   },
   "source_sha256": {
     "Figures/Fusion_Picture.pdf": "575a94e2198f1440d87fa12fda9ddc5a06e61c16da55461eb11534ed63a94b53",
@@ -66,11 +60,32 @@
     "revision_scope_zh.md": "8173302e1eded0b52f92d43b4ae886c0917524ae2cb0516892412b6e9461e65c",
     "rotating.sty": "4f55292dcd79fd5ff0835eee4cd7d95b0da8500ae0fd8b662a447c98ff0a6ef4",
     "subfig.sty": "5535f994d6f10394ef7a8afe36f7cd1c4bcdde56c4af3b9f01592e0ed25e2af5",
-    "submission_audit_zh.md": "8b498888d5df7b36994047ed499ed4222b369b62642beaf78056280250274623",
+    "submission_audit_zh.md": "2efda9478d18eef9f32295ec2e5fa9fb3542a9dbb61e7c376084f75103813c27",
     "supporting_methods_notes.md": "7e2d93a0c153ad92ac958592ab74e43b20ea25efe251a5ae0b2314effac1eb28",
     "table_and_citation_restore_zh.md": "0fca0f19ca6d1f9eca7eb7ab3036329a3f8add29e74ffec3445e940f4a2e2abc",
     "wording_cleanup_zh.md": "ef1a1f0d71ea5d995e81f590f1fb9dbe3aea4ae375783cdad6a2fce76a2ed55a"
   },
   "current_manifest_and_public_input_ut_sets_match": true,
-  "publication_status_note": "This update is included in the author-requested GitHub publication; consult the repository commit and publication verification record for actual status."
+  "publication_status_note": "This update is included in the author-requested GitHub publication; consult the repository commit and publication verification record for actual status.",
+  "full_sweep_changed_paragraphs_in_pre_table_response_zero_based": [
+    40,
+    80,
+    83,
+    107
+  ],
+  "response_table4_addition": {
+    "source_table": "Table 4, main.tex, tab:fusion_levels",
+    "inserted_after": "Reviewer 1, Comment 5 response",
+    "editable_word_table": true,
+    "body_rows": 4,
+    "columns": 5,
+    "caption_note_citations_and_notation_included": true,
+    "manuscript_main_sha256": "9139501210c58c3530c9d42ef54f3c8ce30b23f1c65a1d715114957e35993706",
+    "all_previous_paragraphs_preserved_except_added_pointer": true,
+    "rendered_pages": 14,
+    "table_page": 6,
+    "every_table_cell_matches_manuscript": true,
+    "all_14_pages_visually_checked": true,
+    "response_docx_sha256": "89231f98a634f1c025cda141427accce8ec35228f190a39910e98c70fd4b90a4"
+  }
 }
