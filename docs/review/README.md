@@ -1,15 +1,16 @@
-# Review-response working documents
+# Reviewer-response documents
 
-This directory contains the revision-stage comment matrix and draft response
-language used to check correspondence between reviewer comments, manuscript
-changes, and supporting evidence. These files are process records rather than
-additional research data.
+The current formal response is
+[`response_to_reviewers_original_baseline_aligned.docx`](response_to_reviewers_original_baseline_aligned.docx).
+It accompanies the [revised manuscript](../../manuscript/manuscript_revised.pdf)
+and [tracked comparison](../../manuscript/manuscript_diff.pdf).
 
-- `reviewer_comment_status_matrix.md` is the consolidated status checklist.
-- `response_to_method_reproducibility_comments.md` contains draft responses on
-  bibliometric methods, figures, and open science.
-- `reviewer_response_fusion_level_coding.md` preserves the focused draft response
-  on the 163-record fusion-level coding subset.
+See [the 23-item correspondence check](revision_alignment_check_20260909.md),
+[full-text audit](submission_audit_20260910.md), and
+[file verification](submission_verification_20260910.json).
+File alignment has been checked. The current corpus manifest and public input
+also agree at UT level, but historical statistics remain to be reconciled.
 
-The focused drafts may be consolidated into the formal response letter after the
-authors complete their final comparison against the submitted manuscript.
+The other Markdown response drafts and status matrix in this directory are
+historical process records. The current response and audit take precedence over
+their earlier wording or completion claims.

@@ -12,7 +12,7 @@ The author separately confirmed on 9 September 2026 that the document co-citatio
 
 ## Corpus reconciliation and fusion coding
 
-The 261 records constituted the corpus for all bibliometric analyses. The retained manual working sheet contained 255 titles. Reconciliation with the archived WoS records identified seven candidate omissions: six records satisfied the stated period, language, document-type, deep-learning, and LULC-classification scope and were restored to the bibliometric corpus, whereas one record was excluded because its method used fixed, non-learned convolutional kernels and explicitly avoided network training. The retained materials therefore reconcile the final corpus as 255 + 6 = 261.
+The manuscript reports a 261-record bibliometric corpus. The current reconciled 261-record manifest and public WoS input have matching UT sets; this identity check does not establish that all historical statistics used exactly that list. The retained manual working sheet contained 255 titles. Reconciliation with the archived WoS records identified seven candidate omissions: six records satisfied the stated period, language, document-type, deep-learning, and LULC-classification scope and were restored to the bibliometric corpus, whereas one record was excluded because its method used fixed, non-learned convolutional kernels and explicitly avoided network training. The retained materials therefore reconcile the final corpus as 255 + 6 = 261.
 
 A separate second-stage manual content screen was used for fusion-level analysis. A record received a fusion-level assignment only when its abstract, author keywords, dataset information, and reported model description identified an explicit information-integration operation whose position in the classification pipeline could be assigned reliably to at least one predefined fusion level. The occurrence of the terms “fusion” or “ensemble” in a bibliographic record was not, by itself, sufficient. Data-level fusion was assigned when integration occurred before representation learning; feature-level fusion was assigned when intermediate representations were combined before prediction; and decision-level fusion was assigned when independently generated scores, probabilities, labels, or maps were aggregated. Studies reporting explicit integration at more than one stage were coded as hybrid. The archived working materials retain fusion-level assignments for 163 records.
 
@@ -20,8 +20,25 @@ The other 98 bibliometric records comprise 92 rows in the 255-title working shee
 
 A record-level table for the 163 records with archived fusion-level assignments is provided with the supporting materials. It reports the WoS accession number, DOI, title, publication year, model, dataset and fusion-method notes retained in the working sheet, the original fusion label, and the standardised fusion level. This table reproduces the reported category totals without retrospectively assigning a fusion level to the other 98 bibliometric records.
 
-Before institution-level aggregation, affiliation names were manually checked for duplicate institutional identities arising from obvious spelling variants, abbreviations, and alternative name forms. No duplicate institutional identities requiring consolidation were identified; therefore, no affiliation thesaurus-based merging was applied.
+Before institution-level aggregation, affiliation names were manually checked for duplicate institutional identities arising from obvious spelling variants, abbreviations, and alternative name forms. No affiliation thesaurus-based merging is documented in the retained materials.
 
 ## Relationship to the manuscript
 
 Section 2.2 retains the cleaning rules, threshold evidence boundary, fusion-coding criteria and distinction between the 261-record bibliometric corpus and the 163-record fusion subset. The detailed archival and reconciliation account is provided here and in the responses to Reviewer 1 Comment 2 and Reviewer 3 Comment 3. This documentation does not rerun the analyses. It distinguishes retained output evidence, the separately author-confirmed co-citation settings, and other historical settings that remain unavailable.
+
+## Current list verification and historical statistical agreement
+
+The current 261-record manifest and public WoS input were checked on 10 September
+2026: both contain 261 unique UTs, and their UT sets agree without missing or
+duplicate records. This is a record-level check following title reconciliation,
+not a check of the total alone. The public input contains 47 records for 2024
+and 68 for 2025, whereas the manuscript and annual figure report 48 and 70.
+Historical statistical agreement therefore remains unresolved.
+
+The historical screening sequence (283 → 281 → 261), later working-sheet
+reconciliation (255 + 6), and extraction of the 261 selected UTs from a retained
+266-record export are separate operations. Detailed decisions and verification
+are available in the repository's `docs/coding_sheet_omissions.md` and
+`docs/corpus_validation_20260910.json`. The author's original statistical outputs
+will be used to resolve the differences. This explanation is supplementary
+documentation and has not been added to the manuscript body in this update.

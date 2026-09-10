@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-09-10",
+  "scope": "Identity agreement between the current public manifest and public WoS input; not verification of historical statistics.",
+  "manifest_rows": 261,
+  "input_records": 261,
+  "manifest_unique_ut": 261,
+  "input_unique_ut": 261,
+  "ut_sets_identical": true,
+  "missing_ut": [],
+  "extra_ut": [],
+  "inclusion_sources": {
+    "documented_restored_inclusion": 6,
+    "historical_255_title_working_sheet": 255
+  },
+  "public_input_year_counts": {
+    "2015": 1,
+    "2016": 1,
+    "2017": 3,
+    "2018": 10,
+    "2019": 15,
+    "2020": 23,
+    "2021": 27,
+    "2022": 29,
+    "2023": 37,
+    "2024": 47,
+    "2025": 68
+  },
+  "manuscript_year_counts_pending_reconciliation": {
+    "2024": 48,
+    "2025": 70
+  },
+  "historical_statistics_reproduced": false,
+  "files_sha256": {
+    "data/processed/corpus/screened_corpus_261_manifest.csv": "cb008eada232b9a0bf69e0b05b8036700983450f3f39846297aac38d0be99b99",
+    "data/raw/wos/wos_export_screened_261.txt": "bfb1c620b406222b1f8e83630076d0d294e216fbc4e9b1d052cedc0e4b1f266f"
+  }
+}

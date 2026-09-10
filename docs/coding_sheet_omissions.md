@@ -20,6 +20,56 @@ deep-learning model. The reconciliation is therefore `255 + 6 = 261`.
 | WOS:001527641000001 | 2025 | Include | Multi-Scale Context Enhancement Network with Local-Global Synergy Modeling Strategy for Semantic Segmentation on Remote Sensing Images | Applies a Vision Mamba and cross-attention network to land-cover-related remote-sensing segmentation. |
 | WOS:001571488500021 | 2025 | Include | Multilevel Differential Aggregation With Gated Discrimination Network for Hyperspectral-LiDAR Joint Land Cover Classification | Applies a deep gated multimodal network to HSI--LiDAR land-cover classification. |
 
-The six restored records complete the 261-publication bibliometric corpus. They
+The six restored records complete the current reconciled 261-record list. They
 were not assigned fusion categories retrospectively, so the archived 163-record
 fusion-coding subset and its reported category totals remain unchanged.
+
+## What has been verified, and what remains unresolved
+
+The current list was established by checking titles and then linking each record
+to its unique Web of Science accession number (UT), rather than by matching a
+total count alone. The six steps are:
+
+| Step | Procedure and evidence |
+|---|---|
+| 1. Intermediate sheet | Retain 255 non-empty, unique titles from the working sheet. |
+| 2. Candidate omissions | Compare these titles with the retained WoS records and identify seven candidate omissions. |
+| 3. Eligibility decisions | Include six candidates under the documented decisions above and exclude the fixed, non-learned convolutional-kernel study: 255 + 6 = 261. |
+| 4. Record manifest | Link each included title to UT, DOI, publication year and inclusion source. |
+| 5. Public input | Extract the records matching those 261 UTs from the retained export; do not remove arbitrary records to reach a target count. |
+| 6. Identity check | Verify 261 manifest rows, 261 public input records, 261 unique UTs in each, and identical UT sets with no duplicates or missing records. |
+
+The check was repeated on 10 September 2026. Counts, annual totals and file
+SHA-256 values are recorded in
+[the machine-readable verification](corpus_validation_20260910.json). The
+[manifest](../data/processed/corpus/screened_corpus_261_manifest.csv) and
+[public WoS input](../data/raw/wos/wos_export_screened_261.txt) therefore agree
+at record-identity level.
+
+**Agreement of the current list and input does not establish agreement of all
+historical statistical results.** Two known annual discrepancies remain:
+
+| Year | Current public 261-record input | Manuscript and annual figure |
+|---|---:|---:|
+| 2024 | 47 | 48 |
+| 2025 | 68 | 70 |
+
+The current public list and input are aligned. Whether this list exactly
+reconstructs the historical analysis corpus, and whether it reproduces all
+annual and network statistics, cannot be established from this identity check
+alone. The author's original 261-record statistical outputs are the designated
+reference for resolving these differences. The figures and reported statistics
+have not been recomputed or declared verified by this documentation update.
+
+## Historical screening and later material reconciliation
+
+The reported `283 → 281 → 261` sequence describes the historical screening
+process. The later `255 + 6` reconciliation describes recovery of the current
+record list from a working sheet and retained records. Extracting those 261 UTs
+from a retained 266-record export describes preparation of the public input.
+These are distinct operations at different stages and must not be presented as
+one screening sequence or as evidence that the historical statistics have
+already been reproduced.
+
+This detailed archival explanation is kept in the repository. It has not been
+added to the manuscript body as part of this documentation update.
