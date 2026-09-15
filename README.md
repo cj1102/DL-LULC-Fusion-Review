@@ -3,8 +3,8 @@
 This public companion repository contains the manuscript source and the available
 reproducibility materials for:
 
-> *Deep learning and multi-level fusion for land-use and land-cover
-> classification: Technological evolution and future directions*
+> *Deep learning and multi-level fusion for Land Use/Land Cover
+> classification: Technological evolution trajectory and future trends*
 
 The repository separates the screened analysis input, derived software outputs,
 method settings, manuscript files, and validation code.
@@ -211,8 +211,8 @@ Science content. Licensing boundaries are documented in
 Please cite the associated manuscript as:
 
 > Cheng, J., Xie, J., Xia, S., & Frery, A. C. *Deep learning and multi-level
-> fusion for land-use and land-cover classification: Technological evolution and
-> future directions*. Manuscript under review at *International Journal of Remote
+> fusion for Land Use/Land Cover classification: Technological evolution trajectory and
+> future trends*. Manuscript under review at *International Journal of Remote
 > Sensing*.
 
 Machine-readable metadata are provided in [`CITATION.cff`](CITATION.cff).

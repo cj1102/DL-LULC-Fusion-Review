@@ -3,7 +3,7 @@
 Comparison of the historical Web of Science snapshot with the 255-title working
 coding sheet identified seven candidate records from 2006--2025 that were absent
 from the intermediate sheet. Eligibility was then checked against the stated
-scope: English-language Articles or Proceeding Papers that apply a deep-learning
+scope: English-language Articles or Proceedings Papers that apply a deep-learning
 method to the retrieved LULC-classification intersection. Six records satisfied
 these criteria and were restored to the bibliometric corpus. One record was not
 restored because its abstract explicitly describes fixed, pre-determined

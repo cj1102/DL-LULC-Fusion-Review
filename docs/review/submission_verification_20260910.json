@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-10",
+  "checked_at": "2026-09-15",
   "original_main_sha256": "cd8f80e6288f781aebf309b54c8dcf444f2c93a0d365c852780f24b9b4a6e77c",
   "original_bib_sha256": "a7dd8cd16c5895071ac8d123f9cd5fea5771dd9c3e417b4884ff4275420ee403",
   "independent_diff_matches": true,
@@ -7,7 +7,7 @@
   "source_files_in_zip_and_extracted_copy_match": 36,
   "pdf_pages": {
     "main": 33,
-    "main_diff": 38
+    "main_diff": 39
   },
   "response_pages": 14,
   "other_response_paragraph_text_unchanged": true,
@@ -20,10 +20,10 @@
   "captions": 19,
   "undefined_or_overfull_compile_warnings": [],
   "outputs_sha256": {
-    "pdf/manuscript_original_baseline_revised.pdf": "3833ba8267edee0590a327b4aa85a015a5954c586625b8ff0863c3bbb9ad1a4d",
-    "pdf/manuscript_original_baseline_diff.pdf": "07112dd6562be2593514f096134e3c03d90de9da7cd35901d7a927be03a0a275",
-    "response_to_reviewers_original_baseline_aligned.docx": "89231f98a634f1c025cda141427accce8ec35228f190a39910e98c70fd4b90a4",
-    "manuscript_original_baseline_source.zip": "90d2b806d5570990816d9038b8c1ec6d93885a7c36623c8aa7880bd7cb6b03db"
+    "pdf/manuscript_original_baseline_revised.pdf": "95f571ef60c9f3cf27d06561e5a9fb0fe63617795ed5bf8682a48c3778924d86",
+    "pdf/manuscript_original_baseline_diff.pdf": "ebc5e6a79f15ce2dbdc2fc26d8b37b540cb426e01666104a033584b2bbb82641",
+    "response_to_reviewers_original_baseline_aligned.docx": "396d74380cd6e27db1db1243b3dc965fca1047fff54ffb6b891175163750cb1e",
+    "manuscript_original_baseline_source.zip": "5c7bf342552d96833abdf875074deaa044f47f8446a68e8f79d59b24e4d5dd66"
   },
   "source_sha256": {
     "Figures/Fusion_Picture.pdf": "575a94e2198f1440d87fa12fda9ddc5a06e61c16da55461eb11534ed63a94b53",
@@ -31,7 +31,7 @@
     "Figures/Picture_4.pdf": "addf4d4d20058fd25c29933da7d3f756a19acae6ee341e8cfb4fcf4eeae05918",
     "Figures/Picture_5.pdf": "05b10e04d4937695397189a29fe1ceb98005e2ae024e1f4b1fe1606788026228",
     "Figures/Picture_6.pdf": "50bd00a99d302d0eeb1f1ad1cf042e5ab5fce78e53a52d88b4872608b21b891c",
-    "Figures/flowchart.pdf": "0f79a508e8d035cfbc314ccda43c4e37734aaf08c058fca0b5d1630802ecc20b",
+    "Figures/flowchart.pdf": "ec03bae3fda022c47d1b22cc8cdcf2dc00e7a052ab0e724e0efd1387345df27e",
     "Figures/new_Relitu.pdf": "cf88fa1e99176aedb70a4fd47a4ff68a34feef9457145bbb279b141f8bdcd172",
     "Figures/new_all.pdf": "4cb4385b2f1d12e5c8548841d3061e4e058c55ff30629b8215456b1e34b366fe",
     "Figures/newplot_original_pdf_fig8.pdf": "cf454e80b79d29af1a24dc420672aab7dc6db135c271832a881c6c9cb96ef386",
@@ -39,14 +39,14 @@
     "Figures/picture_8.pdf": "e98144cff1c8baeea171e1bc5de3ae1fe0e008cfc42487affd119da9a2188f65",
     "Figures/picture_9.pdf": "c0d2364fed4b197938c7df4a75c1a21a79795a8526e868ad0573be923b0ee55f",
     "Figures/top_datasets_ranking.pdf": "88d0a43c5e55bfed0669324e927ce7d37250d7a4a3a8cb794c498183ca130f4f",
-    "README.md": "60f7f6e015de2bfc39ccac1dbc35429a88b82a0764a9efccb10cc44dfc5a64e4",
+    "README.md": "98f269e71db63fdde7576a89b9afab9c03be318baf79f692d87d9e8d4852f5a7",
     "booktabs.sty": "df02f105dee900928e7ed1f2f93859fe898e22f93dfc1f366215f2c271f5f202",
     "epsfig.sty": "a1e0a9f621b64d0578c3768973f9880a3d9764f03ba9d4d31951c31579a3af19",
     "final_seven_restorations_zh.md": "b1c9c1e34d422549cbb5b1a4e41dc3693488ccd5fb505f382ad0828319adba45",
     "interact.cls": "99f0a10a170c42cb222ea4984eac4bc7d6a0099f2199276d377efce2625c7102",
     "interactapasample.bib": "7c59df7764644b5fbd5577a7caf407b0f8743bd2b23c620fc52d63269f30f3c8",
-    "main.tex": "9139501210c58c3530c9d42ef54f3c8ce30b23f1c65a1d715114957e35993706",
-    "main_diff.tex": "f3dec68cf9e1bb9bd59823023e3785d65f40a640df04817945f97d3d6eab6034",
+    "main.tex": "4f3276e6fb0e760f6c26a9458c9ffb3a16e0a7e3f09f20b9c00002ed87c2a51f",
+    "main_diff.tex": "f3815e00f4563eb8842d36ddc1022532df1c30a76efa0d1fa289e58f15ed1028",
     "main_diff_references.tex": "97b661f456ab7f9bd96578b6befb3d98a3501c31230117e5deb447f010aeecc3",
     "minimal_revision_round2_zh.md": "1bfa656f8a067bc91b593c02190d66b7881bc81c257bf73358f353de98e6ea55",
     "natbib.sty": "d9b0f6ed58f5c260d2df9435b97da23ca326e3596db8ef0681bbff7a14343603",
@@ -58,7 +58,7 @@
     "revision_scope_zh.md": "8173302e1eded0b52f92d43b4ae886c0917524ae2cb0516892412b6e9461e65c",
     "rotating.sty": "4f55292dcd79fd5ff0835eee4cd7d95b0da8500ae0fd8b662a447c98ff0a6ef4",
     "subfig.sty": "5535f994d6f10394ef7a8afe36f7cd1c4bcdde56c4af3b9f01592e0ed25e2af5",
-    "submission_audit_zh.md": "9e3ef59e7a385fb8832aaec6c81c003d95b52bab4bd425818275956ba6d8c18d",
+    "submission_audit_zh.md": "439ecdc79952434c9202ae6cf5e191e7d3b2b0e2cdf74fec81e51f13d475eff0",
     "supporting_methods_notes.md": "007b2f0d1abb3b3f81c2a820c3bbc5dd3bcdc52806fafc3330675573dadb69a1",
     "table_and_citation_restore_zh.md": "0fca0f19ca6d1f9eca7eb7ab3036329a3f8add29e74ffec3445e940f4a2e2abc",
     "wording_cleanup_zh.md": "ef1a1f0d71ea5d995e81f590f1fb9dbe3aea4ae375783cdad6a2fce76a2ed55a"
@@ -78,14 +78,36 @@
     "body_rows": 4,
     "columns": 5,
     "caption_note_citations_and_notation_included": true,
-    "manuscript_main_sha256": "9139501210c58c3530c9d42ef54f3c8ce30b23f1c65a1d715114957e35993706",
+    "manuscript_main_sha256": "4f3276e6fb0e760f6c26a9458c9ffb3a16e0a7e3f09f20b9c00002ed87c2a51f",
     "all_previous_paragraphs_preserved_except_added_pointer": true,
     "rendered_pages": 14,
     "table_page": 6,
     "every_table_cell_matches_manuscript": true,
     "all_14_pages_visually_checked": true,
-    "response_docx_sha256": "89231f98a634f1c025cda141427accce8ec35228f190a39910e98c70fd4b90a4"
+    "response_docx_sha256": "396d74380cd6e27db1db1243b3dc965fca1047fff54ffb6b891175163750cb1e"
   },
   "documented_scope": "File identity, reviewer-response correspondence and current manifest/input UT matching.",
-  "documentation_updated_at": "2026-09-15"
+  "documentation_updated_at": "2026-09-15",
+  "diff_compares_letter_case": true,
+  "terminology_review": {
+    "preferred_LULC_expansion": "Land Use/Land Cover (LULC)",
+    "main_tex_replacement_occurrences": 39,
+    "workflow_figure_text_corrections": 2,
+    "response_changed_paragraphs_zero_based": [
+      2,
+      3,
+      5,
+      19,
+      27,
+      38,
+      42,
+      100
+    ],
+    "reviewer_quotations_and_unedited_paragraph_xml_preserved": true,
+    "bibliography_and_numerical_values_unchanged_this_round": true,
+    "reviewed_pages": {
+      "main": 33,
+      "main_diff": 39
+    }
+  }
 }

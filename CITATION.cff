@@ -5,8 +5,8 @@ message: >-
   page range, and DOI are omitted while the manuscript is under review.
 title: >-
   Reproducibility materials for Deep learning and multi-level fusion for
-  land-use and land-cover classification: Technological evolution and future
-  directions
+  Land Use/Land Cover classification: Technological evolution trajectory and future
+  trends
 type: dataset
 authors:
   - family-names: Cheng
@@ -30,6 +30,6 @@ preferred-citation:
     - family-names: Frery
       given-names: Alejandro C.
   title: >-
-    Deep learning and multi-level fusion for land-use and land-cover
-    classification: Technological evolution and future directions
+    Deep learning and multi-level fusion for Land Use/Land Cover
+    classification: Technological evolution trajectory and future trends
   journal: International Journal of Remote Sensing
