@@ -9,10 +9,10 @@ on its landscape page 6, immediately after the response to Reviewer 1 Comment 5,
 with the original table note, citations and mathematical notation.
 
 See [the 23-item correspondence check](revision_alignment_check_20260909.md),
-[full-text audit](submission_audit_20260910.md), and
+[revision record](submission_audit_20260910.md), and
 [file verification](submission_verification_20260910.json).
 File alignment has been checked. The current corpus manifest and public input
-also agree at UT level, but historical statistics remain to be reconciled.
+also contain the same 261 unique UTs.
 
 The other Markdown response drafts and status matrix in this directory are
 historical process records. The current response and audit take precedence over

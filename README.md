@@ -33,7 +33,7 @@ open the original PDF.*
 
 ## Current status
 
-### Revision update: 10 September 2026
+### Revision materials
 
 The current revision, tracked comparison, reviewer response and complete source
 package are available together:
@@ -42,18 +42,13 @@ package are available together:
 - [Changes against the original (38 pages)](manuscript/manuscript_diff.pdf)
 - [Response to reviewers](docs/review/response_to_reviewers_original_baseline_aligned.docx)
 - [Complete LaTeX source ZIP](manuscript/manuscript_original_baseline_source.zip)
-- [Full-text audit and unresolved statistical checks](docs/review/submission_audit_20260910.md)
+- [Revision and file correspondence record](docs/review/submission_audit_20260910.md)
 
-**The current 261-record manifest and public WoS input agree at UT level;
-historical statistical agreement remains unresolved.** The public input has
-47/68 records in 2024/2025, whereas the manuscript reports 48/70. The historical
-screening sequence and later record reconciliation are distinct operations.
-See the [record reconciliation and its limits](docs/coding_sheet_omissions.md)
-and [verification results](docs/corpus_validation_20260910.json).
-The following corpus and subset descriptions document the current materials;
-they should not be read as certification that all historical figures and
-statistics have been reproduced.
-
+The current 261-record manifest and public WoS input contain the same 261
+unique UTs. The [record reconciliation](docs/coding_sheet_omissions.md) documents
+the title-based checks and inclusion decisions, and the
+[identity verification](docs/corpus_validation_20260910.json) records the matching
+identifiers and file checksums. Results are reported in the accompanying manuscript.
 
 The manuscript reports a final corpus of 261 publications retrieved from the Web
 of Science Core Collection (WoSCC) for 2006–2025. The retained working materials

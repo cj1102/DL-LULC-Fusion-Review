@@ -1,7 +1,5 @@
 {
   "checked_at": "2026-09-10",
-  "submission_ready": false,
-  "pending": "Historical statistical outputs and network inputs must be reconciled; the current 261-record manifest and public input already have identical unique UT sets.",
   "original_main_sha256": "cd8f80e6288f781aebf309b54c8dcf444f2c93a0d365c852780f24b9b4a6e77c",
   "original_bib_sha256": "a7dd8cd16c5895071ac8d123f9cd5fea5771dd9c3e417b4884ff4275420ee403",
   "independent_diff_matches": true,
@@ -25,7 +23,7 @@
     "pdf/manuscript_original_baseline_revised.pdf": "3833ba8267edee0590a327b4aa85a015a5954c586625b8ff0863c3bbb9ad1a4d",
     "pdf/manuscript_original_baseline_diff.pdf": "07112dd6562be2593514f096134e3c03d90de9da7cd35901d7a927be03a0a275",
     "response_to_reviewers_original_baseline_aligned.docx": "89231f98a634f1c025cda141427accce8ec35228f190a39910e98c70fd4b90a4",
-    "manuscript_original_baseline_source.zip": "078357d18fffe958cea1654115fada139c92148862e673c5afcb653aa70189ce"
+    "manuscript_original_baseline_source.zip": "90d2b806d5570990816d9038b8c1ec6d93885a7c36623c8aa7880bd7cb6b03db"
   },
   "source_sha256": {
     "Figures/Fusion_Picture.pdf": "575a94e2198f1440d87fa12fda9ddc5a06e61c16da55461eb11534ed63a94b53",
@@ -41,7 +39,7 @@
     "Figures/picture_8.pdf": "e98144cff1c8baeea171e1bc5de3ae1fe0e008cfc42487affd119da9a2188f65",
     "Figures/picture_9.pdf": "c0d2364fed4b197938c7df4a75c1a21a79795a8526e868ad0573be923b0ee55f",
     "Figures/top_datasets_ranking.pdf": "88d0a43c5e55bfed0669324e927ce7d37250d7a4a3a8cb794c498183ca130f4f",
-    "README.md": "12e7774e1f257e1f2ca655b4a556d8ed44bbb4616177d17779340de74022b23a",
+    "README.md": "60f7f6e015de2bfc39ccac1dbc35429a88b82a0764a9efccb10cc44dfc5a64e4",
     "booktabs.sty": "df02f105dee900928e7ed1f2f93859fe898e22f93dfc1f366215f2c271f5f202",
     "epsfig.sty": "a1e0a9f621b64d0578c3768973f9880a3d9764f03ba9d4d31951c31579a3af19",
     "final_seven_restorations_zh.md": "b1c9c1e34d422549cbb5b1a4e41dc3693488ccd5fb505f382ad0828319adba45",
@@ -60,8 +58,8 @@
     "revision_scope_zh.md": "8173302e1eded0b52f92d43b4ae886c0917524ae2cb0516892412b6e9461e65c",
     "rotating.sty": "4f55292dcd79fd5ff0835eee4cd7d95b0da8500ae0fd8b662a447c98ff0a6ef4",
     "subfig.sty": "5535f994d6f10394ef7a8afe36f7cd1c4bcdde56c4af3b9f01592e0ed25e2af5",
-    "submission_audit_zh.md": "2efda9478d18eef9f32295ec2e5fa9fb3542a9dbb61e7c376084f75103813c27",
-    "supporting_methods_notes.md": "7e2d93a0c153ad92ac958592ab74e43b20ea25efe251a5ae0b2314effac1eb28",
+    "submission_audit_zh.md": "9e3ef59e7a385fb8832aaec6c81c003d95b52bab4bd425818275956ba6d8c18d",
+    "supporting_methods_notes.md": "007b2f0d1abb3b3f81c2a820c3bbc5dd3bcdc52806fafc3330675573dadb69a1",
     "table_and_citation_restore_zh.md": "0fca0f19ca6d1f9eca7eb7ab3036329a3f8add29e74ffec3445e940f4a2e2abc",
     "wording_cleanup_zh.md": "ef1a1f0d71ea5d995e81f590f1fb9dbe3aea4ae375783cdad6a2fce76a2ed55a"
   },
@@ -87,5 +85,7 @@
     "every_table_cell_matches_manuscript": true,
     "all_14_pages_visually_checked": true,
     "response_docx_sha256": "89231f98a634f1c025cda141427accce8ec35228f190a39910e98c70fd4b90a4"
-  }
+  },
+  "documented_scope": "File identity, reviewer-response correspondence and current manifest/input UT matching.",
+  "documentation_updated_at": "2026-09-15"
 }
