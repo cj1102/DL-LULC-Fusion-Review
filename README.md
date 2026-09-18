@@ -33,6 +33,11 @@ open the original PDF.*
 
 ## Current status
 
+Future reproducibility work is tracked in the [to-do list](TODO.md). The
+recommendations were moved from the LaTeX manuscript to this checklist on
+18 September 2026. This source edit does not regenerate the compiled PDFs,
+tracked comparison, reviewer response or source ZIP listed below.
+
 ### Revision materials
 
 The current revision, tracked comparison, reviewer response and complete source
