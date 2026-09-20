@@ -1,5 +1,7 @@
 # 原稿底稿修订源包（说明更新于2026-09-20）
 
+2026-09-20批注复核补充：摘要已删除 essential 并调整语法。复核范围、逐项结果和未直接改动的标记见[批注复核记录](../docs/review/supervisor_annotation_reaudit_20260920.md)。这次只更新源文件，PDF、diff和回复信仍需从当前源码另行更新。
+
 2026-09-20更新：`main.tex` 与当前本地源码已同步，包含老师批注对应的文字修改、图8—11图注、移入 [TODO.md](../TODO.md) 的未来研究建议，以及表4中移至表下注释的Vaswani引用。`Figures/flowchart.pdf` 已包含箭头贴边、右上方黑色边框及Screening/Inclusion标签居中调整。流程图拆分并放入Discussion尚未实施。请从本目录的 `main.tex` 手动编译；已有PDF、diff、回复信及ZIP未重新生成。
 
 此前源包对应33页修改版PDF、39页diff和14页回复信。该次修订内容、参考来源和文件对应记录见 `submission_audit_zh.md`。
