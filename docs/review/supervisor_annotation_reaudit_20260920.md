@@ -6,7 +6,7 @@
 
 > Land Use/Land Cover (LULC) classification aids understanding of human-environment interactions and ecological impacts and supports sustainable land management.
 
-首轮正文只改这一句；随后按用户要求检查其他批注位置的整句衔接，另修正摘要列举标点和引言指代（见下文）。此前缩短的Conclusion、图8—11图注、4.7节过渡、表4引用位置、英国英语拼写及Land Use/Land Cover写法均保留。4份工作源文件内容一致。按用户要求不编译或更新论文PDF、diff PDF、回复信及源码ZIP。
+本次正文只改这一句。此前缩短的Conclusion、图8—11图注、4.7节过渡、表4引用位置、英国英语拼写及Land Use/Land Cover写法均保留。4份工作源文件内容一致。按用户要求不编译或更新论文PDF、diff PDF、回复信及源码ZIP。
 
 ## 复核范围与结论
 
@@ -14,26 +14,13 @@
 
 这份原PDF的摘要 essential 处没有可见标红或删除线，也没有对应批注对象；本次以用户明确要求为依据落实删除，不把这一要求虚记为原PDF已有的第33处批注。
 
-原PDF中的10处红色删除线均已落实。首轮复核确认此前28项定点改动均已保留。后续句法检查调整了摘要列举标点及引言指代，对应修订意图仍保留；其中“in this corpus”删除与时间范围调整按最终完整句核对，避免将中间版本误判成未修改。
+原PDF中的10处红色删除线均已落实。此前记录的28项定点改动逐一与当前源码核对，均仍存在；其中“in this corpus”删除与时间范围调整按最终完整句核对，避免将中间版本误判成未修改。
 
 以下事项不能笼统表述为“全部原样落实”：
 
 - 4处无替换文字的标记（are、relative to traditional methods、术语关系句、Topic field (TS)）保留，理由列于下表；这不表示已确认老师同意保留。
 - “Experimental”按综述性质采用“The results”；“WoS”按正文已定义的缩写采用“WoSCC”。这2处是适配后的处理。
 - 用户后来提及的“将流程图拆分并放入Discussion”尚未实施；独立示意图方案不等于正文已调整。
-
-## 后续整句检查
-
-检查范围包括原32处标记对应的完整句子与相邻上下文，另检查用户近期要求调整的图8—11图注、4.7节开头、表4注释、可复现性段落删除后的章节衔接，以及缩短后的Conclusion。
-
-本轮新增两处最小修正：
-
-1. 摘要将 `The results show that: (1) The ...` 改为 `The results show that (1) the ...`，四个分项开头统一小写，使其作为that从句中的并列内容。四项结论的含义不变。
-2. 引言将 `a macro-scale understanding of its evolution` 改为 `a macro-scale understanding of technological evolution`。原句前面同时出现reviews、LULC classification和remote sensing data fusion，its没有清楚的单一先行词；改用明确名词，保留原来的技术演变含义。这是语句衔接修正，不冒充老师给出的逐字替换。
-
-四处只有高亮或下划线的内容再次检查后保留：data与are主谓一致；relative to traditional methods说明比较对象；术语关系句承接前文两项定义；Topic field (TS)与2.1节一致。没有把这些标记机械地理解为删除要求。
-
-其余所查批注对应句未发现因删除造成的残句、括号残留或主谓不一致。已有LaTeX命令、引用、标签、图表和Conclusion均未改动。本结论是源码的语言复核，不等同于重新编译后的PDF版面检查；流程图拆分仍未实施。
 
 ## 原PDF逐项对照
 
@@ -59,7 +46,7 @@
 | 2 | 3046 | The → This | 已修改 | 按批注改为 This intersection，与前句所述融合衔接。 | 69 |
 | 2 | 3050 | 传感器与众包信息两句关联 | 已修改 | 合为 In addition to sensor observations, crowdsourced geographic information can provide …。 | 72 |
 | 2 | 3054 | 术语关系句下划线 | 已检查并保留 | 前文已区分multi-source fusion与multimodal learning，保留这句概念说明；没有删除指令。 | 72 |
-| 2 | 3059 | the field’s → its | 后续指代修正 | 初次按批注使用 its evolution；整句检查发现 its 无清楚先行词，现改为 technological evolution，保持技术演变的含义并避免指代歧义。 | 74 |
+| 2 | 3059 | the field’s → its | 已修改 | 按批注使用 its evolution。 | 74 |
 | 3 | 3063 | 2026年文献说明脱节 | 已修改 | 并入研究目标段，用 technical discussion 承接定性技术讨论，明确2026年文献为叙述补充、不进入2006—2025计量统计。 | 77 |
 | 3 | 3067 | 删除 In the contemporary era | 已修改 | 删除冗余开头，并将 Scientific 首字母大写。 | 83 |
 | 3 | 3071 | Considering that → Since | 已修改 | 按批注替换连接词。 | 85 |
