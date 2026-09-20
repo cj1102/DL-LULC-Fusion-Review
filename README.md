@@ -33,10 +33,13 @@ open the original PDF.*
 
 ## Current status
 
-Future reproducibility work is tracked in the [to-do list](TODO.md). The
-recommendations were moved from the LaTeX manuscript to this checklist on
-18 September 2026. This source edit does not regenerate the compiled PDFs,
-tracked comparison, reviewer response or source ZIP listed below.
+The [current LaTeX source](manuscript/main.tex) and workflow figure were
+synchronised with the supervisor-comment revisions and subsequent confirmed edits
+on 20 September 2026. Future reproducibility recommendations are tracked in the
+[to-do list](TODO.md). The proposed workflow split for the Discussion section has
+not yet been incorporated. The compiled PDFs, tracked comparison, reviewer response
+and source ZIP below retain their earlier versions; compile the current source
+from the `manuscript/` folder to include the latest edits.
 
 ### Revision materials
 
