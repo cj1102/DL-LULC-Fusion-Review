@@ -2,18 +2,17 @@
 
 The current formal response is
 [`response_to_reviewers_original_baseline_aligned.docx`](response_to_reviewers_original_baseline_aligned.docx).
-It accompanies the [revised manuscript](../../manuscript/manuscript_revised.pdf)
-and [tracked comparison](../../manuscript/manuscript_diff.pdf).
-The response now contains 14 pages; the complete editable Table 4 is reproduced
-on its landscape page 6, immediately after the response to Reviewer 1 Comment 5,
-with the original table note, citations and mathematical notation.
+It was updated on 20 September 2026 against the [current manuscript source](../../manuscript/main.tex)
+and the regenerated [39-page tracked comparison](../../manuscript/manuscript_diff.pdf).
+The response contains 14 pages. The complete editable Table 4 remains on landscape
+page 6 after Reviewer 1 Comment 5, with Vaswani et al. (2017) cited in the table note.
 
-See [the 23-item correspondence check](revision_alignment_check_20260909.md),
-[revision record](submission_audit_20260910.md), and
-[file verification](submission_verification_20260910.json).
-File alignment has been checked. The current corpus manifest and public input
-also contain the same 261 unique UTs.
+See the [current synchronisation record](diff_response_sync_20260920.md) and
+[file verification](diff_response_sync_20260920.json). The existing clean manuscript
+PDF remains an earlier compiled version; the author will compile the current source.
+The response uses section headings and figure/table numbers instead of page or line numbers.
 
-The other Markdown response drafts and status matrix in this directory are
-historical process records. The current response and audit take precedence over
-their earlier wording or completion claims.
+The [23-item correspondence record](revision_alignment_check_20260909.md),
+[earlier revision record](submission_audit_20260910.md), other Markdown response
+drafts and status matrices are historical process records. Their page counts,
+file checksums and completion claims do not describe this update.

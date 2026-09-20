@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-20",
+  "source_commit_before_artifact_sync": "6e03e9f92c9e536bfa7536bc05b440d9510749b3",
+  "fixed_inputs_unchanged": {
+    "output/source/original_baseline/main.tex": "c252de1963de7877ecd697b212682f49cec078011bbaa2718d576c3510f3a9c2",
+    "output/manuscript_original_baseline_source/main.tex": "c252de1963de7877ecd697b212682f49cec078011bbaa2718d576c3510f3a9c2",
+    "tmp/original_baseline_project/main.tex": "c252de1963de7877ecd697b212682f49cec078011bbaa2718d576c3510f3a9c2",
+    "tmp/github_publish_20260910/manuscript/main.tex": "c252de1963de7877ecd697b212682f49cec078011bbaa2718d576c3510f3a9c2",
+    "tmp/original_baseline_project/original_main.tex": "cd8f80e6288f781aebf309b54c8dcf444f2c93a0d365c852780f24b9b4a6e77c",
+    "tmp/original_baseline_project/original_references.bib": "a7dd8cd16c5895071ac8d123f9cd5fea5771dd9c3e417b4884ff4275420ee403",
+    "output/pdf/manuscript_original_baseline_revised.pdf": "95f571ef60c9f3cf27d06561e5a9fb0fe63617795ed5bf8682a48c3778924d86"
+  },
+  "independent_diff_regeneration_identical": true,
+  "accepted_diff_body_word_multiset_matches": true,
+  "accepted_prose_and_table_word_sequence_matches": true,
+  "figure_float_positions_excluded_from_sequence_comparison": true,
+  "original_reviewer_comments_unchanged": 23,
+  "updated_response_paragraphs": 11,
+  "table4_citation_moved_to_note": true,
+  "table4_native_math_preserved": true,
+  "pages": {
+    "diff": 39,
+    "response": 14
+  },
+  "main_tex_edited_during_sync": false,
+  "clean_manuscript_pdf_rebuilt": false,
+  "source_zip_checked_against_every_packaged_file": true,
+  "outputs": {
+    "output/pdf/manuscript_original_baseline_diff.pdf": "97f45fd14097d095a8152abef8ebe7507fe663f270ba20103dc3dcfafcfdc4e2",
+    "output/response_to_reviewers_original_baseline_aligned.docx": "0693916852416dc3b931295af4131f971f32d5b3488db1c88f6369a1ca3d7db1",
+    "output/manuscript_original_baseline_source.zip": "718dd2e548b52fa815130d3130ef5c82f015731aee63287302fff59ee657f985",
+    "tmp/original_baseline_project/main_diff.tex": "1ccded61949636d9a5839da71687f4029ae1d350754cf9db0162a48ea2f9f8f3",
+    "tmp/original_baseline_project/main_diff_references.tex": "97b661f456ab7f9bd96578b6befb3d98a3501c31230117e5deb447f010aeecc3"
+  },
+  "verification_scope": "Artifact synchronisation and layout checks; not a new statistical analysis or literature audit."
+}

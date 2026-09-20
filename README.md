@@ -33,21 +33,26 @@ open the original PDF.*
 
 ## Current status
 
-The [current LaTeX source](manuscript/main.tex) and workflow figure were
-synchronised with the supervisor-comment revisions and subsequent confirmed edits
-on 20 September 2026. Future reproducibility recommendations are tracked in the
-[to-do list](TODO.md). The proposed workflow split for the Discussion section has
-not yet been incorporated. The compiled PDFs, tracked comparison, reviewer response
-and source ZIP below retain their earlier versions; compile the current source
-from the `manuscript/` folder to include the latest edits.
+The [current LaTeX source](manuscript/main.tex), 39-page tracked comparison,
+14-page reviewer response and source ZIP were synchronised on 20 September 2026.
+The comparison uses the immutable original and the current source, including the
+confirmed minimal shortening of the Conclusion. This synchronisation did not
+change the manuscript text. Future reproducibility recommendations are tracked
+in the [to-do list](TODO.md). The proposed workflow split for the Discussion
+section has not yet been incorporated.
+
+The clean manuscript PDF remains the earlier 33-page compiled version. Compile
+the current `manuscript/main.tex` manually to include the latest changes.
+The [synchronisation record](docs/review/diff_response_sync_20260920.md) identifies
+the updated files and verification scope.
 
 ### Revision materials
 
-The current revision, tracked comparison, reviewer response and complete source
-package are available together:
+The current source, tracked comparison and reviewer response are available below,
+alongside the earlier clean PDF:
 
-- [Revised manuscript (33 pages)](manuscript/manuscript_revised.pdf)
-- [Changes against the original (38 pages)](manuscript/manuscript_diff.pdf)
+- [Earlier clean manuscript PDF (33 pages; recompile current source)](manuscript/manuscript_revised.pdf)
+- [Changes against the original (39 pages)](manuscript/manuscript_diff.pdf)
 - [Response to reviewers](docs/review/response_to_reviewers_original_baseline_aligned.docx)
 - [Complete LaTeX source ZIP](manuscript/manuscript_original_baseline_source.zip)
 - [Revision and file correspondence record](docs/review/submission_audit_20260910.md)
